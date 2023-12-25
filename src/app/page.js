@@ -14,7 +14,12 @@ export default function Home() {
       <Head>
         <title>Danya Baron Portfolio</title>
       </Head>
-      <main></main>
+      <main>
+        <section className="bg-yellow-800 min-h-screen">
+          <h1>Hello</h1>
+          
+        </section>
+      </main>
     </div>
   )
 }
