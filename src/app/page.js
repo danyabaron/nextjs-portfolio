@@ -1,4 +1,8 @@
-import Image from 'next/image'
+import Head from 'next/head';
+
+import Image from 'next/image';
+// import syles from"
+
 
 export default function Home() {
   return (
@@ -8,7 +12,7 @@ export default function Home() {
 
     <div>
       <Head>
-        Danya Baron Portfolio
+        <title>Danya Baron Portfolio</title>
       </Head>
       <main></main>
     </div>
