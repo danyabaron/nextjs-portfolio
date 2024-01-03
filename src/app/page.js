@@ -18,9 +18,9 @@ export default function Home() {
       </Head>
 
 
-      <main className="px-10">
-        <section className="from-gradient-top to-gradient-bottom min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between">
+      <main className="bg-gradient-to-t from-gradient-top to-gradient-bottom px-10">
+        <section className=" min-h-screen">
+          <nav className="py-10 mb-12 flex justify-between w-full">
             
             <ul className="flex items-center">
               <li>
