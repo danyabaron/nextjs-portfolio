@@ -15,23 +15,25 @@ export default function Home() {
       <Head>
         <title>Danya Baron Portfolio</title>
       </Head>
-      <main>
+
+
+      <main className="bg-white px-10">
         <section className="min-h-screen">
-          <nav>
+          <nav className="py-10 mb-12 flex justify-between">
             
-            <ul>
+            <ul className="flex items-center">
               <li>
                 {/* sparkle img */}
                 <img src="src/assets/sparkle.png"/>
               </li>
               <li>
-                About
+                <a href="#">About</a>
               </li>
               <li>
-                Projects
+                <a href="#">Projects</a>
               </li>
               <li>
-                Contact
+                <a href="#">Contact</a>
               </li>
             </ul>
           </nav>
