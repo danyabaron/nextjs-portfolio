@@ -18,8 +18,8 @@ export default function Home() {
       </Head>
 
 
-      <main className="from-gradient-top to-gradient-bottom px-10">
-        <section className="min-h-screen">
+      <main className="px-10">
+        <section className="from-gradient-top to-gradient-bottom min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
             
             <ul className="flex items-center">
