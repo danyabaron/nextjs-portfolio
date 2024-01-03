@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { IoSparklesSharp } from "react-icons/io5";
 
 
 import Image from 'next/image';
@@ -24,7 +25,7 @@ export default function Home() {
             <ul className="flex items-center">
               <li>
                 {/* sparkle img */}
-                <img src="src/assets/sparkle.png"/>
+                <IoSparklesSharp />
               </li>
               <li>
                 <a href="#">About</a>
