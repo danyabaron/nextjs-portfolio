@@ -22,13 +22,13 @@ export default function Home() {
         <section className=" min-h-screen">
           <nav className="py-10 mb-12 flex justify-between w-full">
             
-            <ul className="flex items-center">
+            <ul className="flex items-center w-full">
               <li>
                 {/* sparkle img */}
                 <IoSparklesSharp className="cursor-pointer text-2xl m-15"/>
               </li>
-              <li>
-                <a href="#">About</a>
+              <li className="">
+                <a href="#" className="text-2xl text-main-brown m-10">About</a>
               </li>
               <li>
                 <a href="#">Projects</a>
