@@ -1,5 +1,6 @@
 import Head from 'next/head';
 
+
 import Image from 'next/image';
 // import syles from"
 
@@ -21,6 +22,7 @@ export default function Home() {
             <ul>
               <li>
                 {/* sparkle img */}
+                <img src="src/assets/sparkle.png"/>
               </li>
               <li>
                 About
