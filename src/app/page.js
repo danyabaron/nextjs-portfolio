@@ -28,7 +28,7 @@ export default function Home() {
                 <IoSparklesSharp className="cursor-pointer text-main-brown text-2xl mr-10"/>
               </li>
               <li>
-                <a href="#" className="text-xl font-helvetica text-main-brown m-10 hover:bg-main-brown rounded-md ">About</a>
+                <a href="#" className="text-xl font-helvetica text-main-brown m-10 hover:bg-main-brown hover:text-text-pink rounded-lg transform hover:scale-105 transition-all duration-300">About</a>
               </li>
               <li>
               <a href="#" className="text-xl font-helvetica text-main-brown m-10">Projects</a>
