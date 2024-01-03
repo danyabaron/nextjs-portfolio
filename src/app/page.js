@@ -25,7 +25,7 @@ export default function Home() {
             <ul className="flex items-center w-full">
               <li>
                 {/* sparkle img */}
-                <IoSparklesSharp className="cursor-pointer text-2xl m-15"/>
+                <IoSparklesSharp className="cursor-pointer text-main-brown text-2xl m-15"/>
               </li>
               <li className="">
                 <a href="#" className="text-2xl text-main-brown m-10">About</a>
