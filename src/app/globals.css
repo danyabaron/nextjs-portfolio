@@ -8,6 +8,10 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/Users/danyabaron/Documents/portfolio/src/assets/helvetica-neue-ttf');
+}
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -17,9 +21,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
-@font-face {
-  font-family: "Helvetica Neue";
-  src: url('/Users/danyabaron/Documents/portfolio/src/assets/helvetica-neue-ttf');
-}
+
