@@ -27,8 +27,8 @@ export default function Home() {
                 {/* sparkle img */}
                 <IoSparklesSharp className="cursor-pointer text-main-brown text-2xl m-15"/>
               </li>
-              <li className="">
-                <a href="#" className="text-2xl text-main-brown m-10">About</a>
+              <li>
+                <a href="#" className="text-2xl font-helvetica text-main-brown ml-40">About</a>
               </li>
               <li>
                 <a href="#">Projects</a>

@@ -10,12 +10,15 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'helvetica': ['Helvetica Neue', 'sans-serif'],
+    },
     colors: {
       'gradient-top': '#E3EEFF',
       'gradient-bottom': "#F3E7E9",
       'main-brown': "#655D5D",
       'text-pink': "#F2E8EB",
-    }
+    }  
   },
   plugins: [],
 }
