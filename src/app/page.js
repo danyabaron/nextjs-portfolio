@@ -15,7 +15,24 @@ export default function Home() {
         <title>Danya Baron Portfolio</title>
       </Head>
       <main>
-        <section className="bg-yellow-800 min-h-screen">
+        <section className="min-h-screen">
+          <nav>
+            
+            <ul>
+              <li>
+                {/* sparkle img */}
+              </li>
+              <li>
+                About
+              </li>
+              <li>
+                Projects
+              </li>
+              <li>
+                Contact
+              </li>
+            </ul>
+          </nav>
           <h1>Hello</h1>
           
         </section>
