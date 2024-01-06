@@ -10,7 +10,9 @@
 
 @font-face {
   font-family: 'Helvetica Neue';
-  src: url('/Users/danyabaron/Documents/portfolio/src/assets/helvetica-neue-ttf');
+  src: url('/helvetica-neue.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
