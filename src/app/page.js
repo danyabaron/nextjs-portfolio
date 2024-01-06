@@ -72,7 +72,7 @@ export default function Home() {
           </nav>
 
 
-          <div id="hero" className="flex items-center justify-center w-screen gap-y-1">
+          <div id="hero" className="flex items-center justify-center w-screen gap-y-3 mb-12">
             <div id="hero-img" className='mr-6'>
               <Image src={HeroPic} alt="Profile Picture" width={300} height={300} />
             </div>
@@ -87,6 +87,11 @@ export default function Home() {
             </div>
           
           
+
+          </div>
+          <div id="about" className="flex items-center justify-center w-screen gap-y-1">
+          <h1 className='text-3xl font-helvetica-medium mb-9 text-main-brown'>About</h1>
+
 
           </div>
        
