@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: 'Helvetica Neue';
-  src: url('public/assets/helvetica-neue-ttf') format('truetype');
+  src: url('public/assets/helvetica-neue/HelveticaNeue-01.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
