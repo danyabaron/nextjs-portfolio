@@ -51,5 +51,8 @@ body {
     )
     rgb(var(--background-start-rgb));
   font-family: 'Helvetica Neue', sans-serif;  /* Updated font-family */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
