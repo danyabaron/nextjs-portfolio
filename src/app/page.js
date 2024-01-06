@@ -1,7 +1,5 @@
 import Head from 'next/head';
 import { IoSparklesSharp } from "react-icons/io5";
-
-
 import Image from 'next/image';
 // import syles from"
 
@@ -44,7 +42,7 @@ export default function Home() {
 
 
           <div id="hero">
-            <Image src="/assets/profilepic.png" width={300} height={300} alt="Profile Picture" />
+            <Image src="/Users/danyabaron/Documents/portfolio/src/assets/profilepic.png" width={300} height={300} alt="Profile Picture" />
 
           </div>
        
