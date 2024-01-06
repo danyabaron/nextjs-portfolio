@@ -57,11 +57,11 @@ export default function Home() {
             <div id="hero-img" className='mr-6'>
               <Image src={HeroPic} alt="Profile Picture" width={300} height={300} />
             </div>
-            <div id="hero-txt" className='flex flex-col m-10 gap-x-0.5'>
+            <div id="hero-txt" className='flex flex-col m-10 items-center gap-x-0.5'>
               <h1 className='text-3xl font-helvetica-medium mb-9 text-main-brown'> Hey there, I'm Danya Baron</h1>
               <h2 className='text-2xl font-helvetica-light mb-9 text-main-brown'> UI/UX Designer and Front End Developer</h2>
 
-              <button class="bg-main-brown hover:#2F2B2B text-text-pink font-helvetica-bold py-2 px-4 w-40 h-12 rounded-full">
+              <button class="bg-main-brown hover:bg-hover-resume transform hover:scale-105 text-text-pink font-helvetica-bold py-2 px-4 w-40 h-12 rounded-full">
                 View Resume
               </button>
             </div>
