@@ -77,7 +77,7 @@ export default function Home() {
               <Image src={HeroPic} alt="Profile Picture" width={300} height={300} />
             </div>
             <div id="hero-txt" className='flex flex-col m-10 items-center gap-x-0.5'>
-              <h1 className='text-3xl font-helvetica-medium mb-9 text-main-brown'> Hey there, I'm Danya Baron</h1>
+              <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'> Hey there, I'm Danya Baron</h1>
               <h2 className='text-2xl font-helvetica-light mb-9 text-main-brown'> UI/UX Designer and Front End Developer</h2>
 
               <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-bold py-2 px-4 w-40 h-12 rounded-full">
@@ -90,10 +90,16 @@ export default function Home() {
 
           </div>
           <div id="about" className="flex items-center flex-col justify-center w-screen py-10 gap-x-1">
-            <h1 className='text-3xl font-helvetica-medium mb-9 text-main-brown'>About</h1>
+            <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>About</h1>
             <p className='text-xl font-helvetica-light text-main-brown text-center text-wrap max-w-[800px]'>
             Hello, I’m Danya (dawn-yuh), a highly motivated UI/UX Designer and Front-End Web Developer currently pursuing a Master’s degree in Digital Media at the University of Central Florida. I am passionate about creating applications that are not only visually appealing but also deeply impactful to users. My goal is to seamlessly blend aesthetics with functionality, crafting digital experiences that leave a lasting impression. 
             </p>
+
+
+          </div>
+          <div id="skills" className="flex items-center flex-col justify-center w-screen py-10 gap-x-1">
+          <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Skills</h1>
+
 
 
           </div>
