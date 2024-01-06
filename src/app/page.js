@@ -37,7 +37,7 @@ export default function Home() {
       </Head>
 
 
-      <main className="bg-gradient-to-t from-gradient-top to-gradient-bottom px-10 scroll-smooth">
+      <main className="bg-gradient-to-t from-gradient-top to-gradient-bottom px-10 scroll-smooth overflow-y-scroll no-scrollbar">
         <section className="min-h-screen">
         
 
