@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: 'Helvetica Neue';
-  src: url('public/assets/helvetica-neue/HelveticaNeue-01.ttf') format('truetype');
+  src: url('/assets/helvetica-neue/HelveticaNeue-01.ttf') format('truetype');  /* Updated path */
   font-weight: normal;
   font-style: normal;
 }
@@ -23,7 +23,6 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-    font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;  /* Updated font-family */
 }
-
 
