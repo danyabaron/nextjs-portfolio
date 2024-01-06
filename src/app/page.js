@@ -32,7 +32,7 @@ export default function Home() {
          </div>
             
             
-            <ul className="flex items-center mr-10">
+            <ul className="flex items-center">
               {/* <li>
                 
                 <IoSparklesSharp className="cursor-pointer text-main-brown text-2xl mr-10 transform hover:scale-110"/>
@@ -57,8 +57,9 @@ export default function Home() {
             <div id="hero-img" className='mr-6'>
               <Image src={HeroPic} alt="Profile Picture" width={300} height={300} />
             </div>
-            <div id="hero-txt" className='flex m-10'>
-              <h1 className='text-3xl font-helvetica-medium text-main-brown'> Hey there, I'm Danya Baron</h1>
+            <div id="hero-txt" className='flex flex-col m-10'>
+              <h1 className='text-3xl font-helvetica-medium mb-4 text-main-brown'> Hey there, I'm Danya Baron</h1>
+              <h2 className='text-2xl font-helvetica-light text-main-brown'> UI/UX Designer and Front End Developer</h2>
             </div>
           
           
