@@ -42,7 +42,7 @@ export default function Home() {
 
 
           <div id="hero">
-            <Image src="/Users/danyabaron/Documents/portfolio/src/assets/profilepic.png" width={300} height={300} alt="Profile Picture" />
+            <Image src="public/assets/profilepic.png" width={300} height={300} alt="Profile Picture" />
 
           </div>
        
