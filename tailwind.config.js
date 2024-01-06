@@ -12,6 +12,10 @@ module.exports = {
     extend: {},
     fontFamily: {
       'helvetica': ['Helvetica Neue', 'sans-serif'],
+      'helvetica-bold':['Helvetica Neue Bold', 'sans-serif'],
+      'helvetica-italic':['Helvetica Neue Italic', 'sans-serif'],
+      'helvetica-light':['Helvetica Neue Light', 'sans-serif'],
+      'helvetica-medium':['Helvetica Neue Medium', 'sans-serif']
     },
     colors: {
       'gradient-top': '#E3EEFF',

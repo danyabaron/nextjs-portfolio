@@ -45,7 +45,7 @@ export default function Home() {
 
           <div id="hero" className="flex items-center w-full">
           <Image src={HeroPic} alt="Profile Picture" width={300} height={300} />
-          <h1 className='text-xl font-helvetica text-main-brown'> Hey there, I'm Danya Baron</h1>
+          <h1 className='text-3xl font-helvetica-medium text-main-brown m-10'> Hey there, I'm Danya Baron</h1>
           
 
           </div>
