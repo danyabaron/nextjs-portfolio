@@ -46,7 +46,7 @@ export default function Home() {
                 transition-all duration-500">Projects</a>
               </li>
               <li>
-              <a href="#" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 ml-6 hover:bg-main-brown hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
+              <a href="#" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-main-brown hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
                 transition-all duration-500">Contact</a>
               </li>
             </ul>
