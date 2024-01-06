@@ -43,7 +43,7 @@ export default function Home() {
           </nav>
 
 
-          <div id="hero">
+          <div id="hero" className="flex items-center w-full">
           <Image src={HeroPic} alt="Profile Picture" width={300} height={300} />
           
 
