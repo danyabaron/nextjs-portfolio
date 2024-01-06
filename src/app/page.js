@@ -24,7 +24,7 @@ export default function Home() {
 
 
           <nav className="py-10 mb-5 flex justify-end w-screen">
-            <div className="flex items-center ml-4">
+            <div className="flex items-center mr-11">
     {/* IoSparklesSharp on the left */}
             <IoSparklesSharp className="cursor-pointer text-main-brown text-2xl transform hover:scale-110" />   
     {/* Other content on the left (if any) */}
