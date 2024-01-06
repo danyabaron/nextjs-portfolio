@@ -60,6 +60,9 @@ export default function Home() {
             <div id="hero-txt" className='flex flex-col m-10 gap-x-0.5'>
               <h1 className='text-3xl font-helvetica-medium mb-9 text-main-brown'> Hey there, I'm Danya Baron</h1>
               <h2 className='text-2xl font-helvetica-light mb-9 text-main-brown'> UI/UX Designer and Front End Developer</h2>
+              <button class="bg-main-brown hover:#2F2B2B text-text-pink font-helvetica-bold py-2 px-4 rounded-full">
+                View Resume
+              </button>
             </div>
           
           
