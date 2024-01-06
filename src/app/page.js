@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import { IoSparklesSharp } from "react-icons/io5";
 import Image from 'next/image';
-import HeroPic from '/Users/danyabaron/Documents/portfolio/public/assets/profilepic.png';
-import styles from './src/app/globals.css';
+import HeroPic from '../../public/assets/profilepic.png';
+// import styles from './src/app/globals.css';
 // import syles from"
 
 
