@@ -24,7 +24,7 @@ export default function Home() {
 
 
           <nav className="py-10 mb-12 flex justify-between w-screen">
-            <div className="flex items-center mr-11">
+            <div className="flex items-center">
     {/* IoSparklesSharp on the left */}
             <IoSparklesSharp className="cursor-pointer text-main-brown text-2xl transform hover:scale-110" />   
     {/* Other content on the left (if any) */}
@@ -32,7 +32,7 @@ export default function Home() {
          </div>
             
             
-            <ul className="flex items-center">
+            <ul className="flex items-center mr-10">
               {/* <li>
                 
                 <IoSparklesSharp className="cursor-pointer text-main-brown text-2xl mr-10 transform hover:scale-110"/>
