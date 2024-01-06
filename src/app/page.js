@@ -20,7 +20,7 @@ export default function Home() {
 
       <main className="bg-gradient-to-t from-gradient-top to-gradient-bottom px-10">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between w-full">
+          <nav className="py-10 mb-12 flex justify-between w-screen">
             
             <ul className="flex items-center w-full">
               <li>
@@ -43,9 +43,14 @@ export default function Home() {
           </nav>
 
 
-          <div id="hero" className="flex items-center w-full">
-          <Image src={HeroPic} alt="Profile Picture" width={300} height={300} />
-          <h1 className='text-3xl font-helvetica-medium text-main-brown m-10'> Hey there, I'm Danya Baron</h1>
+          <div id="hero" className="flex items-center justify-center w-screen">
+            <div id="hero-img" className='mr-6'>
+              <Image src={HeroPic} alt="Profile Picture" width={300} height={300} />
+            </div>
+            <div id="hero-txt" className='flex m-10'>
+              <h1 className='text-3xl font-helvetica-medium text-main-brown'> Hey there, I'm Danya Baron</h1>
+            </div>
+          
           
 
           </div>
