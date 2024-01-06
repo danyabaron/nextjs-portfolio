@@ -45,7 +45,7 @@ export default function Home() {
           <nav className="py-10 mb-12 flex justify-between w-full">
             <div className="flex items-center">
     {/* IoSparklesSharp on the left */}
-            <IoSparklesSharp className="cursor-pointer text-main-brown text-2xl transform hover:scale-110" />   
+            <IoSparklesSharp className=" text-main-brown text-2xl transform hover:text-hover-resume transition-all duration-500 hover:scale-110" />   
     {/* Other content on the left (if any) */}
     {/* Add your additional content here */}
          </div>
@@ -80,7 +80,7 @@ export default function Home() {
               <h1 className='text-3xl font-helvetica-medium mb-9 text-main-brown'> Hey there, I'm Danya Baron</h1>
               <h2 className='text-2xl font-helvetica-light mb-9 text-main-brown'> UI/UX Designer and Front End Developer</h2>
 
-              <button className="bg-main-brown hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-bold py-2 px-4 w-40 h-12 rounded-full">
+              <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-bold py-2 px-4 w-40 h-12 rounded-full">
                 View Resume
                 {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
               </button>
@@ -91,8 +91,8 @@ export default function Home() {
           </div>
           <div id="about" className="flex items-center flex-col justify-center w-screen py-10 gap-x-1">
             <h1 className='text-3xl font-helvetica-medium mb-9 text-main-brown'>About</h1>
-            <p className='text-lg font-helvetica-light text-main-brown items-center text-wrap max-w-[800px]'>
-              Hello, I’m Danya (dawn-yuh) and I’m currently a Master’s student in Digital Media at University of Central Florida. I have a strong interest in UI/UX design and front end development. I enjoy creating applications that are visually appealing and impactful to users. I have my bachelor’s degree in Computer Science from WPI and this background in development provides a unique perspective when it comes to designing impactful and feasible applications.
+            <p className='text-xl font-helvetica-light text-main-brown text-center text-wrap max-w-[800px]'>
+            Hello, I’m Danya (dawn-yuh), a highly motivated UI/UX Designer and Front-End Web Developer currently pursuing a Master’s degree in Digital Media at the University of Central Florida. I am passionate about creating applications that are not only visually appealing but also deeply impactful to users. My goal is to seamlessly blend aesthetics with functionality, crafting digital experiences that leave a lasting impression. 
             </p>
 
 
