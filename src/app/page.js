@@ -89,7 +89,7 @@ export default function Home() {
           
 
           </div>
-          <div id="about" className="flex items-center flex-col justify-center w-screen py-10 gap-y-1">
+          <div id="about" className="flex items-center flex-col justify-center w-screen py-10 gap-x-1">
           <h1 className='text-3xl font-helvetica-medium mb-9 text-main-brown'>About</h1>
           <p className='text-base font-helvetica-light text-main-brown text-wrap'>
           Hello, I’m Danya (dawn-yuh) and I’m currently a Master’s student in Digital Media at University of Central Florida. I have a strong interest in UI/UX design and front end development. I enjoy creating applications that are visually appealing and impactful to users. I have my bachelor’s degree in Computer Science from WPI and this background in development provides a unique perspective when it comes to designing impactful and feasible applications.
