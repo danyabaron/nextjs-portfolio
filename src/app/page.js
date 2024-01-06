@@ -8,20 +8,13 @@ import HeroPic from '../../public/assets/profilepic.png';
 
 export default function Home() {
 
-  const openLinkInNewTab = () => {
-    // Replace 'https://example.com' with the actual URL you want to open
-    const url = 'https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing';
+  // const openLinkInNewTab = () => {
+  //   // Replace 'https://example.com' with the actual URL you want to open
+  //   const url = 'https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing';
 
-    // Open the link in a new tab
-    window.open(url, '_blank');
-  };
-
-
-
-
-
-
-
+  //   // Open the link in a new tab
+  //   window.open(url, '_blank');
+  // };
 
 
 
@@ -58,15 +51,15 @@ export default function Home() {
                 <IoSparklesSharp className="cursor-pointer text-main-brown text-2xl mr-10 transform hover:scale-110"/>
               </li> */}
               <li>
-                <a href="#" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-main-brown hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
+                <a href="#" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
                 transition-all duration-500">About</a>
               </li>
               <li>
-              <a href="#" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-main-brown hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
+              <a href="#" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
                 transition-all duration-500">Projects</a>
               </li>
               <li>
-              <a href="#" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-main-brown hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
+              <a href="#" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
                 transition-all duration-500">Contact</a>
               </li>
             </ul>
@@ -81,7 +74,7 @@ export default function Home() {
               <h1 className='text-3xl font-helvetica-medium mb-9 text-main-brown'> Hey there, I'm Danya Baron</h1>
               <h2 className='text-2xl font-helvetica-light mb-9 text-main-brown'> UI/UX Designer and Front End Developer</h2>
 
-              <button onClick={openLinkInNewTab} class="bg-main-brown hover:bg-hover-resume transform hover:scale-105 text-text-pink font-helvetica-bold py-2 px-4 w-40 h-12 rounded-full">
+              <button class="bg-main-brown hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-bold py-2 px-4 w-40 h-12 rounded-full">
                 View Resume
               </button>
             </div>
