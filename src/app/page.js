@@ -20,15 +20,16 @@ export default function Home() {
 
       <main className="bg-gradient-to-t from-gradient-top to-gradient-bottom px-10">
         <section className="min-h-screen">
-        <div className="flex items-center">
+        
+
+
+          <nav className="py-10 mb-5 flex justify-end w-screen">
+            <div className="flex items-center ml-4">
     {/* IoSparklesSharp on the left */}
-          <IoSparklesSharp className="cursor-pointer text-main-brown text-2xl ml-10 transform hover:scale-110" />   
+            <IoSparklesSharp className="cursor-pointer text-main-brown text-2xl transform hover:scale-110" />   
     {/* Other content on the left (if any) */}
     {/* Add your additional content here */}
-  </div>
-
-
-          <nav className="py-10 mb-12 flex justify-end w-screen">
+         </div>
             
             
             <ul className="flex items-center">
