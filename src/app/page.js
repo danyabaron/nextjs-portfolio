@@ -44,7 +44,8 @@ export default function Home() {
 
 
           <div id="hero">
-            
+            <img src="src/assets/profilepic.png"/>
+
           </div>
        
           
