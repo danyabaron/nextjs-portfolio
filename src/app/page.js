@@ -253,6 +253,11 @@ export default function Home() {
           </div>
 
         </div>
+
+        <div id="footer" className="bg-main-brown text-text-pink flex flex-col">
+          <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+        </div>
+
        
           
         </section>
