@@ -163,12 +163,19 @@ export default function Home() {
           <div id="projects" className="flex items-center flex-col justify-center w-screen py-10 mb-9 gap-x-1">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Projects</h1>
             
-            <div id="projects-1" className="grid grid-rows-1 justify-center items-center grid-flow-col">
+            <div id="projects-1" className="grid grid-rows-1 justify-center items-center p-4 m-5 grid-flow-col">
               <Image src={Pented} alt="Pented"/>
-              <div id="pented-text" className="bg-gradient-bottom p-4 rounded-md">
-                <p>
-                  blah balh
+              <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg items-center m-9 p-4 gap-7 rounded-lg">
+                <h2 className="font-helvetica-italic text-xl text-main-brown">
+                  Case Study: Education App Design 
+                </h2>
+                <p className="font-helvetica text-md text-main-brown text-center text-wrap max-w-[500px]">
+                Pented is a mobile education app that caters to underprivileged middle school students in Gujarat, India. The goal of the project was to redesign an enhanced experience for their users and a solution to showcase their offerings better, keeping current design standards and gamification in mind.
                 </p>
+                <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 text-med rounded-full">
+                View Case Study
+                {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
+              </button>
               </div>
 
 
