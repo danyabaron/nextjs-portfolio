@@ -3,6 +3,9 @@ import { IoSparklesSharp } from "react-icons/io5";
 import Image from 'next/image';
 import HeroPic from '../../public/assets/profilepic.png';
 import Figma from '../../public/assets/figma.png';
+import HTML from '../../public/assets/html.png';
+import CSS from '../../public/assets/css.png';
+import JS from '../../public/assets/javascript.png';
 // import styles from './src/app/globals.css';
 // import syles from"
 import React from 'react';
@@ -108,10 +111,22 @@ export default function Home() {
           </div>
           <div id="skills" className="flex items-center flex-col justify-center w-screen py-10 mb-12 gap-x-1">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Skills</h1>
-              <div id="skills-section1" className="w-full h-full grid grid-rows-1 grid-flow-col bg-main-brown rounded-3xl">
-                <div className="flex-col">
+              <div id="skills-section1" className="grid grid-rows-1 justify-center grid-flow-col bg-main-brown rounded-3xl">
+                <div className="flex flex-col items-center m-5">
                   <Image src={Figma} alt="Figma"/>
-                  <h3>Figma</h3>
+                  <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">Figma</h3>
+                </div>
+                <div className="flex flex-col items-center m-5">
+                  <Image src={HTML} alt="HTML"/>
+                  <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">HTML</h3>
+                </div>
+                <div className="flex flex-col items-center m-5">
+                  <Image src={CSS} alt="Figma"/>
+                  <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">CSS</h3>
+                </div>
+                <div className="flex flex-col items-center m-5">
+                  <Image src={JS} alt="Figma"/>
+                  <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">JavaScript</h3>
                 </div>
 
               </div>
