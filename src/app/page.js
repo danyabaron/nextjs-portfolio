@@ -245,7 +245,7 @@ export default function Home() {
           </div>
         </div>
         
-        <div id="contact" className="flex items-center flex-col justify-center w-screen py-8 gap-x-1">
+        <div id="contact" className="flex items-center flex-col justify-center w-screen mb-9 py-8 gap-x-1">
         <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Contact</h1>
           <div id="contact-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center mx-auto p-8 gap-5 rounded-3xl">
             <p className="font-helvetica text-xl text-main-brown px-5 text-center m-4 text-wrap max-w-[500px]">
@@ -261,14 +261,14 @@ export default function Home() {
         </div>
 
       <footer className="bg-main-brown text-text-pink">
-      <div id="footer" className="flex flex-col items-center justify-center w-screen py-10">
-          <div className="flex flex-row">
+      <div id="footer" className="flex flex-col items-center justify-center w-screen gap-5 py-10">
+          <div className="flex flex-row gap-4">
               <FaLinkedin className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110 "></FaLinkedin>
               <FaGithub className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110 "></FaGithub>
               <FaBehance className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110 "></FaBehance>
 
           </div>
-          <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+          <p className="font-helvetica-light text-text-pink">&copy; 2024 Danya Baron. All rights reserved.</p>
         </div>
 
       </footer>
