@@ -120,7 +120,7 @@ export default function Home() {
           
 
           </div>
-          <div id="about" className="flex items-center flex-col justify-center w-screen py-10 mb-9 gap-x-1">
+          <div id="about" className="flex items-center flex-col justify-center w-screen py-10 mb-9 gap-x-1 delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0" data-taos-offset="300">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>About</h1>
             <p className='text-xl font-helvetica-light text-main-brown text-center text-wrap max-w-[800px]'>
             Hello, I’m Danya (dawn-yuh), a highly motivated UI/UX Designer and Front-End Web Developer currently pursuing a Master’s degree in Digital Media at the University of Central Florida. I am passionate about creating applications that are not only visually appealing but also deeply impactful to users. My goal is to seamlessly blend aesthetics with functionality, crafting digital experiences that leave a lasting impression. 
