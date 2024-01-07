@@ -6,6 +6,9 @@ import Figma from '../../public/assets/figma.png';
 import HTML from '../../public/assets/html.png';
 import CSS from '../../public/assets/css.png';
 import JS from '../../public/assets/javascript.png';
+import VSCODE from '../../public/assets/vscode.png';
+import Git from '../../public/assets/git.png';
+import Jira from '../../public/assets/jira.png';
 // import styles from './src/app/globals.css';
 // import syles from"
 import React from 'react';
@@ -101,7 +104,7 @@ export default function Home() {
           
 
           </div>
-          <div id="about" className="flex items-center flex-col justify-center w-screen py-10 mb-12 gap-x-1">
+          <div id="about" className="flex items-center flex-col justify-center w-screen py-10 mb-9 gap-x-1">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>About</h1>
             <p className='text-xl font-helvetica-light text-main-brown text-center text-wrap max-w-[800px]'>
             Hello, I’m Danya (dawn-yuh), a highly motivated UI/UX Designer and Front-End Web Developer currently pursuing a Master’s degree in Digital Media at the University of Central Florida. I am passionate about creating applications that are not only visually appealing but also deeply impactful to users. My goal is to seamlessly blend aesthetics with functionality, crafting digital experiences that leave a lasting impression. 
@@ -109,9 +112,9 @@ export default function Home() {
 
 
           </div>
-          <div id="skills" className="flex items-center flex-col justify-center w-screen py-10 mb-12 gap-x-1">
+          <div id="skills" className="flex items-center flex-col justify-center w-screen py-10 mb-9">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Skills</h1>
-              <div id="skills-section1" className="grid grid-rows-1 justify-center grid-flow-col bg-main-brown rounded-3xl">
+              <div id="skills-section1" className="grid grid-rows-1 justify-center grid-flow-col bg-main-brown rounded-3xl px-5 py-2">
                 <div className="flex flex-col items-center m-5">
                   <Image src={Figma} alt="Figma"/>
                   <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">Figma</h3>
@@ -121,15 +124,33 @@ export default function Home() {
                   <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">HTML</h3>
                 </div>
                 <div className="flex flex-col items-center m-5">
-                  <Image src={CSS} alt="Figma"/>
+                  <Image src={CSS} alt="CSS"/>
                   <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">CSS</h3>
                 </div>
                 <div className="flex flex-col items-center m-5">
-                  <Image src={JS} alt="Figma"/>
+                  <Image src={JS} alt="JS"/>
                   <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">JavaScript</h3>
                 </div>
 
               </div>
+
+              <div id="skills-section2" className="grid grid-rows-1 justify-center grid-flow-col bg-main-brown mt-9 rounded-3xl px-5 py-2">
+                <div className="flex flex-col items-center m-5">
+                  <Image src={VSCODE} alt="VSCode"/>
+                  <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">VSCode</h3>
+                </div>
+                <div className="flex flex-col items-center m-5">
+                  <Image src={Git} alt="Git"/>
+                  <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">Git</h3>
+                </div>
+                <div className="flex flex-col items-center m-5">
+                  <Image src={Jira} alt="Jira"/>
+                  <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">Jira</h3>
+                </div>
+
+
+              </div>
+
 
 
 
