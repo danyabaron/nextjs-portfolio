@@ -12,7 +12,7 @@ import Jira from '../../public/assets/jira.png';
 import Pented from '../../public/assets/pentedTile.png';
 import DigBalance from '../../public/assets/digbalance.png';
 import Solar from '../../public/assets/solarsystem.png';
-// import 7Factor from '../../public/assets/7factorTile.png';
+import Factor from '../../public/assets/7factorTile.png';
 
 // import styles from './src/app/globals.css';
 // import syles from"
@@ -209,6 +209,32 @@ export default function Home() {
                 View Simulation
                 {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
               </button>
+            </div>
+          </div>
+
+          <div id="projects-4" className="grid grid-rows-1 justify-center items-center p-4 m-5 grid-flow-col">
+              <Image src={Factor} alt="7Factor" width={400} height={400}/>
+            <div id="culture-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
+                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
+                  7Factor Corporate Website
+                </h2>
+                <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
+                Major Qualifying Project for my undergraduate degree.
+                Objective was to develop a feature-rich website for our sponsor per their provided design specifications. Used common web design and development practices to create an interactive website that showcased 7Factor’s mission.
+                </p>
+
+                <div id="buttons-factor" className="flex flex-row gap-5">
+                  <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
+                  View Site
+                  {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
+                </button>
+                <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
+                  View Report
+                  {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
+                </button>
+
+                </div>
+                
             </div>
           </div>
 
