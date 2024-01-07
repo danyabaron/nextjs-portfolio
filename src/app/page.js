@@ -13,7 +13,7 @@ import Pented from '../../public/assets/pentedTile.png';
 import DigBalance from '../../public/assets/digbalance.png';
 import Solar from '../../public/assets/solarsystem.png';
 import Factor from '../../public/assets/7factorTile.png';
-import sparkle from '../../public/assets/sparkle.png';
+import sparkle from '/src/app/sparkle.png';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
@@ -53,7 +53,12 @@ export default function Home() {
       <Head>
         <title>Danya Baron Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <link rel="icon" type="image/x-icon" href='/assets/sparkle.png'></link>
+        <link
+            rel="icon"
+            href="/icon?{sparkle}"
+            type="image/png"
+            sizes="<generated>"
+          />
       </Head>
 
 
