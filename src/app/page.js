@@ -261,7 +261,7 @@ export default function Home() {
         </div>
 
       <footer className="bg-main-brown text-text-pink">
-      <div id="footer" className="flex flex-col items-center justify-center w-screen px-0 py-10 m-0">
+      <div id="footer" className="flex flex-col items-center justify-center w-screen py-10">
           <div className="flex flex-row">
               <FaLinkedin className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110 "></FaLinkedin>
               <FaGithub className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110 "></FaGithub>
