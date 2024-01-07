@@ -259,7 +259,8 @@ export default function Home() {
 
         </div>
 
-        <div id="footer" className="bg-main-brown text-text-pink flex flex-col items-center">
+      <footer className="bg-main-brown text-text-pink">
+      <div id="footer" className="flex flex-col items-center w-full">
           <div className="flex flex-row">
               <FaLinkedin className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110 "></FaLinkedin>
               <FaGithub className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110 "></FaGithub>
@@ -268,6 +269,9 @@ export default function Home() {
           </div>
           <p>&copy; 2024 Your Website Name. All rights reserved.</p>
         </div>
+
+      </footer>
+        
 
        
           
