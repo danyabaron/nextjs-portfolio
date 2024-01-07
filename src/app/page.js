@@ -104,7 +104,7 @@ export default function Home() {
               <Image src={HeroPic} alt="Profile Picture" width={300} height={300} />
             </div>
             <div id="hero-txt" className='flex flex-col m-10 items-center gap-x-0.5'>
-              <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'> Hey there, I'm Danya Baron</h1>
+              <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown animate-flip-up animate-once'> Hey there, I'm Danya Baron</h1>
               <h2 className='text-2xl font-helvetica-light mb-9 text-main-brown'> UI/UX Designer and Front End Developer</h2>
 
               <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" target="_blank">
