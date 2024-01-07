@@ -202,10 +202,15 @@ export default function Home() {
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
                 Website for a final project in my masters program at UCF that I designed and developed myself using Figma, HTML, and CSS. Goal of the project was to convince the audience towards a satirical mission. Designed this for the target user audience. Designed this using common design protocols and user research methods.
                 </p>
-                <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
-                View Site
-                {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
-              </button>
+
+                <a href="https://danyabaron.github.io/dig6647finalproj/" target="_blank">
+                  <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
+                  View Site
+                  {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
+                  </button>
+
+                </a>
+                
             </div>
           </div>
 
@@ -218,10 +223,14 @@ export default function Home() {
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
                 A solar system simulation I made in Javascript using p5.js for a final project in my Masters program at UCF. Planets move as they normally do in our solar system, and have a calculated speed. Used objected oriented programming concepts to determine orbit radius as well as speed, color, size, and label of planet. Utilized Visual Studio Code, Git, and JavaScript heavily.
                 </p>
-                <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
-                View Simulation
-                {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
-              </button>
+                
+
+                <a href="https://danyabaron.github.io/dig5508projects/finalprojv2/" target="_blank">
+                  <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
+                  View Simulation
+                  {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
+                  </button>
+              </a>
             </div>
           </div>
 
