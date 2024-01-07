@@ -263,9 +263,16 @@ export default function Home() {
       <footer className="bg-main-brown text-text-pink">
       <div id="footer" className="flex flex-col items-center justify-center w-screen gap-5 py-10">
           <div className="flex flex-row gap-4">
-              <FaLinkedin className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110 "></FaLinkedin>
-              <FaGithub className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110 "></FaGithub>
-              <FaBehance className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110 "></FaBehance>
+              <a href="https://www.linkedin.com/in/danyabaron/" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110" />
+              </a>
+              <a href="https://github.com/danyabaron" target="_blank" rel="noopener noreferrer">
+                <FaGithub className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110" />
+              </a>
+              <a href="https://www.behance.net/danyabaron16" target="_blank" rel="noopener noreferrer">
+                <FaBehance className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110" />
+              </a>
+             
 
           </div>
           <p className="font-helvetica-light text-text-pink">&copy; 2024 Danya Baron. All rights reserved.</p>
