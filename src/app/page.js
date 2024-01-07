@@ -165,7 +165,7 @@ export default function Home() {
             
             <div id="projects-1" className="grid grid-rows-1 justify-center items-center p-4 m-5 grid-flow-col">
               <Image src={Pented} alt="Pented" width={400} height={400}/>
-            <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg items-center m-12 p-4 gap-7 rounded-3xl">
+            <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
                 <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
                   Case Study: Education App Design 
                 </h2>
@@ -182,7 +182,7 @@ export default function Home() {
 
             <div id="projects-2" className="grid grid-rows-1 justify-center items-center p-4 m-5 grid-flow-col">
               <Image src={DigBalance} alt="DigBalance" width={400} height={400}/>
-            <div id="culture-info" className="bg-gradient-top flex flex-col drop-shadow-lg items-center m-12 p-4 gap-7 rounded-3xl">
+            <div id="culture-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
                 <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
                   Culture Jam Website
                 </h2>
@@ -198,15 +198,15 @@ export default function Home() {
 
           <div id="projects-3" className="grid grid-rows-1 justify-center items-center p-4 m-3 grid-flow-col">
               <Image src={Solar} alt="Solar" width={400} height={400}/>
-            <div id="solar-info" className="bg-gradient-top flex flex-col h-full drop-shadow-lg items-center m-8 p-4 gap-7 rounded-3xl">
+            <div id="solar-info" className="bg-gradient-top flex flex-col drop-shadow-lg items-center m-8 p-4 gap-7 rounded-3xl">
                 <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
                   Solar System Simulation
                 </h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
-                A solar system simulation I made in Javascript using p5.js for a final project in my Masters program at UCF. Utilized Visual Studio Code, Git, and JavaScript heavily.
+                A solar system simulation I made in Javascript using p5.js for a final project in my Masters program at UCF. Planets move as they normally do in our solar system, and have a calculated speed. Used objected oriented programming concepts to determine orbit radius as well as speed, color, size, and label of planet. Utilized Visual Studio Code, Git, and JavaScript heavily.
                 </p>
-                <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 text-med rounded-full">
-                View Site
+                <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
+                View Simulation
                 {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
               </button>
             </div>
