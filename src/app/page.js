@@ -180,12 +180,15 @@ export default function Home() {
                   Case Study: Education App Design 
                 </h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
-                Pented is a mobile education app that caters to underprivileged middle school students in Gujarat, India. The goal of the project was to redesign an enhanced experience for their users and a solution to showcase their offerings better, keeping current design standards and gamification in mind.
+                Pented is a mobile education app that caters to underprivileged middle school students in Gujarat, India. Used Figma for entire project. The goal of the project was to redesign an enhanced experience for their users and a solution to showcase their offerings better, keeping current design standards and gamification in mind.
                 </p>
+
+                <a href="https://www.behance.net/gallery/161733587/Education-App-Design" target="_blank">
                 <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
                 View Case Study
                 {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
               </button>
+              </a>
             </div>
           </div>
 
