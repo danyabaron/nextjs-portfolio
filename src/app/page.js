@@ -53,6 +53,7 @@ export default function Home() {
       <Head>
         <title>Danya Baron Portfolio</title>
         <link rel="icon" href="/favicon.ico" sizes="any" />
+        <script>document.documentElement.classList.add('js')</script>
       </Head>
 
 
