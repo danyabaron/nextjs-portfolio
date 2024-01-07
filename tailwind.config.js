@@ -25,5 +25,7 @@ module.exports = {
       'hover-resume': '#2F2B2B'
     }  
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 }
