@@ -198,7 +198,7 @@ export default function Home() {
 
           <div id="projects-3" className="grid grid-rows-1 justify-center items-center p-4 m-5 grid-flow-col">
               <Image src={Solar} alt="Solar" width={400} height={400}/>
-            <div id="solar-info" className="bg-gradient-top flex flex-col h-85 drop-shadow-lg items-center m-12 p-4 gap-7 rounded-3xl">
+            <div id="solar-info" className="bg-gradient-top flex flex-col h-95 drop-shadow-lg items-center m-12 p-4 gap-7 rounded-3xl">
                 <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
                   Solar System Simulation
                 </h2>
