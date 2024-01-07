@@ -52,8 +52,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Danya Baron Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <link rel="icon" href="/assets/sparkle.png" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
 
 
