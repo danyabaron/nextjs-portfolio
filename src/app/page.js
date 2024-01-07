@@ -52,6 +52,7 @@ export default function Home() {
       <Head>
         <title>Danya Baron Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <link rel="icon" type="image/x-icon" href={IoSparklesSharp}></link>
       </Head>
 
 
