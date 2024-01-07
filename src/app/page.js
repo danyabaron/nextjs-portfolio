@@ -164,23 +164,53 @@ export default function Home() {
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Projects</h1>
             
             <div id="projects-1" className="grid grid-rows-1 justify-center items-center p-4 m-5 grid-flow-col">
-              <Image src={Pented} alt="Pented"/>
-              <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg items-center m-9 p-4 gap-7 rounded-lg">
-                <h2 className="font-helvetica-italic text-xl text-main-brown">
+              <Image src={Pented} alt="Pented" width={400} height={400}/>
+            <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg items-center m-12 p-4 gap-7 rounded-3xl">
+                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
                   Case Study: Education App Design 
                 </h2>
-                <p className="font-helvetica text-md text-main-brown text-center text-wrap max-w-[500px]">
+                <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
                 Pented is a mobile education app that caters to underprivileged middle school students in Gujarat, India. The goal of the project was to redesign an enhanced experience for their users and a solution to showcase their offerings better, keeping current design standards and gamification in mind.
                 </p>
-                <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 text-med rounded-full">
+                <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
                 View Case Study
                 {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
               </button>
-              </div>
-
-
-
             </div>
+          </div>
+
+
+            <div id="projects-2" className="grid grid-rows-1 justify-center items-center p-4 m-5 grid-flow-col">
+              <Image src={DigBalance} alt="DigBalance" width={400} height={400}/>
+            <div id="culture-info" className="bg-gradient-top flex flex-col drop-shadow-lg items-center m-12 p-4 gap-7 rounded-3xl">
+                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
+                  Culture Jam Website
+                </h2>
+                <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
+                Website for a final project in my masters program at UCF that I designed and developed myself using Figma, HTML, and CSS. Goal of the project was to convince the audience towards a satirical mission. Designed this for the target user audience. Designed this using common design protocols and user research methods.
+                </p>
+                <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
+                View Site
+                {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
+              </button>
+            </div>
+          </div>
+
+          <div id="projects-3" className="grid grid-rows-1 justify-center items-center p-4 m-5 grid-flow-col">
+              <Image src={Solar} alt="Solar" width={400} height={400}/>
+            <div id="solar-info" className="bg-gradient-top flex flex-col w-500 h-700 drop-shadow-lg items-center m-12 p-4 gap-7 rounded-3xl">
+                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
+                  Solar System Simulation
+                </h2>
+                <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
+                A solar system simulation I made in Javascript using p5.js for a final project in my Masters program at UCF. Utilized Visual Studio Code, Git, and JavaScript heavily.
+                </p>
+                <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
+                View Site
+                {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
+              </button>
+            </div>
+          </div>
 
 
 
