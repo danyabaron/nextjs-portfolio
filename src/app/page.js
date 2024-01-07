@@ -9,6 +9,11 @@ import JS from '../../public/assets/javascript.png';
 import VSCODE from '../../public/assets/vscode.png';
 import Git from '../../public/assets/git.png';
 import Jira from '../../public/assets/jira.png';
+import Pented from '../../public/assets/pentedTile.png';
+import DigBalance from '../../public/assets/digbalance.png';
+import Solar from '../../public/assets/solarsystem.png';
+// import 7Factor from '../../public/assets/7factorTile.png';
+
 // import styles from './src/app/globals.css';
 // import syles from"
 import React from 'react';
@@ -44,7 +49,7 @@ export default function Home() {
       </Head>
 
 
-      <main className="bg-gradient-to-t from-gradient-top to-gradient-bottom px-10 overflow-y-scroll scroll-smooth no-scrollbar">
+      <main className="bg-gradient-to-t from-gradient-bottom to-gradient-top px-10 overflow-y-scroll scroll-smooth no-scrollbar">
         <section className="min-h-screen">
         
 
@@ -158,8 +163,16 @@ export default function Home() {
           <div id="projects" className="flex items-center flex-col justify-center w-screen py-10 mb-9 gap-x-1">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Projects</h1>
             
-            <div id="projects-1" className="grid grid-rows-1 justify-center grid-flow-col">
-              
+            <div id="projects-1" className="grid grid-rows-1 justify-center items-center grid-flow-col">
+              <Image src={Pented} alt="Pented"/>
+              <div id="pented-text" className="bg-gradient-bottom flex flex-row rounded-md">
+                <p>
+                  blah balh
+                </p>
+              </div>
+
+
+
             </div>
 
 
