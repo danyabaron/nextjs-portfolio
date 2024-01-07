@@ -237,20 +237,11 @@ export default function Home() {
                 
             </div>
           </div>
+        </div>
+        <div id="contact" className="flex items-center flex-col justify-center w-screen py-8 mb-9 gap-x-1">
+        <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Contact</h1>
 
-
-
-
-
-
-
-
-
-
-
-
-
-          </div>
+        </div>
        
           
         </section>
