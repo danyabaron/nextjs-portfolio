@@ -70,7 +70,7 @@ export default function Home() {
          </div>
             
             
-            <ul className="flex items-center">
+            <ul className="flex items-center animate-fade-right animate-ease-in">
               {/* <li>
                 
                 <IoSparklesSharp className="cursor-pointer text-main-brown text-2xl mr-10 transform hover:scale-110"/>
