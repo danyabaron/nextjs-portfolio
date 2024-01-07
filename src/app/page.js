@@ -160,10 +160,10 @@ export default function Home() {
 
 
           </div>
-          <div id="projects" className="flex items-center flex-col justify-center w-screen py-10 mb-9 gap-x-1">
+          <div id="projects" className="flex items-center flex-col justify-center w-screen py-8 mb-9 gap-x-1">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Projects</h1>
             
-            <div id="projects-1" className="grid grid-rows-1 justify-center items-center p-4 m-5 grid-flow-col">
+            <div id="projects-1" className="grid grid-rows-1 justify-center items-center grid-flow-col">
               <Image src={Pented} alt="Pented" width={400} height={400}/>
             <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
                 <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
@@ -180,7 +180,7 @@ export default function Home() {
           </div>
 
 
-            <div id="projects-2" className="grid grid-rows-1 justify-center items-center p-4 m-5 grid-flow-col">
+            <div id="projects-2" className="grid grid-rows-1 justify-center items-center  grid-flow-col">
               <Image src={DigBalance} alt="DigBalance" width={400} height={400}/>
             <div id="culture-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
                 <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
@@ -196,7 +196,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div id="projects-3" className="grid grid-rows-1 justify-center items-center p-4 m-3 grid-flow-col">
+          <div id="projects-3" className="grid grid-rows-1 justify-center items-center grid-flow-col">
               <Image src={Solar} alt="Solar" width={400} height={400}/>
             <div id="solar-info" className="bg-gradient-top flex flex-col drop-shadow-lg items-center m-8 p-4 gap-7 rounded-3xl">
                 <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
@@ -212,7 +212,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div id="projects-4" className="grid grid-rows-1 justify-center items-center p-4 m-5 grid-flow-col">
+          <div id="projects-4" className="grid grid-rows-1 justify-center items-center grid-flow-col">
               <Image src={Factor} alt="7Factor" width={400} height={400}/>
             <div id="culture-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
                 <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
