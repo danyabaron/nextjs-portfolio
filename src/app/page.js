@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { IoSparklesSharp } from "react-icons/io5";
 import Image from 'next/image';
 import HeroPic from '../../public/assets/profilepic.png';
+import Figma from '../../public/assets/figma.png';
 // import styles from './src/app/globals.css';
 // import syles from"
 import React from 'react';
@@ -108,6 +109,10 @@ export default function Home() {
           <div id="skills" className="flex items-center flex-col justify-center w-screen py-10 mb-12 gap-x-1">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Skills</h1>
               <div id="skills-section1" className="w-full h-full bg-main-brown rounded-3xl">
+                <div>
+                  <Image src={Figma} alt="Figma"/>
+                  <h3>Figma</h3>
+                </div>
 
               </div>
 
