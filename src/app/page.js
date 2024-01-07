@@ -165,7 +165,7 @@ export default function Home() {
             
             <div id="projects-1" className="grid grid-rows-1 justify-center items-center grid-flow-col">
               <Image src={Pented} alt="Pented"/>
-              <div id="pented-text" className="bg-gradient-bottom flex flex-row rounded-md">
+              <div id="pented-text" className="bg-gradient-bottom p-4 rounded-md">
                 <p>
                   blah balh
                 </p>
