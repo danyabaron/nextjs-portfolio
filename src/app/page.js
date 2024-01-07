@@ -254,11 +254,17 @@ export default function Home() {
                     </button>
 
                   </a>
+
+
                   
-                <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
-                  View Report
-                  
-                </button>
+                <a href="https://drive.google.com/file/d/1Xx3mYPXf8b2xRLf3h9ri6KP0kl_Zrvd-/view?usp=sharing" target="_blank">
+                  <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
+                    View Report
+                    
+                  </button>
+
+                </a>
+              
 
                 </div>
                 
@@ -273,10 +279,13 @@ export default function Home() {
             Feel free to reach out to me regarding any collaborations
             or inquires. I look forward to hearing from you!
             </p>
-            <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
-                  Email Me
-                  {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
-                </button>
+
+            <a href="mailto:danyabaronui@gmail.com">
+              <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
+                    Email Me
+                    {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
+                  </button>
+            </a>
           </div>
 
         </div>
