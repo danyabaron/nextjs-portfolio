@@ -157,6 +157,23 @@ export default function Home() {
           </div>
           <div id="projects" className="flex items-center flex-col justify-center w-screen py-10 mb-9 gap-x-1">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Projects</h1>
+            
+            <div id="projects-1" className="grid grid-rows-1 justify-center grid-flow-col">
+              
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
           </div>
        
           
