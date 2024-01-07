@@ -107,8 +107,8 @@ export default function Home() {
           </div>
           <div id="skills" className="flex items-center flex-col justify-center w-screen py-10 mb-12 gap-x-1">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Skills</h1>
-              <div id="skills-section1" className="flex items-center bg-main-brown rounded-md">
-                
+              <div id="skills-section1" className="w-full h-full bg-main-brown rounded-3xl">
+
               </div>
 
 
