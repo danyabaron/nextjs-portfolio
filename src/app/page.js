@@ -238,8 +238,18 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div id="contact" className="flex items-center flex-col justify-center w-screen py-8 mb-9 gap-x-1">
+        <div id="contact" className="flex items-center flex-col justify-center w-screen py-8 gap-x-1">
         <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Contact</h1>
+          <div id="culture-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-4 gap-7 rounded-3xl">
+            <p className="font-helvetica text-lg text-main-brown px-5 text-center m-4 text-wrap max-w-[500px]">
+            Feel free to reach out to me regarding any collaborations
+            or inquires. I look forward to hearing from you!
+            </p>
+            <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
+                  Email Me
+                  {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
+                </button>
+          </div>
 
         </div>
        
