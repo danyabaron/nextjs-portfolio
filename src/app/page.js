@@ -228,7 +228,7 @@ export default function Home() {
                 <a href="https://danyabaron.github.io/dig5508projects/finalprojv2/" target="_blank">
                   <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
                   View Simulation
-                  {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
+                  
                   </button>
               </a>
             </div>
@@ -236,7 +236,7 @@ export default function Home() {
 
           <div id="projects-4" className="grid grid-rows-1 justify-center items-center grid-flow-col">
               <Image src={Factor} alt="7Factor" width={400} height={400}/>
-            <div id="culture-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
+            <div id="factor-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
                 <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
                   7Factor Corporate Website
                 </h2>
@@ -246,13 +246,18 @@ export default function Home() {
                 </p>
 
                 <div id="buttons-factor" className="flex flex-row gap-5">
-                  <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
-                  View Site
-                  {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
-                </button>
+
+                  <a href="https://7factor.io/" target="_blank">
+                    <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
+                    View Site
+                    
+                    </button>
+
+                  </a>
+                  
                 <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
                   View Report
-                  {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
+                  
                 </button>
 
                 </div>
