@@ -108,6 +108,12 @@ export default function Home() {
               <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown animate-flip-up animate-once'> Hey there, I'm Danya Baron</h1>
               <h2 className='text-2xl font-helvetica-light mb-9 text-main-brown'> UI/UX Designer and Front End Developer</h2>
 
+
+            <div id="edu-text" className='flex flex-col items-center'>
+             <h3 className='text-md font-helvetica-light mb-2 text-main-brown'> B.S. in Computer Science</h3>
+             <h3 className='text-md font-helvetica-light mb-8 text-main-brown'> Currently pursuing Masters in <a href="https://www.ucf.edu/degree/digital-media-ma/" target="_blank" className=" hover:underline text-hover-resume font-helvetica-italic transform hover:scale-105 transition-all duration-500">Digital Media</a></h3>
+             </div>
+
               <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" target="_blank">
                 <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-bold py-2 px-4 w-40 h-12 rounded-full">
                   View Resume
