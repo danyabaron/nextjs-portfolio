@@ -19,7 +19,7 @@ export default function ProjMang() {
 
         <div className="flex items-center ml-10">
     
-            <IoSparklesSharp className=" text-main-brown text-2xl transform hover:text-hover-resume transition-all duration-500 hover:scale-110" />   
+            <IoSparklesSharp className="text-main-brown text-2xl transform hover:text-hover-resume transition-all duration-500 hover:scale-110" />   
   
          </div>
         
