@@ -180,6 +180,27 @@ export default function Home() {
           </div>
           <div id="projects" className="flex items-center flex-col justify-center w-screen py-8 mb-9 gap-x-1">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Projects</h1>
+
+            <div id="projects-0.5" className="grid grid-rows-1 justify-center items-center grid-flow-col">
+              <Image src={Pented} alt="Pented" width={400} height={400}/>
+            <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
+                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
+                  Project Management Software Design
+                </h2>
+                <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
+                Proj management software for design and code
+                </p>
+
+                <a href="https://www.behance.net/gallery/161733587/Education-App-Design" target="_blank">
+                <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
+                View Design
+                {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
+              </button>
+              </a>
+            </div>
+          </div>
+
+
             
             <div id="projects-1" className="grid grid-rows-1 justify-center items-center grid-flow-col">
               <Image src={Pented} alt="Pented" width={400} height={400}/>
