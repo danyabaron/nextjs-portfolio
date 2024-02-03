@@ -25,7 +25,7 @@ export default function ProjMang() {
         
         </nav>
 
-        <div id="projheader" className="bg-slate-50 w-screen h-80">
+        <div id="projheader" className="bg-black w-screen h-80">
             <h3>hi</h3>
 
         </div>
