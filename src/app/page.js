@@ -18,6 +18,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
 import Link from 'next/link';
+import ProjMang from './pm_soft.js'; 
 
 
 
