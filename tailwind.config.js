@@ -51,7 +51,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}", // Add a comma here
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
-    "./projmang/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/projmang/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   safelist: [
     '!duration-[0ms]',
