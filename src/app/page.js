@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import { IoSparklesSharp } from "react-icons/io5";
 import Image from 'next/image';
 import HeroPic from '../../public/assets/profilepic.png';
@@ -17,8 +18,7 @@ import sparkle from '../../public/assets/sparkle.png';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
-import Link from 'next/link';
-import ProjMang from './pm_soft.js'; 
+import ProjMang from './projmang.js'; 
 
 
 
@@ -193,7 +193,7 @@ export default function Home() {
                 Proj management software for design and code
                 </p>
 
-                <Link href={ProjMang}>
+                <Link href="/projmang.js">
                 
                 <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
                 View Design
