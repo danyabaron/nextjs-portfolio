@@ -17,6 +17,7 @@ import sparkle from '../../public/assets/sparkle.png';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
+import Link from 'next/link';
 
 
 
@@ -191,12 +192,12 @@ export default function Home() {
                 Proj management software for design and code
                 </p>
 
-                <a href="https://www.behance.net/gallery/161733587/Education-App-Design" target="_blank">
+                <Link href="src/app/pm_soft.js"></Link>
                 <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
                 View Design
                 {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
               </button>
-              </a>
+              {/* </a> */}
             </div>
           </div>
 
