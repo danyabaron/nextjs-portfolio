@@ -27,13 +27,7 @@ import ProjMang from './projmang/page.js';
 import React from 'react';
 
 
-// const openResume = () => {
-//   // Replace 'https://example.com' with the actual URL you want to open
-//   const url = 'https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing';
 
-//   // Open the link in a new tab
-//   window.open(url, '_blank');
-// };
 
 
 
