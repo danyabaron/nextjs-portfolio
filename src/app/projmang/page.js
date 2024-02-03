@@ -1,28 +1,34 @@
 import React from 'react';
+import Head from 'next/head';
 import Link from 'next/link';
+import { IoSparklesSharp } from "react-icons/io5";
+
+
+
 
 
 
 export default function ProjMang() {
     return (
-        // <div>
+        <div>
         
-        <h2> proj management software </h2>
-        <h3>
-            <Link href="/"> back to home</Link>
-        </h3>
+        <main className="bg-gradient-to-t from-gradient-bottom to-gradient-top overflow-y-scroll scroll-smooth no-scrollbar">
+        <section className="min-h-screen">
 
-        // </div>
+        <div className="flex items-center ml-10">
+    {/* IoSparklesSharp on the left */}
+            <IoSparklesSharp className=" text-main-brown text-2xl transform hover:text-hover-resume transition-all duration-500 hover:scale-110" />   
+    {/* Other content on the left (if any) */}
+    {/* Add your additional content here */}
+         </div>
+        
+
+
+
+          </section>
+      </main>
+    </div>
     );
 }
 
-// const PmSoft = () => {
-//     return (
-//       <div>
-//         <h1>Project Management Software Design</h1>
-//         {/* Add your project details here */}
-//       </div>
-//     );
-//   };
-  
-//   export default PmSoft;
+
