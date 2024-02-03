@@ -73,7 +73,8 @@ module.exports = {
       'gradient-bottom': "#F3E7E9",
       'main-brown': "#655D5D",
       'text-pink': "#F2E8EB",
-      'hover-resume': '#2F2B2B'
+      'hover-resume': '#2F2B2B',
+      'white': '#faf5f5'
     },
     content: {
       relative: true,

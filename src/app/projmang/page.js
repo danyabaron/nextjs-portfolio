@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import { IoSparklesSharp } from "react-icons/io5";
+import 'tailwindcss/tailwind.css';
 
 
 
@@ -25,7 +26,7 @@ export default function ProjMang() {
         
         </nav>
 
-        <div className="w-screen h-80 bg-main-brown">
+        <div class="w-screen h-96 bg-main-brown rounded-3xl">
             <h3>hi</h3>
 
         </div>
