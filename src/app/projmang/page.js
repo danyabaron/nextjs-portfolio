@@ -50,6 +50,9 @@ export default function ProjMang() {
                 </p>
 
             </div>
+            <div id="proj-img" className="">
+
+            </div>
             
 
         </div>
