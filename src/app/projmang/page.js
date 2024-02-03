@@ -15,13 +15,20 @@ export default function ProjMang() {
         <main className="bg-gradient-to-t from-gradient-bottom to-gradient-top overflow-y-scroll scroll-smooth no-scrollbar">
         <section className="min-h-screen">
 
+        <nav className="py-10 mb-12 flex justify-between w-full">
+
         <div className="flex items-center ml-10">
-    {/* IoSparklesSharp on the left */}
+    
             <IoSparklesSharp className=" text-main-brown text-2xl transform hover:text-hover-resume transition-all duration-500 hover:scale-110" />   
-    {/* Other content on the left (if any) */}
-    {/* Add your additional content here */}
+  
          </div>
         
+        </nav>
+
+        <div id="projheader">
+
+        </div>
+           
 
 
 
