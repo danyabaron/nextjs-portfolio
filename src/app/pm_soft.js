@@ -3,17 +3,26 @@ import Link from 'next/link';
 
 
 
-export default function ProjMang() {
+// export default function ProjMang() {
+//     return (
+//         <>
+        
+//         <h2> proj management software </h2>
+//         <h3>
+//             <Link href="/"> back to home</Link>
+//         </h3>
+
+//         </>
+//     );
+// }
+
+const PmSoft = () => {
     return (
-        <>
-        
-        <h2> proj management software </h2>
-        <h3>
-            <Link href="/"> back to home</Link>
-        </h3>
-        
-        </>
+      <div>
+        <h1>Project Management Software Design</h1>
+        {/* Add your project details here */}
+      </div>
     );
-}
-
-
+  };
+  
+  export default PmSoft;
