@@ -192,7 +192,7 @@ export default function Home() {
                 Proj management software for design and code
                 </p>
 
-                <Link href="src/app/pm_soft.js">
+                <Link href="/pm_soft">
                 
                 <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
                 View Design
