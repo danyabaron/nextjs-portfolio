@@ -18,7 +18,7 @@ import sparkle from '../../public/assets/sparkle.png';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
-import ProjMang from './projmang/page.js'; 
+// import ProjMang from './projmang/page.js'; 
 
 
 
