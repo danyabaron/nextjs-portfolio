@@ -30,7 +30,7 @@ export default function ProjMang() {
         
         </nav>
 
-        <div id="projheader" class="w-screen items-center flex flex-row gap-9 mb-9 rounded-3xl">
+        <div id="projheader" class="w-screen items-center justify-around flex flex-row gap-9 mb-9 rounded-3xl">
             <div id="proj-text" className="columns-4 flex flex-col ml-12 justify-center items-center w-screen gap-5">
                 <h2 className="text-3xl font-helvetica-medium drop-shadow-md text-main-brown">Project Management Design</h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
@@ -66,7 +66,7 @@ export default function ProjMang() {
             
 
         </div>
-        <div id="introduction" className="flex flex-row justify-center w-screen py-8 mb-9">
+        <div id="introduction" className="flex flex-row items-center w-screen py-8 mb-9">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Introduction</h1>
            
             <div id="intro-text">
