@@ -66,7 +66,7 @@ export default function ProjMang() {
             
 
         </div>
-        <div id="introduction" className="flex flex-row items-center justify-around w-screen py-8 mb-9">
+        <div id="introduction" className="flex flex-row items-center justify-around how to add videos w-screen py-8 mb-9">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Introduction</h1>
            
             <div id="intro-text">
