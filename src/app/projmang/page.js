@@ -5,6 +5,7 @@ import { IoSparklesSharp } from "react-icons/io5";
 import Image from 'next/image';
 import ProjTile from '../../../public/assets/projmangTile.png';
 import ProjTileDiag from '../../../public/assets/projmangTileDiagnol.png';
+import DesignCodeLogo from '../../../public/assets/designcodelogo.png';
 import 'tailwindcss/tailwind.css';
 
 
@@ -65,7 +66,7 @@ export default function ProjMang() {
             
 
         </div>
-        <div id="introduction" className="flex flex-row justify-start w-screen py-8 mb-9 gap-8">
+        <div id="introduction" className="flex flex-row justify-center w-screen py-8 mb-9">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Introduction</h1>
            
             <div id="intro-text">
@@ -79,8 +80,8 @@ export default function ProjMang() {
                 </p>
             </div>
             <div id="intro-pic">
-                
-                </div>
+                <Image src={DesignCodeLogo} alt="design and code logo" className="drop-shadow-md" />
+            </div>
 
         </div>
            
