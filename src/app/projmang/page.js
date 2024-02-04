@@ -30,7 +30,7 @@ export default function ProjMang() {
         </nav>
 
         <div id="projheader" class="w-screen items-center flex flex-row gap-y-3 rounded-3xl gap-9">
-            <div id="proj-text" className="columns-4 flex items-center flex-col justify-center w-fit py-8 gap-5">
+            <div id="proj-text" className="columns-4 flex items-center flex-col justify-center w-56 py-8 gap-5">
                 <h2 className="text-3xl font-helvetica-medium drop-shadow-sm text-main-brown">Project Management Design</h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris nunc, ornare ut velit eu, 
@@ -56,8 +56,8 @@ export default function ProjMang() {
             {/* width={300} height={300} */}
 
             <div id="proj-img" className="columns-2 flex flex-col bg-white mr-6 justify-center gap-5">
-                <Image src={ProjTile} alt="proj mang 1" className="drop-shadow-md" />
-                <Image src={ProjTileDiag} alt="proj mang 2" className="drop-shadow-md" />
+                <Image src={ProjTile} alt="proj mang 1" width={1200} height={674} className="drop-shadow-md" />
+                <Image src={ProjTileDiag} alt="proj mang 2" width={1200} height={674} className="drop-shadow-md" />
 
 
 
