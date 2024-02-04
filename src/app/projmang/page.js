@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { IoSparklesSharp } from "react-icons/io5";
 import Image from 'next/image';
 import ProjTile from '../../../public/assets/projmangTile.png';
+import ProjTileDiag from '../../../public/assets/projmangTileDiagnol.png';
 import 'tailwindcss/tailwind.css';
 
 
@@ -55,7 +56,9 @@ export default function ProjMang() {
             {/* width={300} height={300} */}
 
             <div id="proj-img" className="columns-2 flex flex-col bg-white mr-10 justify-center gap-5">
-                <Image src={ProjTile} alt="Profile Picture" className="drop-shadow-md" />
+                <Image src={ProjTile} alt="proj mang 1" className="drop-shadow-md" />
+                <Image src={ProjTileDiag} alt="proj mang 2" className="drop-shadow-md" />
+
 
 
             </div>
