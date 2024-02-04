@@ -55,7 +55,7 @@ export default function ProjMang() {
             {/* width={300} height={300} */}
 
             <div id="proj-img" className="columns-2 flex flex-col bg-white mr-10 justify-center gap-5">
-                <Image src={ProjTile} alt="Profile Picture"  />
+                <Image src={ProjTile} alt="Profile Picture" className="drop-shadow-md" />
 
 
             </div>
