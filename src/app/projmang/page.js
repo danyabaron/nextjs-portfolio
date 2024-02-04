@@ -65,7 +65,7 @@ export default function ProjMang() {
             
 
         </div>
-        <div id="introduction" className="flex items-center flex-row justify-center w-screen py-8 mb-9 gap-x-1">
+        <div id="introduction" className="flex flex-row  w-screen py-8 mb-9 gap-8">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Introduction</h1>
            
             <div id="intro-text">
