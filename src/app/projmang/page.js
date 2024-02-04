@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { IoSparklesSharp } from "react-icons/io5";
 import Image from 'next/image';
-import ProjTile from '../../public/assets/projmangTile.png';
+import ProjTile from '../../../public/assets/projmangTile.png';
 import 'tailwindcss/tailwind.css';
 
 
@@ -52,7 +52,10 @@ export default function ProjMang() {
                 </p>
 
             </div>
+            {/* width={300} height={300} */}
+
             <div id="proj-img" className="">
+                <Image src={ProjTile} alt="Profile Picture"  />
 
 
             </div>
