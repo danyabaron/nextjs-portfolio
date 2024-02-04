@@ -6,7 +6,7 @@ import Image from 'next/image';
 import ProjTile from '../../../public/assets/projmangTile.png';
 import ProjTileDiag from '../../../public/assets/projmangTileDiagnol.png';
 import DesignCodeLogo from '../../../public/assets/designcodelogo.png';
-import Prototype from '../../../public/assets/prototypemp4.mp4';
+import Prototype from '../../../public/assets/prototypemp4.mp4'; 
 import 'tailwindcss/tailwind.css';
 
 
