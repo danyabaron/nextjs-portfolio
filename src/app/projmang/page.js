@@ -2,6 +2,8 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import { IoSparklesSharp } from "react-icons/io5";
+import Image from 'next/image';
+import ProjTile from '../../public/assets/projmangTile.png';
 import 'tailwindcss/tailwind.css';
 
 
@@ -51,6 +53,7 @@ export default function ProjMang() {
 
             </div>
             <div id="proj-img" className="">
+
 
             </div>
             
