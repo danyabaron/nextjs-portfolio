@@ -125,10 +125,14 @@ export default function ProjMang() {
             </div>
             <div id="research-grid" className="grid grid-rows-2 grid-flow-col gap-3">
                 <div> 
-                <Image src={KanbanOne} alt="kanban1" className="drop-shadow-md" />
+                    <Image src={KanbanOne} width={400} height={400} alt="kanban1" className="drop-shadow-md" />
                 </div>
-                <div> 2 </div>
-                <div>3</div>
+                <div>
+                    <Image src={KanbanTwo} width={400} height={400} alt="kanban2" className="drop-shadow-md" />
+                </div>
+                <div>
+                    <Image src={TrelloOne} width={400} height={400} alt="trello1" className="drop-shadow-md" />
+                </div>
                 <div>
                     4
                 </div>
