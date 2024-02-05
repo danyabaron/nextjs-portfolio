@@ -168,7 +168,7 @@ export default function ProjMang() {
         <div id="prototype" className="flex flex-row items-center justify-between w-screen px-9 mb-9 gap-11">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Prototype</h1>
            
-            <div id="prototype-text">
+            <div id="prototype-text" className="flex-1">
                 <p className="font-helvetica text-md text-main-brown px-5 text-left text-wrap max-w-[500px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris nunc, ornare ut velit eu, sagittis laoreet ante. Sed porttitor 
                 felis non ligula aliquam lacinia. Duis ut ex nec est laoreet aliquet in nec felis. Mauris a accumsan mi. Phasellus id mauris accumsan, 
