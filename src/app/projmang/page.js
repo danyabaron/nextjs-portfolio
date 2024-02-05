@@ -89,7 +89,7 @@ export default function ProjMang() {
             
 
         </div>
-        <div id="goal" className="flex flex-row items-center justify-around how to add videos w-screen py-8 mb-9">
+        <div id="goal" className="flex flex-row items-center justify-around w-screen py-8 ml-9 mb-9 gap-9">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Goal</h1>
            
             <div id="intro-text">
@@ -110,7 +110,7 @@ export default function ProjMang() {
 
        
 
-        <div id="research" className="flex flex-row items-center justify-around w-screen py-8 mb-9 gap-5">
+        <div id="research" className="flex flex-row items-center justify-around w-screen py-8 mb-9 gap-9">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Research</h1>
            
             <div id="intro-text">
@@ -139,9 +139,6 @@ export default function ProjMang() {
                 </div>
                 <div>
                     <Image src={KanbanThree} width={400} height={400} alt="trello1" className="drop-shadow-md" />
-                </div>
-                <div>
-                    <Image src={TrelloTwo} width={400} height={400} alt="trello1" className="drop-shadow-md" />
                 </div>
                 <div>
                     <Image src={Login1} width={400} height={400} alt="trello1" className="drop-shadow-md" />
