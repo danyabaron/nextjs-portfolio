@@ -83,8 +83,8 @@ export default function ProjMang() {
             
 
         </div>
-        <div id="introduction" className="flex flex-row items-center justify-around how to add videos w-screen py-8 mb-9">
-            <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Introduction</h1>
+        <div id="goal" className="flex flex-row items-center justify-around how to add videos w-screen py-8 mb-9">
+            <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Goal</h1>
            
             <div id="intro-text">
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
@@ -102,7 +102,9 @@ export default function ProjMang() {
 
         </div>
 
-        <div id="context" className="flex flex-row items-center justify-around how to add videos w-screen py-8 mb-9">
+       
+
+        <div id="research" className="flex flex-row items-center justify-around how to add videos w-screen py-8 mb-9">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Research</h1>
            
             <div id="intro-text">
