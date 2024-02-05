@@ -89,7 +89,7 @@ export default function ProjMang() {
             
 
         </div>
-        <div id="goal" className="flex flex-row items-center justify-between w-screen px-9 ">
+        <div id="goal" className="flex flex-row items-center justify-between w-screen px-9">
         
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Goal</h1>
            
@@ -111,7 +111,7 @@ export default function ProjMang() {
 
        
 
-        <div id="research" className="flex flex-row items-center justify-around w-screen py-8 mb-9 gap-9">
+        <div id="research" className="flex flex-row items-center justify-between w-screen mb-9 px-9">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Research</h1>
            
             <div id="intro-text">
