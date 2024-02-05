@@ -64,7 +64,7 @@ export default function ProjMang() {
             <div id="proj-img" className="columns-2 flex flex-col bg-white mr-12 justify-center gap-5">
                 {/* <Image src={ProjTile} alt="proj mang 1" width={1200} height={674} className="drop-shadow-md" />
                 <Image src={ProjTileDiag} alt="proj mang 2" width={1200} height={674} className="drop-shadow-md" /> */}
-                <Image src={PrototypeGif}/>
+                <Image src={PrototypeGif} className="drop-shadow-md rounded-2xl"/>
 
 
 
