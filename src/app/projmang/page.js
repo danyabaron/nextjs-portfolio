@@ -9,10 +9,15 @@ import DesignCodeLogo from '../../../public/assets/designcodelogo.png';
 import PrototypeGif from '../../../public/assets/prototypegif.gif'
 import KanbanOne from '../../../public/assets/kanban1.png';
 import TrelloOne from '../../../public/assets/trello1.png';
-import TrelloTwo from  '../../../public/assets/trello2.png';
 import KanbanTwo from '../../../public/assets/kanban2.png';
 import KanbanThree from '../../../public/assets/kanban3.png';
 import Login1 from '../../../public/assets/login1.png';
+import LoginWire from '../../../public/assets/loginwire.png';
+import Homewire1 from '../../../public/assets/homewire1.png';
+import Homewire2 from '../../../public/assets/homewire2.png';
+import ProjBoardWire from '../../../public/assets/projectboardwire.png';
+import AddCardWire from '../../../public/assets/addcardwire.png';
+
 
 // import Video from 'next-video';
 // import getStarted from '/videos/get-started.mp4';
@@ -169,19 +174,19 @@ export default function ProjMang() {
         
         <div id="wireframe-grid" className="grid justify-center grid-rows-2 grid-flow-col gap-6">
                 <div> 
-                    <Image src={KanbanOne} width={400} height={400} alt="kanban1" className="drop-shadow-md" />
+                    <Image src={LoginWire} width={400} height={400} alt="kanban1" className="drop-shadow-md" />
                 </div>
                 <div>
-                    <Image src={KanbanTwo} width={400} height={400} alt="kanban2" className="drop-shadow-md" />
+                    <Image src={Homewire1} width={400} height={400} alt="kanban2" className="drop-shadow-md" />
                 </div>
                 <div>
-                    <Image src={TrelloOne} width={400} height={400} alt="trello1" className="drop-shadow-md" />
+                    <Image src={Homewire2} width={400} height={400} alt="trello1" className="drop-shadow-md" />
                 </div>
                 <div>
-                    <Image src={KanbanThree} width={400} height={400} alt="trello1" className="drop-shadow-md" />
+                    <Image src={ProjBoardWire} width={400} height={400} alt="trello1" className="drop-shadow-md" />
                 </div>
                 <div>
-                    <Image src={Login1} width={400} height={400} alt="trello1" className="drop-shadow-md" />
+                    <Image src={AddCardWire} width={400} height={400} alt="trello1" className="drop-shadow-md" />
                 </div>
             </div>
 
