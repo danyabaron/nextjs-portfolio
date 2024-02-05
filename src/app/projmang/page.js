@@ -7,6 +7,12 @@ import ProjTile from '../../../public/assets/projmangTile.png';
 import ProjTileDiag from '../../../public/assets/projmangTileDiagnol.png';
 import DesignCodeLogo from '../../../public/assets/designcodelogo.png';
 import PrototypeGif from '../../../public/assets/prototypegif.gif'
+import KanbanOne from '../../../public/assets/kanban1.png';
+import TrelloOne from '../../../public/assets/trello1.png';
+import TrelloTwo from  '../../../public/assets/trello2.png';
+import KanbanTwo from '../../../public/assets/kanban2.png';
+import KanbanThree from '../../../public/assets/kanban3.png';
+import Login1 from '../../../public/assets/login1.png';
 
 // import Video from 'next-video';
 // import getStarted from '/videos/get-started.mp4';
@@ -117,9 +123,16 @@ export default function ProjMang() {
                  nec dapibus risus tristique et.
                 </p>
             </div>
-            {/* <div id="intro-pic">
-                <Image src={DesignCodeLogo} alt="design and code logo" className="drop-shadow-md" />
-            </div> */}
+            <div id="research-grid" className="grid grid-rows-2 grid-flow-col gap-3">
+                <div> 
+                <Image src={KanbanOne} alt="kanban1" className="drop-shadow-md" />
+                </div>
+                <div> 2 </div>
+                <div>3</div>
+                <div>
+                    4
+                </div>
+            </div>
 
         </div>
         <div id="wireframe" className="flex flex-row items-center justify-around how to add videos w-screen py-8 mb-9">
