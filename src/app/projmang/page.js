@@ -138,7 +138,13 @@ export default function ProjMang() {
                     <Image src={TrelloOne} width={400} height={400} alt="trello1" className="drop-shadow-md" />
                 </div>
                 <div>
-                    4
+                    <Image src={KanbanThree} width={400} height={400} alt="trello1" className="drop-shadow-md" />
+                </div>
+                <div>
+                    <Image src={TrelloTwo} width={400} height={400} alt="trello1" className="drop-shadow-md" />
+                </div>
+                <div>
+                    <Image src={Login1} width={400} height={400} alt="trello1" className="drop-shadow-md" />
                 </div>
             </div>
 
