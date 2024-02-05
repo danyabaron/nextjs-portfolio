@@ -120,6 +120,24 @@ export default function ProjMang() {
             </div> */}
 
         </div>
+        <div id="ideation" className="flex flex-row items-center justify-around how to add videos w-screen py-8 mb-9">
+            <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Ideation</h1>
+           
+            <div id="intro-text">
+                <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris nunc, ornare ut velit eu, sagittis laoreet ante. Sed porttitor 
+                felis non ligula aliquam lacinia. Duis ut ex nec est laoreet aliquet in nec felis. Mauris a accumsan mi. Phasellus id mauris accumsan, 
+                imperdiet magna in, elementum velit. Pellentesque bibendum purus metus, at fermentum massa consequat laoreet. Ut sit amet diam ut metus 
+                gravida iaculis eu venenatis turpis. 
+                Aliquam egestas massa dapibus metus placerat, vitae vulputate nisi eleifend. Pellentesque tincidunt risus mauris,
+                 nec dapibus risus tristique et.
+                </p>
+            </div>
+            {/* <div id="intro-pic">
+                <Image src={DesignCodeLogo} alt="design and code logo" className="drop-shadow-md" />
+            </div> */}
+
+        </div>
            
 
 
