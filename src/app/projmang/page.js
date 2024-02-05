@@ -165,6 +165,26 @@ export default function ProjMang() {
             </div> */}
 
         </div>
+
+        
+        <div id="wireframe-grid" className="grid justify-center grid-rows-2 grid-flow-col gap-6">
+                <div> 
+                    <Image src={KanbanOne} width={400} height={400} alt="kanban1" className="drop-shadow-md" />
+                </div>
+                <div>
+                    <Image src={KanbanTwo} width={400} height={400} alt="kanban2" className="drop-shadow-md" />
+                </div>
+                <div>
+                    <Image src={TrelloOne} width={400} height={400} alt="trello1" className="drop-shadow-md" />
+                </div>
+                <div>
+                    <Image src={KanbanThree} width={400} height={400} alt="trello1" className="drop-shadow-md" />
+                </div>
+                <div>
+                    <Image src={Login1} width={400} height={400} alt="trello1" className="drop-shadow-md" />
+                </div>
+            </div>
+
         <div id="prototype" className="flex flex-row items-center justify-between w-screen px-9 mb-9 gap-11">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Prototype</h1>
            
