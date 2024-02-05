@@ -66,7 +66,8 @@ export default function ProjMang() {
 
                 
                 <video className="h-full w-full rounded-lg" controls autoPlay muted>
-                    <source src={Prototype} type="video/mp4" />
+                    {/* <source src={(require('./prototypemp4.mp4'))} type="video/mp4" /> */}
+                        <source src={Prototype} type="video/mp4" />
                         Your browser does not support the video tag.
                 </video> 
 
