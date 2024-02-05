@@ -6,7 +6,11 @@ import Image from 'next/image';
 import ProjTile from '../../../public/assets/projmangTile.png';
 import ProjTileDiag from '../../../public/assets/projmangTileDiagnol.png';
 import DesignCodeLogo from '../../../public/assets/designcodelogo.png';
-import Prototype from '../../../public/assets/prototypemp4.mp4'; 
+import PrototypeGif from '../../../public/assets/prototypegif.gif'
+
+// import Video from 'next-video';
+// import getStarted from '/videos/get-started.mp4';
+// import Prototype from '/videos/prototypemp4.mp4'; 
 import 'tailwindcss/tailwind.css';
 
 
@@ -60,16 +64,18 @@ export default function ProjMang() {
             <div id="proj-img" className="columns-2 flex flex-col bg-white mr-12 justify-center gap-5">
                 {/* <Image src={ProjTile} alt="proj mang 1" width={1200} height={674} className="drop-shadow-md" />
                 <Image src={ProjTileDiag} alt="proj mang 2" width={1200} height={674} className="drop-shadow-md" /> */}
+                <Image src={PrototypeGif}/>
 
 
 
+                {/* <Video src={getStarted} /> */}
 
                 
-                <video className="h-full w-full rounded-lg" controls autoPlay muted>
+                {/* <video className="h-full w-full rounded-lg" controls autoPlay muted>
                     {/* <source src={(require('./prototypemp4.mp4'))} type="video/mp4" /> */}
-                        <source src={Prototype} type="video/mp4" />
+                        {/* <source src={Prototype} type="video/mp4" />
                         Your browser does not support the video tag.
-                </video> 
+                </video>  */} 
 
 
 
