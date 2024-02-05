@@ -110,7 +110,7 @@ export default function ProjMang() {
 
        
 
-        <div id="research" className="flex flex-row items-center justify-around how to add videos w-screen py-8 mb-9">
+        <div id="research" className="flex flex-row items-center justify-around w-screen py-8 mb-9 gap-5">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Research</h1>
            
             <div id="intro-text">
@@ -123,7 +123,11 @@ export default function ProjMang() {
                  nec dapibus risus tristique et.
                 </p>
             </div>
-            <div id="research-grid" className="grid grid-rows-2 grid-flow-col gap-3">
+           
+
+        </div>
+
+        <div id="research-grid" className="grid justify-center grid-rows-2 grid-flow-col gap-3">
                 <div> 
                     <Image src={KanbanOne} width={400} height={400} alt="kanban1" className="drop-shadow-md" />
                 </div>
@@ -138,7 +142,7 @@ export default function ProjMang() {
                 </div>
             </div>
 
-        </div>
+
         <div id="wireframe" className="flex flex-row items-center justify-around how to add videos w-screen py-8 mb-9">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Wireframes</h1>
            
