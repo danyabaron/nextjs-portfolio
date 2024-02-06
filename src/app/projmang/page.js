@@ -116,7 +116,7 @@ export default function ProjMang() {
 
        
 
-        <div id="research" className="flex flex-row items-center justify-start ml-12 w-screen mb-9 px-9 gap-12">
+        <div id="research" className="flex flex-row items-center justify-start ml-10 w-screen mb-9 px-9 gap-1">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Research</h1>
            
             <div id="research-text" className="flex-1 ml-5 mb-6">
