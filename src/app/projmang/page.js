@@ -119,7 +119,7 @@ export default function ProjMang() {
         <div id="research" className="flex flex-row items-center justify-start ml-10 w-screen mb-9 px-9">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Research</h1>
            
-            <div id="research-text" className="flex-1 ml-5 mb-6">
+            <div id="research-text" className="flex-1 ml-4 mb-6">
                 <p className="font-helvetica text-md text-main-brown px-5 text-left text-wrap max-w-[500px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris nunc, ornare ut velit eu, sagittis laoreet ante. Sed porttitor 
                 felis non ligula aliquam lacinia. Duis ut ex nec est laoreet aliquet in nec felis. Mauris a accumsan mi. Phasellus id mauris accumsan, 
