@@ -94,7 +94,7 @@ export default function ProjMang() {
             
 
         </div>
-        <div id="goal" className="flex flex-row items-center justify-between  w-screen mb-9 px-9 gap-11">
+        <div id="goal" className="flex flex-row items-center justify-start ml-12  w-screen mb-9 px-9 gap-11">
         
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Goal</h1>
            
