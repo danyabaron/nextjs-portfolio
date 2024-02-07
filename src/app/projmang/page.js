@@ -95,9 +95,11 @@ export default function ProjMang() {
 
         </div>
 
-        <div id="goal" className="flex flex-row items-center justify-between w-screen mb-9 gap-12">
+        <h1 className='text-2xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Goal</h1>
+
+        <div id="goal" className="flex flex-row items-center justify-start w-screen mb-9 gap-12">
         
-            <h1 className='text-2xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Goal</h1>
+            
            
             <div id="intro-text">
                 <p className="font-helvetica text-md text-main-brown px-5 text-left flex-1 text-wrap max-w-[500px]">
@@ -115,11 +117,11 @@ export default function ProjMang() {
 
         </div>
 
-        <div id="research" className="flex flex-row items-center justify-between w-screen mb-9 gap-12">
+        <div id="research" className="flex flex-row items-center justify-start w-screen mb-9 gap-12">
         
             <h1 className='text-2xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Research</h1>
            
-            <div id="intro-text">
+            <div id="research-text">
                 <p className="font-helvetica text-md text-main-brown px-5 text-left flex-1 text-wrap max-w-[500px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris nunc, ornare ut velit eu, sagittis laoreet ante. Sed porttitor 
                 felis non ligula aliquam lacinia. Duis ut ex nec est laoreet aliquet in nec felis. Mauris a accumsan mi. Phasellus id mauris accumsan, 
