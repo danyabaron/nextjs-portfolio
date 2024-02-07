@@ -95,7 +95,7 @@ export default function ProjMang() {
 
         </div>
 
-        <h1 className='text-2xl font-helvetica-medium w-screen flex justify-center drop-shadow-md text-hover-resume'>Goal</h1>
+        <h1 className='text-2xl font-helvetica-medium w-screen flex justify-center mt-12 drop-shadow-md text-hover-resume'>Goal</h1>
 
         <div id="goal" className="flex flex-row items-center justify-center w-screen mb-9 gap-12">
 
