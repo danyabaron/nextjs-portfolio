@@ -46,7 +46,7 @@ export default function ProjMang() {
         
         </nav>
 
-        <div id="projheader" class="w-screen items-center flex flex-row gap-9 mb-12 rounded-3xl">
+        <div id="projheader" class="w-screen items-center flex flex-row gap-9 mb-10 rounded-3xl">
             <div id="proj-text" className="columns-4 flex flex-col ml-12 justify-center items-center w-screen gap-5">
                 <h2 className="text-3xl font-helvetica-medium drop-shadow-md text-hover-resume">Project Management Design</h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
@@ -95,7 +95,7 @@ export default function ProjMang() {
 
         </div>
 
-        <h1 className='text-2xl font-helvetica-medium w-screen flex justify-center mt-10 drop-shadow-md text-hover-resume'>Goal</h1>
+        <h1 className='text-2xl font-helvetica-medium w-screen flex justify-center drop-shadow-md text-hover-resume'>Goal</h1>
 
         <div id="goal" className="flex flex-row items-center justify-center w-screen mb-9 gap-12">
 
