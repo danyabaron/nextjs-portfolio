@@ -235,6 +235,24 @@ export default function ProjMang() {
             </div> */}
 
         </div>
+        <div id="proto-grid" className="grid justify-center grid-rows-2 grid-flow-col py-7 gap-6">
+                <div> 
+                    <Image src={LoginWire} width={400} height={400} alt="kanban1" className="drop-shadow-md" />
+                </div>
+                <div>
+                    <Image src={Homewire1} width={400} height={400} alt="kanban2" className="drop-shadow-md" />
+                </div>
+                <div>
+                    <Image src={Homewire2} width={400} height={400} alt="trello1" className="drop-shadow-md" />
+                </div>
+                <div>
+                    <Image src={ProjBoardWire} width={400} height={400} alt="trello1" className="drop-shadow-md" />
+                </div>
+                <div>
+                    <Image src={AddCardWire} width={400} height={400} alt="trello1" className="drop-shadow-md" />
+                </div>
+            </div>
+
            
 
 
