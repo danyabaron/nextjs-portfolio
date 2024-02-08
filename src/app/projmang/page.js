@@ -140,7 +140,7 @@ export default function ProjMang() {
 
         </div>
 
-        <div id="research" className="flex flex-col items-center justify-center gap-4 w-screen mb-9 ">
+        <div id="research" className="flex flex-col items-center justify-center gap-4 w-screen mb-12">
         
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Research</h1>
            
@@ -158,28 +158,7 @@ export default function ProjMang() {
 
         </div>
 
-
-
-       
-
-        {/* <div id="research" className="flex flex-row items-center justify-between  w-screen mb-9 px-9 gap-11">
-            <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Research</h1>
-           
-            <div id="research-text" className="flex-1 ml-5 mb-6">
-                <p className="font-helvetica text-md text-main-brown px-5 text-left text-wrap max-w-[500px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris nunc, ornare ut velit eu, sagittis laoreet ante. Sed porttitor 
-                felis non ligula aliquam lacinia. Duis ut ex nec est laoreet aliquet in nec felis. Mauris a accumsan mi. Phasellus id mauris accumsan, 
-                imperdiet magna in, elementum velit. Pellentesque bibendum purus metus, at fermentum massa consequat laoreet. Ut sit amet diam ut metus 
-                gravida iaculis eu venenatis turpis. 
-                Aliquam egestas massa dapibus metus placerat, vitae vulputate nisi eleifend. Pellentesque tincidunt risus mauris,
-                 nec dapibus risus tristique et.
-                </p>
-            </div>
-           
-
-        </div> */}
-
-        <div id="research-grid" className="grid justify-center grid-rows-2 grid-flow-col gap-6">
+        <div id="research-grid" className="grid justify-center grid-rows-2 grid-flow-col py-9 gap-6">
                 <div> 
                     <Image src={KanbanOne} width={400} height={400} alt="kanban1" className="drop-shadow-md" />
                 </div>
