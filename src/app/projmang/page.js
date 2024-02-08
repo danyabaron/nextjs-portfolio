@@ -140,7 +140,7 @@ export default function ProjMang() {
 
         </div>
 
-        <div id="research" className="flex flex-row items-center justify-start w-screen mb-9 gap-12">
+        <div id="research" className="flex flex-col items-center justify-center w-screen mb-9 ">
         
             <h1 className='text-2xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Research</h1>
            
@@ -154,9 +154,7 @@ export default function ProjMang() {
                  nec dapibus risus tristique et.
                 </p>
             </div>
-            <div id="intro-pic" className="mr-6">
-                <Image src={DesignCodeLogo} alt="design and code logo" className="drop-shadow-md" />
-            </div>
+           
 
         </div>
 
