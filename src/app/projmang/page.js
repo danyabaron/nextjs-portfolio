@@ -18,6 +18,7 @@ import Homewire2 from '../../../public/assets/homewire2.png';
 import ProjBoardWire from '../../../public/assets/projectboardwire.png';
 import AddCardWire from '../../../public/assets/addcardwire.png';
 import { MdScreenSearchDesktop } from "react-icons/md";
+import LoginProto from '../../../public/assets/login.gif';
 
 
 // import Video from 'next-video';
@@ -80,32 +81,12 @@ export default function ProjMang() {
 
 
 
-                {/* <Video src={getStarted} /> */}
-
-                
-                {/* <video className="h-full w-full rounded-lg" controls autoPlay muted>
-                    {/* <source src={(require('./prototypemp4.mp4'))} type="video/mp4" /> */}
-                        {/* <source src={Prototype} type="video/mp4" />
-                        Your browser does not support the video tag.
-                </video>  */} 
-
-
-
             </div>
             
 
         </div>
 
 
-{/* 
-        <div id="about" className="flex items-center flex-col justify-center w-screen py-10 mb-9 gap-x-1">
-            <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>About</h1>
-            <p className='text-xl font-helvetica-light text-main-brown text-center text-wrap max-w-[800px]'>
-            Hello, I’m Danya (dawn-yuh), a highly motivated UI/UX Designer and Front-End Web Developer currently pursuing a Master’s degree in Digital Media at the University of Central Florida. I am passionate about creating applications that are not only visually appealing but also deeply impactful to users. My goal is to seamlessly blend aesthetics with functionality, crafting digital experiences that leave a lasting impression. 
-            </p>
-
-
-          </div> */}
 
        
 
@@ -237,7 +218,7 @@ export default function ProjMang() {
         </div>
         <div id="proto-grid" className="grid justify-center grid-rows-2 grid-flow-col py-7 gap-6">
                 <div> 
-                    <Image src={LoginWire} width={400} height={400} alt="kanban1" className="drop-shadow-md" />
+                    <Image src={LoginProto} width={400} height={400} alt="kanban1" className="drop-shadow-md" />
                 </div>
                 <div>
                     <Image src={Homewire1} width={400} height={400} alt="kanban2" className="drop-shadow-md" />
