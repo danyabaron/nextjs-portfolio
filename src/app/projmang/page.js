@@ -113,7 +113,7 @@ export default function ProjMang() {
       
         
 
-        <div id="goal" className="flex flex-col items-center justify-center w-screen mb-9 ">
+        <div id="goal" className="flex flex-col items-center justify-center w-screen mb-12">
 
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md text-hover-resume'>Goal</h1>
 
@@ -140,9 +140,9 @@ export default function ProjMang() {
 
         </div>
 
-        <div id="research" className="flex flex-col items-center justify-center w-screen mb-9 ">
+        <div id="research" className="flex flex-col items-center justify-center gap-4 w-screen mb-9 ">
         
-            <h1 className='text-2xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Research</h1>
+            <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Research</h1>
            
             <div id="research-text">
                 <p className="font-helvetica text-md text-main-brown px-5 text-left flex-1 text-wrap max-w-[500px]">
