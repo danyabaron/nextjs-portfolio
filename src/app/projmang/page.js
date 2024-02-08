@@ -20,6 +20,8 @@ import AddCardWire from '../../../public/assets/addcardwire.png';
 import { MdScreenSearchDesktop } from "react-icons/md";
 import LoginProto from '../../../public/assets/login.gif';
 import ProjBoardProto from '../../../public/assets/projboard.gif';
+import NewProjProto from '../../../public/assets/newproj.gif';
+
 
 
 // import Video from 'next-video';
@@ -217,7 +219,7 @@ export default function ProjMang() {
             </div> */}
 
         </div>
-        <div id="proto-grid" className="grid justify-center grid-rows-3 grid-flow-col py-7 gap-6">
+        <div id="proto-grid" className="grid justify-center grid-rows-4 grid-flow-col py-7 gap-6">
                 <div> 
                     <Image src={LoginProto} width={500} height={500} alt="login-proto" className="drop-shadow-md" />
                     <p>
@@ -233,7 +235,10 @@ export default function ProjMang() {
                 </div>
                
                 <div>
-                    <Image src={Homewire2} width={400} height={400} alt="trello1" className="drop-shadow-md" />
+                    <Image src={NewProjProto} width={500} height={500} alt="new proj" className="drop-shadow-md" />
+                    <p>
+                        Add New Project
+                    </p>
                 </div>
                 <div>
                     <Image src={ProjBoardWire} width={400} height={400} alt="trello1" className="drop-shadow-md" />
