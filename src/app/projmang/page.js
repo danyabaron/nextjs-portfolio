@@ -155,6 +155,7 @@ export default function ProjMang() {
                  nec dapibus risus tristique et.
                 </p>
             </div>
+            
            
 
         </div>
@@ -178,7 +179,7 @@ export default function ProjMang() {
             </div>
 
 
-        <div id="wireframe" className="flex flex-row items-center justify-between w-screen mb-9 px-9 gap-11">
+        <div id="wireframe" className="flex flex-col items-center justify-center gap-4 w-screen mb-12">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Wireframes</h1>
            
             <div id="wireframe-text" className="flex-1">
