@@ -217,16 +217,16 @@ export default function ProjMang() {
             </div> */}
 
         </div>
-        <div id="proto-grid" className="grid justify-center grid-col-2 grid-flow-row py-7 gap-6">
+        <div id="proto-grid" className="grid justify-center grid-rows-3 grid-flow-col py-7 gap-6">
                 <div> 
-                    <Image src={LoginProto} width={500} height={500} alt="login-proto" className="drop-shadow-md" />
+                    <Image src={LoginProto} width={700} height={700} alt="login-proto" className="drop-shadow-md" />
                     <p>
                         Login Screen
                     </p>
                 </div>
 
                 <div>
-                    <Image src={ProjBoardProto} width={500} height={500} alt="projboard" className="drop-shadow-md" />
+                    <Image src={ProjBoardProto} width={700} height={700} alt="projboard" className="drop-shadow-md" />
                     <p>
                     Project Kanban Board
                     </p>
