@@ -113,24 +113,30 @@ export default function ProjMang() {
       
         
 
-        <div id="goal" className="flex items-center justify-center py-10 w-screen mb-9 ">
+        <div id="goal" className="flex flex-col items-center justify-center py-10 w-screen mb-9 ">
 
-            <h1 className='text-2xl font-helvetica-medium drop-shadow-md text-hover-resume'>Goal</h1>
+            <h1 className='text-3xl font-helvetica-medium drop-shadow-md text-hover-resume'>Goal</h1>
 
-           
+          
+
+           <div id="goal-content" className="flex flex-row items-center justify-center w-screen"> 
+
             <div id="intro-text">
-                <p className="font-helvetica text-md text-main-brown px-5 text-left flex-1 text-wrap max-w-[500px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris nunc, ornare ut velit eu, sagittis laoreet ante. Sed porttitor 
-                felis non ligula aliquam lacinia. Duis ut ex nec est laoreet aliquet in nec felis. Mauris a accumsan mi. Phasellus id mauris accumsan, 
-                imperdiet magna in, elementum velit. Pellentesque bibendum purus metus, at fermentum massa consequat laoreet. Ut sit amet diam ut metus 
-                gravida iaculis eu venenatis turpis. 
-                Aliquam egestas massa dapibus metus placerat, vitae vulputate nisi eleifend. Pellentesque tincidunt risus mauris,
-                 nec dapibus risus tristique et.
-                </p>
+                    <p className="font-helvetica text-md text-main-brown px-5 text-left flex-1 text-wrap max-w-[500px]">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris nunc, ornare ut velit eu, sagittis laoreet ante. Sed porttitor 
+                    felis non ligula aliquam lacinia. Duis ut ex nec est laoreet aliquet in nec felis. Mauris a accumsan mi. Phasellus id mauris accumsan, 
+                    imperdiet magna in, elementum velit. Pellentesque bibendum purus metus, at fermentum massa consequat laoreet. Ut sit amet diam ut metus 
+                    gravida iaculis eu venenatis turpis. 
+                    Aliquam egestas massa dapibus metus placerat, vitae vulputate nisi eleifend. Pellentesque tincidunt risus mauris,
+                    nec dapibus risus tristique et.
+                    </p>
+                </div>
+                <div id="intro-pic" className="mr-6">
+                    <Image src={DesignCodeLogo} width={300} height={300} alt="design and code logo" className="drop-shadow-md" />
+                </div>
+            
             </div>
-            <div id="intro-pic" className="mr-6">
-                <Image src={DesignCodeLogo} width={300} height={300} alt="design and code logo" className="drop-shadow-md" />
-            </div>
+            
 
         </div>
 
