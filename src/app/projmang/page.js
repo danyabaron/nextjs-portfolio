@@ -119,7 +119,7 @@ export default function ProjMang() {
 
           
 
-           <div id="goal-content" className="flex flex-row items-center gap-4 justify-center w-screen"> 
+           <div id="goal-content" className="flex flex-row items-center gap-4 py-6 justify-center w-screen"> 
 
             <div id="intro-text">
                     <p className="font-helvetica text-md text-main-brown px-5 text-left flex-1 text-wrap max-w-[500px]">
