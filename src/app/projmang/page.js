@@ -226,11 +226,12 @@ export default function ProjMang() {
                 </div>
 
                 <div>
-                    <Image src={ProjBoardProto} width={500} height={500} alt="kanban2" className="drop-shadow-md" />
-                </div>
-                <p>
+                    <Image src={ProjBoardProto} width={500} height={500} alt="projboard" className="drop-shadow-md" />
+                    <p>
                     Project Kanban Board
-                </p>
+                    </p>
+                </div>
+               
                 <div>
                     <Image src={Homewire2} width={400} height={400} alt="trello1" className="drop-shadow-md" />
                 </div>
