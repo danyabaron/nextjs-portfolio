@@ -19,6 +19,7 @@ import ProjBoardWire from '../../../public/assets/projectboardwire.png';
 import AddCardWire from '../../../public/assets/addcardwire.png';
 import { MdScreenSearchDesktop } from "react-icons/md";
 import LoginProto from '../../../public/assets/login.gif';
+import ProjBoardProto from '../../../public/assets/projboard.gif';
 
 
 // import Video from 'next-video';
@@ -225,8 +226,11 @@ export default function ProjMang() {
                 </div>
 
                 <div>
-                    <Image src={Homewire1} width={400} height={400} alt="kanban2" className="drop-shadow-md" />
+                    <Image src={ProjBoardProto} width={500} height={500} alt="kanban2" className="drop-shadow-md" />
                 </div>
+                <p>
+                    Project Kanban Board
+                </p>
                 <div>
                     <Image src={Homewire2} width={400} height={400} alt="trello1" className="drop-shadow-md" />
                 </div>
