@@ -17,6 +17,7 @@ import Homewire1 from '../../../public/assets/homewire1.png';
 import Homewire2 from '../../../public/assets/homewire2.png';
 import ProjBoardWire from '../../../public/assets/projectboardwire.png';
 import AddCardWire from '../../../public/assets/addcardwire.png';
+import { MdScreenSearchDesktop } from "react-icons/md";
 
 
 // import Video from 'next-video';
