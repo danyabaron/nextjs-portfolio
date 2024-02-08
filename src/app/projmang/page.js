@@ -160,7 +160,7 @@ export default function ProjMang() {
 
         </div>
 
-        <div id="research-grid" className="grid justify-center grid-rows-2 grid-flow-col py-9 gap-6">
+        <div id="research-grid" className="grid justify-center grid-rows-2 grid-flow-col py-7 gap-6">
                 <div> 
                     <Image src={KanbanOne} width={400} height={400} alt="kanban1" className="drop-shadow-md" />
                 </div>
@@ -199,7 +199,7 @@ export default function ProjMang() {
         </div>
 
         
-        <div id="wireframe-grid" className="grid justify-center grid-rows-2 grid-flow-col gap-6">
+        <div id="wireframe-grid" className="grid justify-center grid-rows-2 grid-flow-col py-7 gap-6">
                 <div> 
                     <Image src={LoginWire} width={400} height={400} alt="kanban1" className="drop-shadow-md" />
                 </div>
@@ -217,7 +217,7 @@ export default function ProjMang() {
                 </div>
             </div>
 
-        <div id="prototype" className="flex flex-row items-center justify-between w-screen px-9 mb-9 gap-11">
+        <div id="prototype" className="flex flex-col items-center justify-center gap-4 w-screen mb-12">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Prototype</h1>
            
             <div id="prototype-text" className="flex-1">
