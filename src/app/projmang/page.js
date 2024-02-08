@@ -46,7 +46,7 @@ export default function ProjMang() {
         
         </nav>
 
-        <div id="projheader" class="w-screen items-center flex flex-row gap-9 mb-11 rounded-3xl">
+        <div id="projheader" class="w-screen items-center flex flex-row gap-9 mb-12 rounded-3xl">
             <div id="proj-text" className="columns-4 flex flex-col ml-12 justify-center items-center w-screen gap-5">
                 <h2 className="text-3xl font-helvetica-medium drop-shadow-md text-hover-resume">Project Management Design</h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
@@ -95,14 +95,27 @@ export default function ProjMang() {
 
         </div>
 
-        <div id="goal-header" className='w-screen flex flex-row items-center justify-center '>
 
-        <h1 className='text-2xl font-helvetica-medium drop-shadow-md text-hover-resume'>Goal</h1>
+{/* 
+        <div id="about" className="flex items-center flex-col justify-center w-screen py-10 mb-9 gap-x-1">
+            <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>About</h1>
+            <p className='text-xl font-helvetica-light text-main-brown text-center text-wrap max-w-[800px]'>
+            Hello, I’m Danya (dawn-yuh), a highly motivated UI/UX Designer and Front-End Web Developer currently pursuing a Master’s degree in Digital Media at the University of Central Florida. I am passionate about creating applications that are not only visually appealing but also deeply impactful to users. My goal is to seamlessly blend aesthetics with functionality, crafting digital experiences that leave a lasting impression. 
+            </p>
 
-        </div>
+
+          </div> */}
+
+       
+
         
 
-        <div id="goal" className="flex flex-row items-center justify-center w-screen mb-9 gap-12">
+      
+        
+
+        <div id="goal" className="flex items-center justify-center py-10 w-screen mb-9 ">
+
+            <h1 className='text-2xl font-helvetica-medium drop-shadow-md text-hover-resume'>Goal</h1>
 
            
             <div id="intro-text">
