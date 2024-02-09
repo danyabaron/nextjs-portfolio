@@ -17,21 +17,14 @@ import Homewire1 from '../../../public/assets/homewire1.png';
 import Homewire2 from '../../../public/assets/homewire2.png';
 import ProjBoardWire from '../../../public/assets/projectboardwire.png';
 import AddCardWire from '../../../public/assets/addcardwire.png';
-// import { MdScreenSearchDesktop } from "react-icons/md";
-// import LoginProto from '../../../public/assets/login.gif';
-// import ProjBoardProto from '../../../public/assets/projboard.gif';
-// import NewProjProto from '../../../public/assets/newproj.gif';
-// import TeamDataAdmin from '../../../public/assets/teamdataadmin.gif';
-// import UserDataAdmin from '../../../public/assets/userdataadmin.gif';
 
-
- 
 import LoginProtoImg from '../../../public/assets/loginproto.png';
 import Dashboard from '../../../public/assets/homeproto.png';
 import ProjBoardProto from '../../../public/assets/projboardproto.png';
 import EditCardProto from '../../../public/assets/editcardproto.png';
 import CreateCard from '../../../public/assets/createcardproto.png';
 import Home from '../../../public/assets/home2proto2.png';
+import AdminHome from '../../../public/assets/adminproto.png';
 
 
 
@@ -242,20 +235,31 @@ export default function ProjMang() {
                         Add New Project
                     </p>
                 </div>
-                <div className="items-center justify-center">
-                    <Image src={EditCardProto} height={300} alt="new proj" loading="lazy" className="drop-shadow-md" />
+                <div>
+                    <div id="center-img" className="flex justify-center">
+                        <Image src={EditCardProto} height={450} alt="new proj" loading="lazy" className="drop-shadow-md" />
+                    </div>
+                    
                     <p>
                         See Team Data Admin View
                     </p>
                 </div>
-                <div className="items-center">
-                    <Image src={CreateCard} height={400} alt="new proj" loading="lazy" className="drop-shadow-md" />
+                <div>
+                <div id="center-img" className="flex justify-center">
+                        <Image src={CreateCard} height={450} alt="new proj" loading="lazy" className="drop-shadow-md" />
+                </div>
                     <p>
                        See User Data Admin View
                     </p>
                 </div>
                 <div>
                     <Image src={Home} alt="new proj" loading="lazy" className="drop-shadow-md" />
+                    <p>
+                       See User Data Admin View
+                    </p>
+                </div>
+                <div>
+                    <Image src={AdminHome} alt="new proj" loading="lazy" className="drop-shadow-md" />
                     <p>
                        See User Data Admin View
                     </p>
