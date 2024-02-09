@@ -21,6 +21,7 @@ import { MdScreenSearchDesktop } from "react-icons/md";
 import LoginProto from '../../../public/assets/login.gif';
 import ProjBoardProto from '../../../public/assets/projboard.gif';
 import NewProjProto from '../../../public/assets/newproj.gif';
+import TeamDataAdmin from '../../../public/assets/teamdataadmin.gif';
 
 
 
@@ -241,9 +242,9 @@ export default function ProjMang() {
                     </p>
                 </div>
                 <div>
-                    <Image src={NewProjProto} width={500} height={500} alt="new proj" className="drop-shadow-md" />
+                    <Image src={TeamDataAdmin} width={500} height={500} alt="new proj" className="drop-shadow-md" />
                     <p>
-                        Add New Project
+                        See Team Data Admin View
                     </p>
                 </div>
                 <div>
