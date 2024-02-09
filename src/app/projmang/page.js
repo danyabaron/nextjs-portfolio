@@ -35,8 +35,8 @@ import Home from '../../../public/assets/home2proto2.png';
 
 
 
-import Video from 'next-video';
-import LoginVideo from '/videos/loginvideo.mp4';
+// import Video from 'next-video';
+// import LoginVideo from '../../videos/loginvideo.mp4';
 // import getStarted from '/videos/get-started.mp4';
 // import Prototype from '/videos/prototypemp4.mp4'; 
 // import 'tailwindcss/tailwind.css';
