@@ -24,7 +24,7 @@ import NewProjProto from '../../../public/assets/newproj.gif';
 import TeamDataAdmin from '../../../public/assets/teamdataadmin.gif';
 import UserDataAdmin from '../../../public/assets/userdataadmin.gif';
 
-import LoginVideo from '../../../public/assets/loginvideo.mp4';
+
  
 // import LoginProtoImg from '../../../public/assets/loginproto.png';
 // import Dashboard from '../../../public/assets/homeproto.png';
@@ -35,10 +35,8 @@ import LoginVideo from '../../../public/assets/loginvideo.mp4';
 
 
 
-
-
-
 import Video from 'next-video';
+import LoginVideo from '/videos/loginvideo.mp4';
 // import getStarted from '/videos/get-started.mp4';
 // import Prototype from '/videos/prototypemp4.mp4'; 
 import 'tailwindcss/tailwind.css';
