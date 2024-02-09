@@ -25,6 +25,7 @@ import EditCardProto from '../../../public/assets/editcardproto.png';
 import CreateCard from '../../../public/assets/createcardproto.png';
 import ProjectsHome from '../../../public/assets/projectshome.png';
 import AdminHome from '../../../public/assets/adminproto.png';
+import AdminTeams from '../../../public/assets/teamsadmin.png';
 
 
 
