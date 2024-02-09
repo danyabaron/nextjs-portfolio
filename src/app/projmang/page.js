@@ -17,26 +17,26 @@ import Homewire1 from '../../../public/assets/homewire1.png';
 import Homewire2 from '../../../public/assets/homewire2.png';
 import ProjBoardWire from '../../../public/assets/projectboardwire.png';
 import AddCardWire from '../../../public/assets/addcardwire.png';
-import { MdScreenSearchDesktop } from "react-icons/md";
-import LoginProto from '../../../public/assets/login.gif';
-import ProjBoardProto from '../../../public/assets/projboard.gif';
-import NewProjProto from '../../../public/assets/newproj.gif';
-import TeamDataAdmin from '../../../public/assets/teamdataadmin.gif';
-import UserDataAdmin from '../../../public/assets/userdataadmin.gif';
+// import { MdScreenSearchDesktop } from "react-icons/md";
+// import LoginProto from '../../../public/assets/login.gif';
+// import ProjBoardProto from '../../../public/assets/projboard.gif';
+// import NewProjProto from '../../../public/assets/newproj.gif';
+// import TeamDataAdmin from '../../../public/assets/teamdataadmin.gif';
+// import UserDataAdmin from '../../../public/assets/userdataadmin.gif';
 
 
  
-// import LoginProtoImg from '../../../public/assets/loginproto.png';
-// import Dashboard from '../../../public/assets/homeproto.png';
-// import ProjBoardProto from '../../../public/assets/projboardproto.png';
-// import EditCardProto from '../../../public/assets/editcardproto.png';
-// import CreateCard from '../../../public/assets/createcardproto.png';
-// import Home from '../../../public/assets/home2proto2.png';
+import LoginProtoImg from '../../../public/assets/loginproto.png';
+import Dashboard from '../../../public/assets/homeproto.png';
+import ProjBoardProto from '../../../public/assets/projboardproto.png';
+import EditCardProto from '../../../public/assets/editcardproto.png';
+import CreateCard from '../../../public/assets/createcardproto.png';
+import Home from '../../../public/assets/home2proto2.png';
 
 
 
-import Video from 'next-video';
-import LoginVideo from '/videos/loginvideo.mp4';
+// import Video from 'next-video';
+// import LoginVideo from '/Users/danyabaron/Documents/portfolio/videos/loginvideo.mp4';
 // import getStarted from '/videos/get-started.mp4';
 // import Prototype from '/videos/prototypemp4.mp4'; 
 import 'tailwindcss/tailwind.css';
@@ -231,11 +231,9 @@ export default function ProjMang() {
             </div> */}
 
         </div>
-        <div id="proto-grid" className="grid justify-center grid-cols-2 gap-3">
+        <div id="proto-grid" className="grid justify-center grid-cols-3 gap-3">
                 <div> 
-                    <Video autoplay loop muted playsinline>
-                        <source src={LoginVideo} type="video/mp4"/>
-                    </Video>
+                    <Image src={LoginProtoImg} alt="login screen" loading="lazy" className="drop-shadow-md" />
                     
                     <p>
                         Login Screen
