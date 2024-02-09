@@ -19,11 +19,11 @@ import ProjBoardWire from '../../../public/assets/projectboardwire.png';
 import AddCardWire from '../../../public/assets/addcardwire.png';
 
 import LoginProtoImg from '../../../public/assets/loginproto.png';
-import Dashboard from '../../../public/assets/homeproto.png';
+import Dashboard from '../../../public/assets/dashboard.png';
 import ProjBoardProto from '../../../public/assets/projboardproto.png';
 import EditCardProto from '../../../public/assets/editcardproto.png';
 import CreateCard from '../../../public/assets/createcardproto.png';
-import Home from '../../../public/assets/home2proto2.png';
+import ProjectsHome from '../../../public/assets/home2proto2.png';
 import AdminHome from '../../../public/assets/adminproto.png';
 
 
@@ -253,7 +253,7 @@ export default function ProjMang() {
                     </p>
                 </div>
                 <div>
-                    <Image src={Home} alt="new proj" loading="lazy" className="drop-shadow-md" />
+                    <Image src={ProjectsHome} alt="new proj" loading="lazy" className="drop-shadow-md" />
                     <p>
                        See User Data Admin View
                     </p>
