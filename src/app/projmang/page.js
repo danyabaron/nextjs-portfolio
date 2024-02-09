@@ -35,7 +35,7 @@ import Home from '../../../public/assets/home2proto2.png';
 
 
 
-import Video from 'next-video';
+// import Video from 'next-video';
 import LoginVideo from '../../../public/assets/loginvideo.mp4';
 // import getStarted from '/videos/get-started.mp4';
 // import Prototype from '/videos/prototypemp4.mp4'; 
