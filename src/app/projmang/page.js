@@ -27,6 +27,9 @@ import ProjectsHome from '../../../public/assets/projectshome.png';
 import AdminHome from '../../../public/assets/adminproto.png';
 import AdminTeams from '../../../public/assets/teamsdata.png';
 import AdminUpdateTeam from '../../../public/assets/teamsadmin.png';
+import AdminUsers from '../../../public/assets/adminuser.png';
+import AdminEditUser from '../../../public/assets/adminedituser.png';
+
 
 
 
@@ -279,13 +282,13 @@ export default function ProjMang() {
                     </p>
                 </div>
                 <div>
-                    <Image src={AdminUpdateTeam} alt="new proj" loading="lazy" className="drop-shadow-md" />
+                    <Image src={AdminUsers} alt="new proj" loading="lazy" className="drop-shadow-md" />
                     <p>
                        See User Data Admin View
                     </p>
                 </div>
                 <div>
-                    <Image src={AdminUpdateTeam} alt="new proj" loading="lazy" className="drop-shadow-md" />
+                    <Image src={AdminEditUser} alt="new proj" loading="lazy" className="drop-shadow-md" />
                     <p>
                        See User Data Admin View
                     </p>
