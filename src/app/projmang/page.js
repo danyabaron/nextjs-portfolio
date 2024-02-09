@@ -221,7 +221,7 @@ export default function ProjMang() {
             </div> */}
 
         </div>
-        <div id="proto-grid" className="grid justify-center px-9 grid-cols-2 gap-4">
+        <div id="proto-grid" className="grid justify-center items-center px-9 grid-cols-2 gap-4">
                 <div> 
                     <Image src={LoginProtoImg} alt="login screen" loading="lazy" className="drop-shadow-md" />  
                     <p>
@@ -237,19 +237,19 @@ export default function ProjMang() {
                 </div>
                
                 <div>
-                    <Image src={ProjBoardProto}  alt="new proj" loading="lazy" className="drop-shadow-md" />
+                    <Image src={ProjBoardProto} alt="new proj" loading="lazy" className="drop-shadow-md" />
                     <p>
                         Add New Project
                     </p>
                 </div>
-                <div>
-                    <Image src={EditCardProto}  alt="new proj" loading="lazy" className="drop-shadow-md" />
+                <div className="items-center justify-center">
+                    <Image src={EditCardProto} height={300} alt="new proj" loading="lazy" className="drop-shadow-md" />
                     <p>
                         See Team Data Admin View
                     </p>
                 </div>
-                <div>
-                    <Image src={CreateCard} alt="new proj" loading="lazy" className="drop-shadow-md" />
+                <div className="items-center">
+                    <Image src={CreateCard} height={400} alt="new proj" loading="lazy" className="drop-shadow-md" />
                     <p>
                        See User Data Admin View
                     </p>
