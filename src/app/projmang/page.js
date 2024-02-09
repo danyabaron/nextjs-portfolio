@@ -233,7 +233,10 @@ export default function ProjMang() {
         </div>
         <div id="proto-grid" className="grid justify-center grid-cols-3 gap-3">
                 <div> 
-                    <Video src={LoginVideo} alt="login screen" loading="lazy" className="drop-shadow-md" />
+                    {/* <Video src={LoginVideo} alt="login screen" loading="lazy" className="drop-shadow-md" /> */}
+                    <video width="320" height="240" controls preload="none">
+                        <source src={LoginVideo} type="video/mp4" />
+                    </video>
                     
                     <p>
                         Login Screen
