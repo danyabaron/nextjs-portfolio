@@ -23,9 +23,12 @@ import { MdScreenSearchDesktop } from "react-icons/md";
 // import NewProjProto from '../../../public/assets/newproj.gif';
 // import TeamDataAdmin from '../../../public/assets/teamdataadmin.gif';
 // import UserDataAdmin from '../../../public/assets/userdataadmin.gif';
-
+ 
 import LoginProtoImg from '../../../public/assets/loginproto.png';
 import ProjBoardProto from '../../../public/assets/projboardproto.png';
+import Home from '../../../public/assets/home2proto2.png';
+import Dashboard from '../../../public/assets/homeproto.png';
+
 
 
 
