@@ -23,6 +23,8 @@ import ProjBoardProto from '../../../public/assets/projboard.gif';
 import NewProjProto from '../../../public/assets/newproj.gif';
 import TeamDataAdmin from '../../../public/assets/teamdataadmin.gif';
 import UserDataAdmin from '../../../public/assets/userdataadmin.gif';
+
+import LoginVideo from '../../../public/assets/loginvideo.mov';
  
 // import LoginProtoImg from '../../../public/assets/loginproto.png';
 // import Dashboard from '../../../public/assets/homeproto.png';
@@ -36,7 +38,7 @@ import UserDataAdmin from '../../../public/assets/userdataadmin.gif';
 
 
 
-// import Video from 'next-video';
+import Video from 'next-video';
 // import getStarted from '/videos/get-started.mp4';
 // import Prototype from '/videos/prototypemp4.mp4'; 
 import 'tailwindcss/tailwind.css';
@@ -233,13 +235,16 @@ export default function ProjMang() {
         </div>
         <div id="proto-grid" className="grid justify-center grid-cols-2 gap-3">
                 <div> 
-                    <Image src={LoginProto}  alt="login-proto" loading="lazy" className="drop-shadow-md" />
+                    <video autoplay loop muted playsinline>
+                        <source src={LoginVideo} type="video/mov" />
+                    </video>
+                    
                     <p>
                         Login Screen
                     </p>
                 </div>
 
-                <div>
+                {/* <div>
                     <Image src={ProjBoardProto} alt="projboard" loading="lazy" className="drop-shadow-md" />
                     <p>
                     Project Kanban Board
@@ -263,7 +268,7 @@ export default function ProjMang() {
                     <p>
                        See User Data Admin View
                     </p>
-                </div>
+                </div> */}
 
             </div>
 
