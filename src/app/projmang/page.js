@@ -25,7 +25,8 @@ import EditCardProto from '../../../public/assets/editcardproto.png';
 import CreateCard from '../../../public/assets/createcardproto.png';
 import ProjectsHome from '../../../public/assets/projectshome.png';
 import AdminHome from '../../../public/assets/adminproto.png';
-import AdminTeams from '../../../public/assets/teamsadmin.png';
+import AdminTeams from '../../../public/assets/teamsdata.png';
+import AdminUpdateTeam from '../../../public/assets/teamsadmin.png';
 
 
 
@@ -265,6 +266,31 @@ export default function ProjMang() {
                        See User Data Admin View
                     </p>
                 </div>
+                <div>
+                    <Image src={AdminTeams} alt="new proj" loading="lazy" className="drop-shadow-md" />
+                    <p>
+                       See User Data Admin View
+                    </p>
+                </div>
+                <div>
+                    <Image src={AdminUpdateTeam} alt="new proj" loading="lazy" className="drop-shadow-md" />
+                    <p>
+                       See User Data Admin View
+                    </p>
+                </div>
+                <div>
+                    <Image src={AdminUpdateTeam} alt="new proj" loading="lazy" className="drop-shadow-md" />
+                    <p>
+                       See User Data Admin View
+                    </p>
+                </div>
+                <div>
+                    <Image src={AdminUpdateTeam} alt="new proj" loading="lazy" className="drop-shadow-md" />
+                    <p>
+                       See User Data Admin View
+                    </p>
+                </div>
+
 
             </div>
 
