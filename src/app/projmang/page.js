@@ -35,16 +35,6 @@ import Home from '../../../public/assets/home2proto2.png';
 
 
 
-// import Video from 'next-video';
-import LoginVideo from '../../../public/assets/loginvideo.mp4';
-// import getStarted from '/videos/get-started.mp4';
-// import Prototype from '/videos/prototypemp4.mp4'; 
-// import 'tailwindcss/tailwind.css';
-
-
-
-
-
 
 export default function ProjMang() {
     return (
@@ -231,43 +221,45 @@ export default function ProjMang() {
             </div> */}
 
         </div>
-        <div id="proto-grid" className="grid justify-center grid-cols-3 gap-3">
+        <div id="proto-grid" className="grid justify-center px-9 grid-cols-2 gap-4">
                 <div> 
-                    {/* <Video src={LoginVideo} alt="login screen" loading="lazy" className="drop-shadow-md" /> */}
-                    <video width="320" height="240" controls preload="none">
-                        <source src={LoginVideo} type="video/mp4" />
-                    </video>
-                    
+                    <Image src={LoginProtoImg} alt="login screen" loading="lazy" className="drop-shadow-md" />  
                     <p>
                         Login Screen
                     </p>
                 </div>
 
-                {/* <div>
-                    <Image src={ProjBoardProto} alt="projboard" loading="lazy" className="drop-shadow-md" />
+                <div>
+                    <Image src={Dashboard} alt="projboard" loading="lazy" className="drop-shadow-md" />
                     <p>
                     Project Kanban Board
                     </p>
                 </div>
                
                 <div>
-                    <Image src={NewProjProto}  alt="new proj" loading="lazy" className="drop-shadow-md" />
+                    <Image src={ProjBoardProto}  alt="new proj" loading="lazy" className="drop-shadow-md" />
                     <p>
                         Add New Project
                     </p>
                 </div>
                 <div>
-                    <Image src={TeamDataAdmin}  alt="new proj" loading="lazy" className="drop-shadow-md" />
+                    <Image src={EditCardProto}  alt="new proj" loading="lazy" className="drop-shadow-md" />
                     <p>
                         See Team Data Admin View
                     </p>
                 </div>
                 <div>
-                    <Image src={UserDataAdmin} alt="new proj" loading="lazy" className="drop-shadow-md" />
+                    <Image src={CreateCard} alt="new proj" loading="lazy" className="drop-shadow-md" />
                     <p>
                        See User Data Admin View
                     </p>
-                </div> */}
+                </div>
+                <div>
+                    <Image src={Home} alt="new proj" loading="lazy" className="drop-shadow-md" />
+                    <p>
+                       See User Data Admin View
+                    </p>
+                </div>
 
             </div>
 
