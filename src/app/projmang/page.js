@@ -24,7 +24,7 @@ import NewProjProto from '../../../public/assets/newproj.gif';
 import TeamDataAdmin from '../../../public/assets/teamdataadmin.gif';
 import UserDataAdmin from '../../../public/assets/userdataadmin.gif';
 
-import LoginVideo from '../../../public/assets/loginvideo.mov';
+import LoginVideo from '../../../public/assets/loginvideo.mp4';
  
 // import LoginProtoImg from '../../../public/assets/loginproto.png';
 // import Dashboard from '../../../public/assets/homeproto.png';
@@ -236,7 +236,7 @@ export default function ProjMang() {
         <div id="proto-grid" className="grid justify-center grid-cols-2 gap-3">
                 <div> 
                     <video autoplay loop muted playsinline>
-                        <source src={LoginVideo} type="video/mov" />
+                        <source src={LoginVideo} type="video/mp4"/>
                     </video>
                     
                     <p>
