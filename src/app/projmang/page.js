@@ -25,11 +25,12 @@ import { MdScreenSearchDesktop } from "react-icons/md";
 // import UserDataAdmin from '../../../public/assets/userdataadmin.gif';
  
 import LoginProtoImg from '../../../public/assets/loginproto.png';
-import ProjBoardProto from '../../../public/assets/projboardproto.png';
-import Home from '../../../public/assets/home2proto2.png';
 import Dashboard from '../../../public/assets/homeproto.png';
+import ProjBoardProto from '../../../public/assets/projboardproto.png';
 import EditCardProto from '../../../public/assets/editcardproto.png';
 import CreateCard from '../../../public/assets/createcardproto.png';
+import Home from '../../../public/assets/home2proto2.png';
+
 
 
 
