@@ -22,6 +22,7 @@ import LoginProto from '../../../public/assets/login.gif';
 import ProjBoardProto from '../../../public/assets/projboard.gif';
 import NewProjProto from '../../../public/assets/newproj.gif';
 import TeamDataAdmin from '../../../public/assets/teamdataadmin.gif';
+import UserDataAdmin from '../../../public/assets/userdataadmin.gif';
 
 
 
@@ -248,9 +249,9 @@ export default function ProjMang() {
                     </p>
                 </div>
                 <div>
-                    <Image src={NewProjProto} width={500} height={500} alt="new proj" className="drop-shadow-md" />
+                    <Image src={UserDataAdmin} width={500} height={500} alt="new proj" className="drop-shadow-md" />
                     <p>
-                        Add New Project
+                       See User Data Admin View
                     </p>
                 </div>
 
