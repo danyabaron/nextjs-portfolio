@@ -235,9 +235,9 @@ export default function ProjMang() {
         </div>
         <div id="proto-grid" className="grid justify-center grid-cols-2 gap-3">
                 <div> 
-                    <video autoplay loop muted playsinline>
+                    <Video autoplay loop muted playsinline>
                         <source src={LoginVideo} type="video/mp4"/>
-                    </video>
+                    </Video>
                     
                     <p>
                         Login Screen
