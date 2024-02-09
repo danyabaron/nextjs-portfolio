@@ -35,8 +35,8 @@ import Home from '../../../public/assets/home2proto2.png';
 
 
 
-// import Video from 'next-video';
-// import LoginVideo from '../../videos/loginvideo.mp4';
+import Video from 'next-video';
+import LoginVideo from '/videos/loginvideo.mp4';
 // import getStarted from '/videos/get-started.mp4';
 // import Prototype from '/videos/prototypemp4.mp4'; 
 // import 'tailwindcss/tailwind.css';
@@ -233,7 +233,7 @@ export default function ProjMang() {
         </div>
         <div id="proto-grid" className="grid justify-center grid-cols-3 gap-3">
                 <div> 
-                    <Image src={LoginProtoImg} alt="login screen" loading="lazy" className="drop-shadow-md" />
+                    <Video src={LoginVideo} alt="login screen" loading="lazy" className="drop-shadow-md" />
                     
                     <p>
                         Login Screen
