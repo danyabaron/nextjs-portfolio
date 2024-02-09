@@ -18,11 +18,14 @@ import Homewire2 from '../../../public/assets/homewire2.png';
 import ProjBoardWire from '../../../public/assets/projectboardwire.png';
 import AddCardWire from '../../../public/assets/addcardwire.png';
 import { MdScreenSearchDesktop } from "react-icons/md";
-import LoginProto from '../../../public/assets/login.gif';
-import ProjBoardProto from '../../../public/assets/projboard.gif';
-import NewProjProto from '../../../public/assets/newproj.gif';
-import TeamDataAdmin from '../../../public/assets/teamdataadmin.gif';
-import UserDataAdmin from '../../../public/assets/userdataadmin.gif';
+// import LoginProto from '../../../public/assets/login.gif';
+// import ProjBoardProto from '../../../public/assets/projboard.gif';
+// import NewProjProto from '../../../public/assets/newproj.gif';
+// import TeamDataAdmin from '../../../public/assets/teamdataadmin.gif';
+// import UserDataAdmin from '../../../public/assets/userdataadmin.gif';
+
+import LoginProtoImg from '../../../public/assets/loginproto.png';
+import ProjBoardProto from '../../../public/assets/projboardproto.png';
 
 
 
@@ -221,7 +224,7 @@ export default function ProjMang() {
             </div> */}
 
         </div>
-        <div id="proto-grid" className="grid justify-center grid-cols-2 gap-3">
+        {/* <div id="proto-grid" className="grid justify-center grid-cols-2 gap-3">
                 <div> 
                     <Image src={LoginProto} width={500} height={500} alt="login-proto" className="drop-shadow-md" />
                     <p>
@@ -255,7 +258,7 @@ export default function ProjMang() {
                     </p>
                 </div>
 
-            </div>
+            </div> */}
 
            
 
