@@ -233,33 +233,33 @@ export default function ProjMang() {
         </div>
         <div id="proto-grid" className="grid justify-center grid-cols-2 gap-3">
                 <div> 
-                    <Image src={LoginProto} width={500} height={500} alt="login-proto" unoptimized={true} layout={'responsive'} className="drop-shadow-md" />
+                    <Image src={LoginProto} width={500} height={500} alt="login-proto" loading="lazy" className="drop-shadow-md" />
                     <p>
                         Login Screen
                     </p>
                 </div>
 
                 <div>
-                    <Image src={ProjBoardProto} width={500} height={500} alt="projboard" unoptimized={true} layout={'responsive'} className="drop-shadow-md" />
+                    <Image src={ProjBoardProto} width={500} height={500} alt="projboard" loading="lazy" className="drop-shadow-md" />
                     <p>
                     Project Kanban Board
                     </p>
                 </div>
                
                 <div>
-                    <Image src={NewProjProto} width={500} height={500} alt="new proj" unoptimized={true} layout={'responsive'} className="drop-shadow-md" />
+                    <Image src={NewProjProto} width={500} height={500} alt="new proj" loading="lazy" className="drop-shadow-md" />
                     <p>
                         Add New Project
                     </p>
                 </div>
                 <div>
-                    <Image src={TeamDataAdmin} width={500} height={500} alt="new proj" unoptimized={true} layout={'responsive'} className="drop-shadow-md" />
+                    <Image src={TeamDataAdmin} width={500} height={500} alt="new proj" loading="lazy" className="drop-shadow-md" />
                     <p>
                         See Team Data Admin View
                     </p>
                 </div>
                 <div>
-                    <Image src={UserDataAdmin} width={500} height={500} alt="new proj" unoptimized={true} layout={'responsive'} className="drop-shadow-md" />
+                    <Image src={UserDataAdmin} width={500} height={500} alt="new proj" loading="lazy" className="drop-shadow-md" />
                     <p>
                        See User Data Admin View
                     </p>
