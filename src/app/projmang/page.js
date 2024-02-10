@@ -129,7 +129,7 @@ export default function ProjMang() {
       
         
 
-        <div id="goal" className="flex flex-col items-center justify-center w-screen py-10 mb-24">
+        <div id="goal" className="flex flex-col items-center justify-center w-screen mb-24">
 
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md text-hover-resume'>Goal</h1>
 
@@ -156,7 +156,7 @@ export default function ProjMang() {
 
         </div>
 
-        <div id="research" className="flex flex-col items-center justify-center w-screen py-10 mb-24">
+        <div id="research" className="flex flex-col items-center justify-center w-screen py-10 mb-9">
         
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md text-hover-resume'>Research</h1>
            
@@ -175,21 +175,21 @@ export default function ProjMang() {
 
         </div>
 
-        <div id="research-grid" className="grid justify-center grid-rows-2 grid-flow-col  gap-6">
+        <div id="research-grid" className="grid justify-center grid-rows-2 grid-flow-col px-9 gap-6">
                 <div> 
-                    <Image src={KanbanOne} width={400} height={400} alt="kanban1" className="drop-shadow-md" />
+                    <Image src={KanbanOne} alt="kanban1" className="drop-shadow-md" />
                 </div>
                 <div>
-                    <Image src={KanbanTwo} width={400} height={400} alt="kanban2" className="drop-shadow-md" />
+                    <Image src={KanbanTwo} alt="kanban2" className="drop-shadow-md" />
                 </div>
                 <div>
-                    <Image src={TrelloOne} width={400} height={400} alt="trello1" className="drop-shadow-md" />
+                    <Image src={TrelloOne}  alt="trello1" className="drop-shadow-md" />
                 </div>
                 <div>
-                    <Image src={KanbanThree} width={400} height={400} alt="trello1" className="drop-shadow-md" />
+                    <Image src={KanbanThree}  alt="trello1" className="drop-shadow-md" />
                 </div>
                 <div>
-                    <Image src={Login1} width={400} height={400} alt="trello1" className="drop-shadow-md" />
+                    <Image src={Login1}  alt="trello1" className="drop-shadow-md" />
                 </div>
             </div>
 
