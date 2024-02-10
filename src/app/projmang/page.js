@@ -194,7 +194,7 @@ export default function ProjMang() {
             </div>
 
 
-        <div id="wireframe" className="flex flex-col items-center justify-center gap-4 w-screen py-10 mb-24">
+        <div id="wireframe" className="flex flex-col items-center justify-center gap-4 w-screen py-10 mb-9">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Wireframes</h1>
            
             <div id="wireframe-text" className="flex-1">
@@ -214,25 +214,25 @@ export default function ProjMang() {
         </div>
 
         
-        <div id="wireframe-grid" className="grid justify-center grid-rows-2 grid-flow-col py-7 gap-6">
+        <div id="wireframe-grid" className="grid justify-center grid-rows-2 grid-flow-col px-9 gap-6">
                 <div> 
-                    <Image src={LoginWire} width={400} height={400} alt="kanban1" className="drop-shadow-md" />
+                    <Image src={LoginWire} alt="kanban1" className="drop-shadow-md" />
                 </div>
                 <div>
-                    <Image src={Homewire1} width={400} height={400} alt="kanban2" className="drop-shadow-md" />
+                    <Image src={Homewire1} alt="kanban2" className="drop-shadow-md" />
                 </div>
                 <div>
-                    <Image src={Homewire2} width={400} height={400} alt="trello1" className="drop-shadow-md" />
+                    <Image src={Homewire2} alt="trello1" className="drop-shadow-md" />
                 </div>
                 <div>
-                    <Image src={ProjBoardWire} width={400} height={400} alt="trello1" className="drop-shadow-md" />
+                    <Image src={ProjBoardWire} alt="trello1" className="drop-shadow-md" />
                 </div>
                 <div>
-                    <Image src={AddCardWire} width={400} height={400} alt="trello1" className="drop-shadow-md" />
+                    <Image src={AddCardWire} alt="trello1" className="drop-shadow-md" />
                 </div>
             </div>
 
-        <div id="prototype" className="flex flex-col items-center justify-center gap-4 w-screen py-10 mb-24">
+        <div id="prototype" className="flex flex-col items-center justify-center gap-4 w-screen py-10 mb-9">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Prototype</h1>
            
             <div id="prototype-text" className="flex-1">
