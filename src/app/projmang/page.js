@@ -45,12 +45,41 @@ export default function ProjMang() {
         <section className="min-h-screen">
 
         <nav className="py-10 mb-12 flex justify-between w-full">
-
-        <div className="flex items-center ml-10">
-    
-            <IoSparklesSharp className="text-main-brown text-2xl transform hover:text-hover-resume transition-all duration-500 hover:scale-110" />   
-  
+            <div className="flex items-center ml-10">
+    {/* IoSparklesSharp on the left */}
+            <IoSparklesSharp className=" text-main-brown text-2xl transform hover:text-hover-resume transition-all duration-500 hover:scale-110" />   
+    {/* Other content on the left (if any) */}
+    {/* Add your additional content here */}
          </div>
+            
+            
+            <ul className="flex items-center animate-fade-right animate-ease-in">
+              {/* <li>
+                
+                <IoSparklesSharp className="cursor-pointer text-main-brown text-2xl mr-10 transform hover:scale-110"/>
+              </li> */}
+              <li>
+                <a href="#goal" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
+                transition-all duration-500">Goal</a>
+              </li>
+
+              <li>
+              <a href="#research" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
+                transition-all duration-500">Research</a>
+              </li>
+
+              <li>
+              <a href="#wireframe" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
+                transition-all duration-500">Wireframe</a>
+              </li>
+
+              
+              <li>
+              <a href="#prototype" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
+                transition-all duration-500">Prototype</a>
+              </li>
+            </ul>
+          
         
         </nav>
 
