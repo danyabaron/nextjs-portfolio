@@ -220,16 +220,16 @@ export default function ProjMang() {
 
         </div>
         <div id="proto-grid" className="grid justify-center items-center px-9 grid-cols-2 gap-4">
-                <div> 
+                <div className="justify-center items-center"> 
                     <Image src={LoginProtoImg} alt="login screen" loading="lazy" className="drop-shadow-md" />  
-                    <p>
+                    <p className="font-helvetica text-md text-main-brown py-5 text-center text-wrap max-w-[500px]">
                         Login Screen
                     </p>
                 </div>
 
                 <div>
                     <Image src={Dashboard} alt="projboard" loading="lazy" className="drop-shadow-md" />
-                    <p>
+                    <p className="font-helvetica text-md text-main-brown px-5 text-left text-wrap max-w-[500px]">
                     Project Kanban Board
                     </p>
                 </div>
