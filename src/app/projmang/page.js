@@ -158,7 +158,7 @@ export default function ProjMang() {
 
         <div id="research" className="flex flex-col items-center justify-center w-screen py-10 mb-9">
         
-            <h1 className='text-3xl font-helvetica-medium drop-shadow-md text-hover-resume'>Research</h1>
+            <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-4 text-hover-resume'>Research</h1>
            
             <div id="research-text" className='py-6'>
                 <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[700px]">
@@ -198,7 +198,7 @@ export default function ProjMang() {
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Wireframes</h1>
            
             <div id="wireframe-text" className="flex-1">
-                <p className="font-helvetica text-md text-main-brown px-5 text-left text-wrap max-w-[500px]">
+                <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[700px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris nunc, ornare ut velit eu, sagittis laoreet ante. Sed porttitor 
                 felis non ligula aliquam lacinia. Duis ut ex nec est laoreet aliquet in nec felis. Mauris a accumsan mi. Phasellus id mauris accumsan, 
                 imperdiet magna in, elementum velit. Pellentesque bibendum purus metus, at fermentum massa consequat laoreet. Ut sit amet diam ut metus 
@@ -236,7 +236,7 @@ export default function ProjMang() {
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Prototype</h1>
            
             <div id="prototype-text" className="flex-1">
-                <p className="font-helvetica text-md text-main-brown px-5 text-left text-wrap max-w-[500px]">
+                <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[700px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris nunc, ornare ut velit eu, sagittis laoreet ante. Sed porttitor 
                 felis non ligula aliquam lacinia. Duis ut ex nec est laoreet aliquet in nec felis. Mauris a accumsan mi. Phasellus id mauris accumsan, 
                 imperdiet magna in, elementum velit. Pellentesque bibendum purus metus, at fermentum massa consequat laoreet. Ut sit amet diam ut metus 
