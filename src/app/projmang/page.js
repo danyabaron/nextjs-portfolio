@@ -110,12 +110,10 @@ export default function ProjMang() {
 
             <div id="intro-text">
                     <p className="font-helvetica text-md text-main-brown px-5 text-left flex-1 text-wrap max-w-[500px]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris nunc, ornare ut velit eu, sagittis laoreet ante. Sed porttitor 
-                    felis non ligula aliquam lacinia. Duis ut ex nec est laoreet aliquet in nec felis. Mauris a accumsan mi. Phasellus id mauris accumsan, 
-                    imperdiet magna in, elementum velit. Pellentesque bibendum purus metus, at fermentum massa consequat laoreet. Ut sit amet diam ut metus 
-                    gravida iaculis eu venenatis turpis. 
-                    Aliquam egestas massa dapibus metus placerat, vitae vulputate nisi eleifend. Pellentesque tincidunt risus mauris,
-                    nec dapibus risus tristique et.
+                        The Design and Code Club wants a page on their site that club members and officers can log into to join projects and teams within the club. Members will have access to their own project 
+                        Kanban-style board where they can track their tasks, prioritize, set deadlines, and effectively collaborate with other team members. The idea of this project was to have a Trello/Jira style software for the Club
+                        where Club Officers would have administrative privileges to create project boards that club members can join.
+
                     </p>
                 </div>
                 <div id="intro-pic" className="mr-6">
