@@ -58,8 +58,7 @@ export default function ProjMang() {
             <div id="proj-text" className="columns-4 flex flex-col ml-12 justify-center items-center w-screen gap-5">
                 <h2 className="text-3xl font-helvetica-medium drop-shadow-md text-hover-resume">Project Management Design</h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris nunc, ornare ut velit eu, 
-                    sagittis laoreet ante. Sed porttitor felis non ligula aliquam lacinia
+                    
                 </p>
                 <h3 className="text-xl font-helvetica-medium drop-shadow-sm text-hover-resume">
                     Timeline
