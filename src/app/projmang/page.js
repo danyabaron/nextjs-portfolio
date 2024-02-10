@@ -240,10 +240,10 @@ export default function ProjMang() {
                         Add New Project
                     </p>
                 </div>
-                <div className="justify-center items-center">
-                    {/* <div id="center-img" className="flex justify-center"> */}
+                <div>
+                    <div id="center-img" className="flex justify-center">
                         <Image src={EditCardProto} height={450} alt="new proj" loading="lazy" className="drop-shadow-md" />
-                    {/* </div> */}
+                    </div>
                     
                     <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
                         See Team Data Admin View
@@ -253,25 +253,25 @@ export default function ProjMang() {
                 <div id="center-img" className="flex justify-center">
                         <Image src={CreateCard} height={450} alt="new proj" loading="lazy" className="drop-shadow-md" />
                 </div>
-                    <p>
+                    <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
                        See User Data Admin View
                     </p>
                 </div>
                 <div>
                     <Image src={ProjectsHome} alt="new proj" loading="lazy" className="drop-shadow-md" />
-                    <p>
+                    <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
                        See User Data Admin View
                     </p>
                 </div>
                 <div>
                     <Image src={AdminHome} alt="new proj" loading="lazy" className="drop-shadow-md" />
-                    <p>
+                    <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
                        See User Data Admin View
                     </p>
                 </div>
                 <div>
                     <Image src={AdminTeams} alt="new proj" loading="lazy" className="drop-shadow-md" />
-                    <p>
+                    <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
                        See User Data Admin View
                     </p>
                 </div>
@@ -283,13 +283,13 @@ export default function ProjMang() {
                 </div>
                 <div>
                     <Image src={AdminUsers} alt="new proj" loading="lazy" className="drop-shadow-md" />
-                    <p>
+                    <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
                        See User Data Admin View
                     </p>
                 </div>
                 <div>
                     <Image src={AdminEditUser} alt="new proj" loading="lazy" className="drop-shadow-md" />
-                    <p>
+                    <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
                        See User Data Admin View
                     </p>
                 </div>
