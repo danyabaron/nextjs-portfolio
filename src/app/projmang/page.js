@@ -219,33 +219,33 @@ export default function ProjMang() {
             </div> */}
 
         </div>
-        <div id="proto-grid" className="grid justify-center items-center px-9 grid-cols-2 gap-4">
+        <div id="proto-grid" className="grid justify-center items-center px-9 grid-cols-2 gap-6">
                 <div className="justify-center items-center"> 
                     <Image src={LoginProtoImg} alt="login screen" loading="lazy" className="drop-shadow-md" />  
-                    <p className="font-helvetica text-md text-main-brown py-5 text-center text-wrap max-w-[500px]">
+                    <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
                         Login Screen
                     </p>
                 </div>
 
-                <div>
+                <div className="justify-center items-center"> 
                     <Image src={Dashboard} alt="projboard" loading="lazy" className="drop-shadow-md" />
-                    <p className="font-helvetica text-md text-main-brown px-5 text-left text-wrap max-w-[500px]">
+                    <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
                     Project Kanban Board
                     </p>
                 </div>
                
-                <div>
+                <div className="justify-center items-center"> 
                     <Image src={ProjBoardProto} alt="new proj" loading="lazy" className="drop-shadow-md" />
-                    <p>
+                    <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
                         Add New Project
                     </p>
                 </div>
-                <div>
-                    <div id="center-img" className="flex justify-center">
+                <div className="justify-center items-center">
+                    {/* <div id="center-img" className="flex justify-center"> */}
                         <Image src={EditCardProto} height={450} alt="new proj" loading="lazy" className="drop-shadow-md" />
-                    </div>
+                    {/* </div> */}
                     
-                    <p>
+                    <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
                         See Team Data Admin View
                     </p>
                 </div>
