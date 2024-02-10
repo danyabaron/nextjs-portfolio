@@ -112,7 +112,8 @@ export default function ProjMang() {
                     <p className="font-helvetica text-md text-main-brown px-5 text-left flex-1 text-wrap max-w-[500px]">
                         The UCF Design and Code Club wants a page on their site that club members and officers can log into to join projects and teams within the club. Members will have access to their own project 
                         Kanban-style board where they can track their tasks, prioritize, set deadlines, and effectively collaborate with other team members on the project. The idea of this project is to have a Trello/Jira style software for the 
-                        Design and Code Club where Club Officers would have administrative privileges to create project boards that club members can join.
+                        Design and Code Club where Club Officers have administrative privileges to create project boards that club members can join, add club members to projects, create club member teams for each project,
+                        and track member progress. 
 
                     </p>
                 </div>
