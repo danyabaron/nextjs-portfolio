@@ -129,13 +129,13 @@ export default function ProjMang() {
       
         
 
-        <div id="goal" className="flex flex-col items-center justify-center w-screen mb-24">
+        <div id="goal" className="flex flex-col items-center justify-center w-screen py-10 mb-24">
 
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md text-hover-resume'>Goal</h1>
 
           
 
-           <div id="goal-content" className="flex flex-row items-center gap-4 py-6 justify-center w-screen"> 
+           <div id="goal-content" className="flex flex-row items-center gap-4 justify-center w-screen"> 
 
             <div id="intro-text">
                     <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[700px]">
@@ -156,7 +156,7 @@ export default function ProjMang() {
 
         </div>
 
-        <div id="research" className="flex flex-col items-center justify-center w-screen mb-24">
+        <div id="research" className="flex flex-col items-center justify-center w-screen py-10 mb-24">
         
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md text-hover-resume'>Research</h1>
            
@@ -175,7 +175,7 @@ export default function ProjMang() {
 
         </div>
 
-        <div id="research-grid" className="grid justify-center grid-rows-2 grid-flow-col py-7 gap-6">
+        <div id="research-grid" className="grid justify-center grid-rows-2 grid-flow-col  gap-6">
                 <div> 
                     <Image src={KanbanOne} width={400} height={400} alt="kanban1" className="drop-shadow-md" />
                 </div>
@@ -194,7 +194,7 @@ export default function ProjMang() {
             </div>
 
 
-        <div id="wireframe" className="flex flex-col items-center justify-center gap-4 w-screen mb-12">
+        <div id="wireframe" className="flex flex-col items-center justify-center gap-4 w-screen py-10 mb-24">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Wireframes</h1>
            
             <div id="wireframe-text" className="flex-1">
@@ -232,7 +232,7 @@ export default function ProjMang() {
                 </div>
             </div>
 
-        <div id="prototype" className="flex flex-col items-center justify-center gap-4 w-screen mb-12">
+        <div id="prototype" className="flex flex-col items-center justify-center gap-4 w-screen py-10 mb-24">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Prototype</h1>
            
             <div id="prototype-text" className="flex-1">
@@ -250,7 +250,7 @@ export default function ProjMang() {
             </div> */}
 
         </div>
-        <div id="proto-grid" className="grid justify-center items-center px-9 mb-12 grid-cols-2 gap-6">
+        <div id="proto-grid" className="grid justify-center items-center px-9 mb-24 grid-cols-2 gap-6">
                 <div className="justify-center items-center"> 
                     <Image src={LoginProtoImg} alt="login screen" loading="lazy" className="drop-shadow-md" />  
                     <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
