@@ -29,6 +29,9 @@ import AdminTeams from '../../../public/assets/teamsdata.png';
 import AdminUpdateTeam from '../../../public/assets/teamsadmin.png';
 import AdminUsers from '../../../public/assets/adminuser.png';
 import AdminEditUser from '../../../public/assets/adminedituser.png';
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaBehance } from "react-icons/fa";
 
 
 
@@ -219,7 +222,7 @@ export default function ProjMang() {
             </div> */}
 
         </div>
-        <div id="proto-grid" className="grid justify-center items-center px-9 grid-cols-2 gap-6">
+        <div id="proto-grid" className="grid justify-center items-center px-9 mb-12 grid-cols-2 gap-6">
                 <div className="justify-center items-center"> 
                     <Image src={LoginProtoImg} alt="login screen" loading="lazy" className="drop-shadow-md" />  
                     <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
@@ -296,6 +299,28 @@ export default function ProjMang() {
 
 
             </div>
+            
+
+            <footer className="bg-main-brown text-text-pink">
+                <div id="footer" className="flex flex-col items-center justify-center w-screen gap-5 py-10">
+                    <div className="flex flex-row gap-4">
+                        <a href="https://www.linkedin.com/in/danyabaron/" target="_blank" rel="noopener noreferrer">
+                            <FaLinkedin className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110" />
+                        </a>
+                        <a href="https://github.com/danyabaron" target="_blank" rel="noopener noreferrer">
+                            <FaGithub className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110" />
+                        </a>
+                        <a href="https://www.behance.net/danyabaron16" target="_blank" rel="noopener noreferrer">
+                            <FaBehance className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110" />
+                        </a>
+             
+
+          </div>
+          <p className="font-helvetica-light text-text-pink">&copy; 2024 Danya Baron. All rights reserved.</p>
+        </div>
+
+      </footer>
+        
 
            
 
