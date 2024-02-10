@@ -58,7 +58,7 @@ export default function ProjMang() {
             <div id="proj-text" className="columns-4 flex flex-col ml-12 justify-center items-center w-screen gap-5">
                 <h2 className="text-3xl font-helvetica-medium drop-shadow-md text-hover-resume">Project Management Design</h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
-                    A task management web application that helps UCF Design and Code members efficiently organize and track projects using a Kanban-inspired interface.
+                    A task management web application that helps UCF Design and Code members and club officers efficiently organize and track projects using a Kanban-inspired interface.
                 </p>
                 <h3 className="text-xl font-helvetica-medium drop-shadow-sm text-hover-resume">
                     Timeline
@@ -109,12 +109,12 @@ export default function ProjMang() {
            <div id="goal-content" className="flex flex-row items-center gap-4 py-6 justify-center w-screen"> 
 
             <div id="intro-text">
-                    <p className="font-helvetica-medium text-md text-main-brown px-5 text-center flex-1 text-wrap max-w-[500px]">
+                    <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[500px]">
                         
                         The UCF Design and Code Club aims to implement a dedicated page on their website, facilitating seamless project and team management for club members and officers. 
-                        Through personalized Kanban-style boards, members can efficiently track tasks, set priorities, and collaborate on projects, 
-                        while club officers have administrative control to create and manage project boards, assign members, 
-                        and monitor progress, resembling a Trello/Jira-style software tailored to the needs of the Design and Code Club. 
+                        Through personalized Kanban-style boards, members can efficiently track tasks, set priorities, and collaborate on projects. 
+                        Design and Code Club Officers have administrative control to create and manage project boards, assign members to teams and projects, 
+                        monitor progress, and give members certain access rights. This web application resembles a Trello/Jira-style software tailored to the needs of the UCF Design and Code Club. 
 
                     </p>
                 </div>
@@ -127,12 +127,12 @@ export default function ProjMang() {
 
         </div>
 
-        <div id="research" className="flex flex-col items-center justify-center gap-4 w-screen mb-12">
+        <div id="research" className="flex flex-col items-center justify-center gap-6 py-6 w-screen mb-12">
         
-            <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Research</h1>
+            <h1 className='text-3xl font-helvetica-medium drop-shadow-md text-hover-resume'>Research</h1>
            
             <div id="research-text">
-                <p className="font-helvetica text-md text-main-brown px-5 text-left flex-1 text-wrap max-w-[500px]">
+                <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[500px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris nunc, ornare ut velit eu, sagittis laoreet ante. Sed porttitor 
                 felis non ligula aliquam lacinia. Duis ut ex nec est laoreet aliquet in nec felis. Mauris a accumsan mi. Phasellus id mauris accumsan, 
                 imperdiet magna in, elementum velit. Pellentesque bibendum purus metus, at fermentum massa consequat laoreet. Ut sit amet diam ut metus 
