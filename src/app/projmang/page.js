@@ -109,7 +109,7 @@ export default function ProjMang() {
            <div id="goal-content" className="flex flex-row items-center gap-4 py-6 justify-center w-screen"> 
 
             <div id="intro-text">
-                    <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[500px]">
+                    <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[700px]">
                         
                         The UCF Design and Code Club aims to implement a dedicated page on their website, facilitating seamless project and team management for club members and officers. 
                         Through personalized Kanban-style boards, members can efficiently track tasks, set priorities, and collaborate on projects. 
@@ -127,12 +127,12 @@ export default function ProjMang() {
 
         </div>
 
-        <div id="research" className="flex flex-col items-center justify-center gap-6 py-6 w-screen mb-12">
+        <div id="research" className="flex flex-col items-center justify-center w-screen mb-12">
         
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md text-hover-resume'>Research</h1>
            
-            <div id="research-text">
-                <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[500px]">
+            <div id="research-text" className='py-6'>
+                <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[700px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris nunc, ornare ut velit eu, sagittis laoreet ante. Sed porttitor 
                 felis non ligula aliquam lacinia. Duis ut ex nec est laoreet aliquet in nec felis. Mauris a accumsan mi. Phasellus id mauris accumsan, 
                 imperdiet magna in, elementum velit. Pellentesque bibendum purus metus, at fermentum massa consequat laoreet. Ut sit amet diam ut metus 
