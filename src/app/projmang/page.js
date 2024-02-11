@@ -300,10 +300,12 @@ export default function ProjMang() {
                 <div id="inspiration" className="flex flex-col items-center py-6 bg-white rounded-3xl drop-shadow-lg w-96">
                         <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-center mb-5 text-hover-resume'>Features</h2>
                         <ul className="list-disc list-inside font-helvetica text-lg text-main-brown bg-white text-wrap max-w-[300px]">
-                            <li className="mb-5"> Figma Community </li>
-                            <li className="mb-5"> Trello and Kanban Board </li>
-                            <li className="mb-5"> Instagram Admin </li>
-                            <li className="mb-5"> Jira </li>
+                            <li className="mb-5"> Task Completion Statuses (backlog, in-progress, review, completed) </li>
+                            <li className="mb-5"> Edit task functionality with more information in task pop-up</li>
+                            <li className="mb-5"> Timeline format </li>
+                            <li className="mb-5"> Login Screen</li>
+                            <li className="mb-5"> Main projects screen to see ongoing and past projects</li>
+                            <li className="mb-5"> User Dashboard to see only current ongoing projects, if admin there is an admin icon next to name</li>
                         
 
                         
