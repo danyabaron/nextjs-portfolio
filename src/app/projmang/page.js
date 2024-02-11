@@ -302,16 +302,18 @@ export default function ProjMang() {
                             <li className="mb-3"> Edit task Kanban card </li>
                             <li className="mb-3"> Create task Kanban card </li>
                             <li className="mb-3"> Club officer admin view </li>
+                        </ul>
+                        <ul className="list-disc list-inside font-helvetica text-lg text-main-brown bg-white text-wrap max-w-[300px]">
                             <li className="mb-3"> Login Screen</li>
                             <li className="mb-3"> Main projects screen to see ongoing and past projects</li>
                             <li className="mb-3"> User Dashboard</li>
                             <li className="mb-3"> Admin create/edit project</li>
                             <li className="mb-3"> Admin create/edit team</li>
                             <li className="mb-3"> Admin add/edit user</li>
-                        
+                        </ul>
 
                         
-                        </ul>
+                       
 
                     </div>
             </div>
