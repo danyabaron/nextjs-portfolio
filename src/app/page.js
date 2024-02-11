@@ -181,14 +181,15 @@ export default function Home() {
           <div id="projects" className="flex items-center flex-col justify-center w-screen py-8 mb-9 gap-x-1">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Projects</h1>
 
-            <div id="projects-0.5" className="grid grid-rows-1 justify-center items-center grid-flow-col">
+            <div id="projects-0.5" className="grid grid-rows-1 justify-center items-center grid-flow-col max-h-[334px]">
               <Image src={DCProj} alt="Design & Code Project Management" width={475} height={337} loading="lazy" className="rounded-2xl drop-shadow-md"/>
             <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
                 <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
                   UCF Design & Code Project Management
                 </h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
-                  A task management web application that helps UCF Design and Code members and club officers efficiently organize and track projects using a Kanban-inspired interface. Created with Figma.
+                  A task management web application that helps UCF Design and Code members and club officers efficiently organize and track projects using a Kanban-inspired interface.
+                  The goal of the project was to implement a dedicated page on their website, facilitating seamless project and team management for club members and officers. Created with Figma.
                 </p>
 
                 <Link href="/projmang">
@@ -211,7 +212,7 @@ export default function Home() {
                   Case Study: Education App Design 
                 </h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
-                Pented is a mobile education app that caters to underprivileged middle school students in Gujarat, India. The goal of the project was to redesign an enhanced experience for their users and a solution to showcase their offerings better, keeping current design standards and gamification in mind. Created with Figma
+                Pented is a mobile education app that caters to underprivileged middle school students in Gujarat, India. The goal of the project was to redesign an enhanced experience for their users and a solution to showcase their offerings better, keeping current design standards and gamification in mind. Created with Figma.
                 </p>
 
                 <a href="https://www.behance.net/gallery/161733587/Education-App-Design" target="_blank">
