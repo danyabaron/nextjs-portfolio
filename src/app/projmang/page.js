@@ -34,7 +34,7 @@ import AdminEditUser from '../../../public/assets/adminedituser.png';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
-import { useRouter } from 'next/router';
+
 
 
 
@@ -42,21 +42,6 @@ import { useRouter } from 'next/router';
 
 export default function ProjMang() {
 
-    const router = useRouter();
-
-  useEffect(() => {
-    const handleBackButtonClick = () => {
-      router.push('/');
-    };
-
-    // Add event listener for popstate event (browser's back button)
-    window.addEventListener('popstate', handleBackButtonClick);
-
-    // Clean up the event listener
-    return () => {
-      window.removeEventListener('popstate', handleBackButtonClick);
-    };
-  }, []);
 
 
 
@@ -86,24 +71,24 @@ export default function ProjMang() {
               </li>
               
               <li>
-                <a href="#goal" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
-                transition-all duration-500" scroll={false}>Goal</a>
+                <Link href="/projmang#goal" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
+                transition-all duration-500" scroll={false}>Goal</Link>
               </li>
 
               <li>
-              <a href="#research" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
-                transition-all duration-500" scroll={false}>Research</a>
+              <Link href="/projmang#research" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
+                transition-all duration-500" scroll={false}>Research</Link>
               </li>
 
               <li>
-              <a href="#wireframe" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
-                transition-all duration-500" scroll={false}>Wireframe</a>
+              <Link href="/projmang#wireframe" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
+                transition-all duration-500" scroll={false}>Wireframe</Link>
               </li>
 
               
               <li>
-              <a href="#prototype" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
-                transition-all duration-500" scroll={false}>Prototype</a>
+              <Link href="/projmang#prototype" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
+                transition-all duration-500" scroll={false}>Prototype</Link>
               </li>
             </ul>
           
