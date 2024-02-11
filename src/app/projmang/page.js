@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
@@ -32,7 +34,7 @@ import AdminEditUser from '../../../public/assets/adminedituser.png';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
-import { useRouter } from 'next/navigation';
+import { useRouter } from 'next/router';
 
 
 
