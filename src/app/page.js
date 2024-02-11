@@ -203,10 +203,47 @@ export default function Home() {
             </div>
           </div>
 
+          <div id="projects-4" className="grid grid-rows-1 justify-center items-center grid-flow-col">
+              <Image src={Factor} alt="7Factor" loading="lazy" className="rounded-2xl drop-shadow-md" />
+            <div id="factor-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
+                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
+                  7Factor Corporate Website
+                </h2>
+                <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
+                Major Qualifying Project for my undergraduate degree.
+                Objective was to develop a feature-rich website for our sponsor per their provided design specifications. Used common web design and development practices to create an interactive website that showcased 7Factor’s mission.
+                </p>
+
+                <div id="buttons-factor" className="flex flex-row gap-5">
+
+                  <a href="https://7factor.io/" target="_blank">
+                    <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
+                    View Site
+                    
+                    </button>
+
+                  </a>
+
+
+                  
+                <a href="https://drive.google.com/file/d/1Xx3mYPXf8b2xRLf3h9ri6KP0kl_Zrvd-/view?usp=sharing" target="_blank">
+                  <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
+                    View Report
+                    
+                  </button>
+
+                </a>
+              
+
+                </div>
+                
+            </div>
+          </div>
+
 
             
             <div id="projects-1" className="grid grid-rows-1 justify-center items-center grid-flow-col">
-              <Image src={Pented} alt="Pented" />
+              <Image src={Pented} alt="Pented" loading="lazy" className="rounded-2xl drop-shadow-md" />
             <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
                 <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
                   Case Study: Education App Design 
@@ -246,7 +283,7 @@ export default function Home() {
             </div>
           </div>  */}
 
-          <div id="projects-3" className="grid grid-rows-1 justify-center items-center grid-flow-col">
+          {/* <div id="projects-3" className="grid grid-rows-1 justify-center items-center grid-flow-col">
               <Image src={Solar} alt="Solar"/>
             <div id="solar-info" className="bg-gradient-top flex flex-col drop-shadow-lg items-center m-8 p-4 gap-7 rounded-3xl">
                 <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
@@ -264,44 +301,9 @@ export default function Home() {
                   </button>
               </a>
             </div>
-          </div>
+          </div> */}
 
-          <div id="projects-4" className="grid grid-rows-1 justify-center items-center grid-flow-col">
-              <Image src={Factor} alt="7Factor" />
-            <div id="factor-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
-                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
-                  7Factor Corporate Website
-                </h2>
-                <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
-                Major Qualifying Project for my undergraduate degree.
-                Objective was to develop a feature-rich website for our sponsor per their provided design specifications. Used common web design and development practices to create an interactive website that showcased 7Factor’s mission.
-                </p>
-
-                <div id="buttons-factor" className="flex flex-row gap-5">
-
-                  <a href="https://7factor.io/" target="_blank">
-                    <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
-                    View Site
-                    
-                    </button>
-
-                  </a>
-
-
-                  
-                <a href="https://drive.google.com/file/d/1Xx3mYPXf8b2xRLf3h9ri6KP0kl_Zrvd-/view?usp=sharing" target="_blank">
-                  <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
-                    View Report
-                    
-                  </button>
-
-                </a>
-              
-
-                </div>
-                
-            </div>
-          </div>
+          
         </div>
         
         <div id="contact" className="flex items-center flex-col justify-center w-screen mb-9 py-8 gap-x-1">
