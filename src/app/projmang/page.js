@@ -108,7 +108,7 @@ export default function ProjMang() {
                 </h3>
 
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
-                    Product, UI/UX, Research
+                    1 Project Lead, 2 Designers, 3 Engineers
                 </p>
 
             </div>
@@ -281,21 +281,36 @@ export default function ProjMang() {
 
         <div id="prototype" className="flex flex-col items-center justify-center gap-4 w-screen py-10 mb-9">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Prototype</h1>
-           
-            <div id="prototype-text" className="flex-1">
-                <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[700px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris nunc, ornare ut velit eu, sagittis laoreet ante. Sed porttitor 
-                felis non ligula aliquam lacinia. Duis ut ex nec est laoreet aliquet in nec felis. Mauris a accumsan mi. Phasellus id mauris accumsan, 
-                imperdiet magna in, elementum velit. Pellentesque bibendum purus metus, at fermentum massa consequat laoreet. Ut sit amet diam ut metus 
-                gravida iaculis eu venenatis turpis. 
-                Aliquam egestasssa dapibus metus placerat, vitae vulputate nisi eleifend. Pellentesque tincidunt risus mauris,
-                 nec dapibus risus tristique et.
-                </p>
-            </div>
-            {/* <div id="intro-pic">
-                <Image src={DesignCodeLogo} alt="design and code logo" className="drop-shadow-md" />
-            </div> */}
 
+            <div id="proto-content" className="flex flex-row items-center justify-center w-screen"> 
+           
+                <div id="prototype-text" className="flex-1">
+                    <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[700px]">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris nunc, ornare ut velit eu, sagittis laoreet ante. Sed porttitor 
+                    felis non ligula aliquam lacinia. Duis ut ex nec est laoreet aliquet in nec felis. Mauris a accumsan mi. Phasellus id mauris accumsan, 
+                    imperdiet magna in, elementum velit. Pellentesque bibendum purus metus, at fermentum massa consequat laoreet. Ut sit amet diam ut metus 
+                    gravida iaculis eu venenatis turpis. 
+                    Aliquam egestasssa dapibus metus placerat, vitae vulputate nisi eleifend. Pellentesque tincidunt risus mauris,
+                    nec dapibus risus tristique et.
+                    </p>
+                </div>
+                {/* <div id="intro-pic">
+                    <Image src={DesignCodeLogo} alt="design and code logo" className="drop-shadow-md" />
+                </div> */}
+                <div id="inspiration" className="flex flex-col items-center py-6 bg-white rounded-3xl drop-shadow-lg w-96">
+                        <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-center mb-5 text-hover-resume'>Inspiration</h2>
+                        <ul className="list-disc list-inside font-helvetica text-lg text-main-brown bg-white text-wrap max-w-[300px]">
+                            <li className="mb-5"> Figma Community </li>
+                            <li className="mb-5"> Trello and Kanban Board </li>
+                            <li className="mb-5"> Instagram Admin </li>
+                            <li className="mb-5"> Jira </li>
+                        
+
+                        
+                        </ul>
+
+                    </div>
+            </div>
         </div>
         <div id="proto-gif" className="flex justify-center gap-5 mb-11">
                 {/* <Image src={ProjTile} alt="proj mang 1" width={1200} height={674} className="drop-shadow-md" />
