@@ -378,7 +378,7 @@ export default function ProjMang() {
                 <div>
                     <Image src={AdminTeams} alt="new proj" loading="lazy" className="drop-shadow-md" />
                     <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
-                      Admin View of Member Teams Data
+                      Admin View of Member Teams Data Table
                     </p>
                 </div>
                 <div>
@@ -390,13 +390,13 @@ export default function ProjMang() {
                 <div>
                     <Image src={AdminUsers} alt="new proj" loading="lazy" className="drop-shadow-md" />
                     <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
-                       See User Data Admin View
+                        Admin View of User Data Table
                     </p>
                 </div>
                 <div>
                     <Image src={AdminEditUser} alt="new proj" loading="lazy" className="drop-shadow-md" />
                     <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
-                       See User Data Admin View
+                       Edit User
                     </p>
                 </div>
 
