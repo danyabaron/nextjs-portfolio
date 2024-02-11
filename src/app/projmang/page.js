@@ -34,6 +34,8 @@ import AdminEditUser from '../../../public/assets/adminedituser.png';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 
 
@@ -42,6 +44,19 @@ import { FaBehance } from "react-icons/fa";
 
 export default function ProjMang() {
 
+    const router = useRouter();
+
+  useEffect(() => {
+    const handleRouteChange = () => {
+      window.scrollTo(0, 0);
+    };
+
+    router.events.on('routeChangeComplete', handleRouteChange);
+
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange);
+    };
+  }, []);
 
 
 
