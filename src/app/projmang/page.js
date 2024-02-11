@@ -430,6 +430,10 @@ export default function ProjMang() {
                         <a href="https://www.linkedin.com/in/danyabaron/" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110" />
                         </a>
+                        <a href="https://dribbble.com/danyabaronui" target="_blank" rel="noopener noreferrer">
+                            <FaDribbble className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110" />
+                        </a>
+
                         <a href="https://github.com/danyabaron" target="_blank" rel="noopener noreferrer">
                             <FaGithub className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110" />
                         </a>
