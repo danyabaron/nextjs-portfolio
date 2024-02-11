@@ -56,14 +56,15 @@ export default function ProjMang() {
         <section className="min-h-screen">
 
         <nav className="py-10 mb-12 flex justify-between w-full">
-            <button type="button" onClick={() => router.back()}>
+            <Link href="/">
                 <div className="flex items-center ml-10">
-    
+
                 <IoMdArrowBack className=" text-main-brown text-2xl transform hover:text-hover-resume transition-all duration-500 hover:scale-110" />   
         
                 </div>
+            </Link>
                     
-                </button>
+                
                 
             
             
