@@ -77,23 +77,23 @@ export default function Home() {
               </li> */}
               <li>
                 <a href="#about" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
-                transition-all duration-500">About</a>
+                transition-all duration-500" scroll={false}>About</a>
               </li>
 
               <li>
               <a href="#skills" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
-                transition-all duration-500">Skills</a>
+                transition-all duration-500" scroll={false}>Skills</a>
               </li>
 
               <li>
               <a href="#projects" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
-                transition-all duration-500">Projects</a>
+                transition-all duration-500" scroll={false}>Projects</a>
               </li>
 
               
               <li>
               <a href="#contact" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
-                transition-all duration-500">Contact</a>
+                transition-all duration-500" scroll={false}>Contact</a>
               </li>
             </ul>
           </nav>
