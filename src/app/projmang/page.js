@@ -152,8 +152,14 @@ export default function ProjMang() {
                 </div>
             
             </div>
-            <div id="context">
-            <h2 className='text-3xl font-helvetica-medium drop-shadow-md text-hover-resume'>Context</h2>
+            <div id="problems" className="grid grid-cols-3 flex justify-center items-center gap-8">
+                <div id="problem">
+                    <h2 className='text-3xl font-helvetica-medium drop-shadow-md text-hover-resume'>Problem</h2>
+                </div>
+                <div id="solution">
+                    <h2 className='text-3xl font-helvetica-medium drop-shadow-md text-hover-resume'>Solution</h2>
+                </div>
+                
 
             </div>
             
