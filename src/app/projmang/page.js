@@ -190,16 +190,32 @@ export default function ProjMang() {
         
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-4 text-hover-resume'>Research</h1>
            
-            <div id="research-text" className='py-6'>
-                <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[700px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris nunc, ornare ut velit eu, sagittis laoreet ante. Sed porttitor 
-                felis non ligula aliquam lacinia. Duis ut ex nec est laoreet aliquet in nec felis. Mauris a accumsan mi. Phasellus id mauris accumsan, 
-                imperdiet magna in, elementum velit. Pellentesque bibendum purus metus, at fermentum massa consequat laoreet. Ut sit amet diam ut metus 
-                gravida iaculis eu venenatis turpis. 
-                Aliquam egestas massa dapibus metus placerat, vitae vulputate nisi eleifend. Pellentesque tincidunt risus mauris,
-                 nec dapibus risus tristique et.
-                </p>
-            </div>
+            <div id="research-content" className="flex flex-row items-center gap-4 justify-center w-screen"> 
+            
+                <div id="research-text" className='py-6'>
+                    <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[700px]">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris nunc, ornare ut velit eu, sagittis laoreet ante. Sed porttitor 
+                    felis non ligula aliquam lacinia. Duis ut ex nec est laoreet aliquet in nec felis. Mauris a accumsan mi. Phasellus id mauris accumsan, 
+                    imperdiet magna in, elementum velit. Pellentesque bibendum purus metus, at fermentum massa consequat laoreet. Ut sit amet diam ut metus 
+                    gravida iaculis eu venenatis turpis. 
+                    Aliquam egestas massa dapibus metus placerat, vitae vulputate nisi eleifend. Pellentesque tincidunt risus mauris,
+                    nec dapibus risus tristique et.
+                    </p>
+                </div>
+                <div id="inspiration" className="flex flex-col items-center py-6 bg-white rounded-3xl drop-shadow-lg w-96">
+                    <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-center mb-5 text-hover-resume'>Inspiration</h2>
+                    <ul className="list-disc list-inside font-helvetica text-lg text-main-brown text-center bg-white text-wrap max-w-[300px]">
+                        <li className="mb-5"> Create end to end high fidelity design for React task management software webpage in UCF Design and Code Website </li>
+                        <li className="mb-5"> Develop functionality for: task completion status, separate login credentials for officers and members, project completion status, create new
+                        project, create new team, edit/add user, project kanban board </li>
+                       
+
+                       
+                    </ul>
+
+                </div>
+            
+        </div>
             
            
 
