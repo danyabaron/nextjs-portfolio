@@ -155,14 +155,14 @@ export default function ProjMang() {
 
             <div id="subgoal" className="grid justify-center grid-cols-2 grid-flow-col px-9 gap-9">
                 <div id="problem" className="items-center">
-                    <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-hover-resume'>Problem</h2>
-                    <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[300px]">
+                    <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-center text-hover-resume'>Problem</h2>
+                    <p className="font-helvetica text-lg text-main-brown px-5 py-6 text-center flex-1 text-wrap max-w-[300px]">
                         - Task management softwares are high cost for the size of the UCF Design and Code Club (300+ members)
                     </p>
 
                 </div>
                 <div id="solution">
-                    <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-hover-resume'>Solution</h2>
+                    <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-hover-resume text-center'>Solution</h2>
                 </div>
                 
 
