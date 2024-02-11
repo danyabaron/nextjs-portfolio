@@ -44,19 +44,7 @@ import { useRouter } from 'next/navigation';
 
 export default function ProjMang() {
 
-    const router = useRouter();
-
-    useEffect(() => {
-        const handleRouteChange = () => {
-            window.scrollTo(0, 0);
-        };
-
-        router.events.on('routeChangeComplete', handleRouteChange);
-
-        return () => {
-            router.events.off('routeChangeComplete', handleRouteChange);
-        };
-    }, [router.events]);
+    const router = useRouter()
 
 
     
@@ -67,6 +55,9 @@ export default function ProjMang() {
         <section className="min-h-screen">
 
         <nav className="py-10 mb-12 flex justify-between w-full">
+            <button type="button" onClick={() => router.back()}>
+                Click here to go back
+            </button>
             <div className="flex items-center ml-10">
     {/* IoSparklesSharp on the left */}
             <IoSparklesSharp className=" text-main-brown text-2xl transform hover:text-hover-resume transition-all duration-500 hover:scale-110" />   
