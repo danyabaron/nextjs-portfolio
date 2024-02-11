@@ -58,9 +58,7 @@ export default function ProjMang() {
                 
                 <IoSparklesSharp className="cursor-pointer text-main-brown text-2xl mr-10 transform hover:scale-110"/>
               </li> */}
-              <li>
-                <a href="/page.js" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105 transition-all duration-500">Home</a>
-            </li>
+              
               <li>
                 <a href="#goal" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
                 transition-all duration-500">Goal</a>
