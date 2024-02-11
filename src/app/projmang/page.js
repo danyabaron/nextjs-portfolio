@@ -243,12 +243,9 @@ export default function ProjMang() {
            
             <div id="wireframe-text" className="flex-1">
                 <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[700px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris nunc, ornare ut velit eu, sagittis laoreet ante. Sed porttitor 
-                felis non ligula aliquam lacinia. Duis ut ex nec est laoreet aliquet in nec felis. Mauris a accumsan mi. Phasellus id mauris accumsan, 
-                imperdiet magna in, elementum velit. Pellentesque bibendum purus metus, at fermentum massa consequat laoreet. Ut sit amet diam ut metus 
-                gravida iaculis eu venenatis turpis. 
-                Aliquam egestas massa dapibus metus placerat, vitae vulputate nisi eleifend. Pellentesque tincidunt risus mauris,
-                 nec dapibus risus tristique et.
+                    Our wireframes serve as the blueprint for the webpage, 
+                    providing a visual representation of the website's layout, structure, and functionality. We concluded the MVP (most viable product) and focused on the 
+                    features and functionality that were high priority.
                 </p>
             </div>
             {/* <div id="intro-pic">
