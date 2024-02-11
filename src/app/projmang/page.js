@@ -295,7 +295,7 @@ export default function ProjMang() {
                 {/* <div id="intro-pic">
                     <Image src={DesignCodeLogo} alt="design and code logo" className="drop-shadow-md" />
                 </div> */}
-                <div id="features" className="flex flex-col items-center py-6 bg-white rounded-3xl drop-shadow-lg w-96">
+                <div id="features" className="flex flex-col items-center py-6 bg-white rounded-3xl drop-shadow-lg">
                         <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-center mb-5 text-hover-resume'>Features</h2>
                         <ul className="list-disc list-inside columns-2 font-helvetica text-lg text-main-brown bg-white text-wrap max-w-[300px]">
                             <li className="mb-3"> Project Kanban Board</li>
