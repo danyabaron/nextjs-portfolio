@@ -160,7 +160,7 @@ export default function ProjMang() {
             </div>
 
             <div id="subgoal" className="grid flex justify-center grid-cols-2 mt-6 gap-24">
-                <div id="problem" className="flex flex-col justify-center py-6 items-center rounded-3xl drop-shadow-lg bg-white">
+                <div id="problem" className="flex flex-col justify-center py-6 items-center rounded-3xl drop-shadow-lg bg-white ">
                     <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-center mb-5 text-hover-resume'>Problem</h2>
                     <ul className="list-disc list-inside font-helvetica text-lg text-main-brown justify-center  flex-1 text-wrap max-w-[300px]">
                         <li className="mb-5"> Task management softwares are high cost for the size of the UCF Design and Code Club (300+ members)</li>
@@ -173,7 +173,7 @@ export default function ProjMang() {
 
                 </div>
 
-                <div id="solution" className="flex flex-col items-center py-6 bg-white rounded-3xl drop-shadow-lg w-96">
+                <div id="solution" className="flex flex-col items-center py-6 bg-white rounded-3xl drop-shadow-lg w-96 ">
                     <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-center mb-5 text-hover-resume'>Solution</h2>
                     <ul className="list-disc list-inside font-helvetica text-lg text-main-brown bg-white text-wrap max-w-[300px]">
                         <li className="mb-5"> Create end to end high fidelity design for React task management software webpage in UCF Design and Code Website </li>
@@ -199,13 +199,13 @@ export default function ProjMang() {
             <div id="research-content" className="flex flex-row items-center gap-4 justify-center w-screen"> 
             
                 <div id="research-text" className='py-6'>
-                    <p className="font-helvetica text-lg text-main-brown px-5 text-center drop-shadow-sm flex-1 text-wrap max-w-[700px]">
+                    <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[700px]">
                     We conducted a comparative analysis of common task management platforms such as Trello, Jira, Evernote, Asana, and Microsoft Planner.
                     Through this process, we determined that the Kanban Board style offers the simplest and 
                     most effective design solution for fulfilling the needs of the UCF Design and Code club, based on both usability and functionality assessments.
                     </p>
                 </div>
-                <div id="inspiration" className="flex flex-col items-center py-6 bg-white rounded-3xl drop-shadow-lg w-96">
+                <div id="inspiration" className="flex flex-col items-center py-6 bg-white rounded-3xl drop-shadow-lg w-96 ">
                     <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-center mb-5 text-hover-resume'>Inspiration</h2>
                     <ul className="list-disc list-inside font-helvetica text-lg text-main-brown bg-white text-wrap max-w-[300px]">
                         <li className="mb-5"> Figma Community </li>
