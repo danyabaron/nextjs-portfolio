@@ -15,6 +15,9 @@ import DigBalance from '../../public/assets/digbalance.png';
 import Solar from '../../public/assets/solarsystem.png';
 import Factor from '../../public/assets/7factorTile.png';
 import sparkle from '../../public/assets/sparkle.png';
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaBehance } from "react-icons/fa";
 
 // import ProjMang from './projmang/page.js'; 
 
