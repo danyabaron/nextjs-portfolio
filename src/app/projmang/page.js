@@ -174,7 +174,7 @@ export default function ProjMang() {
                     </p>
                 </div>
                 <div id="intro-pic" className="mr-6">
-                    <Image src={DesignCodeLogo} width={300} height={300} alt="design and code logo" className="drop-shadow-md" />
+                    <Image src={DesignCodeLogo} width={400} height={400} alt="design and code logo" className="drop-shadow-md" />
                 </div>
             
             </div>
