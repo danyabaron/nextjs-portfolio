@@ -85,7 +85,7 @@ export default function ProjMang() {
 
         <div id="projheader" class="w-screen items-center flex flex-row gap-9 mb-24 py-10 rounded-3xl">
             <div id="proj-text" className="columns-4 flex flex-col ml-12 justify-center items-center w-screen gap-5">
-                <h2 className="text-3xl font-helvetica-medium drop-shadow-md text-hover-resume">Design and Code Project Management Application</h2>
+                <h2 className="text-3xl font-helvetica-medium drop-shadow-md text-hover-resume">Design & Code Project Management Application</h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
                     A task management web application that helps UCF Design and Code members and club officers efficiently organize and track projects using a Kanban-inspired interface.
                 </p>
