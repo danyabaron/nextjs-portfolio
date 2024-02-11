@@ -16,6 +16,7 @@ import Solar from '../../public/assets/solarsystem.png';
 import Factor from '../../public/assets/7factorTile.png';
 import sparkle from '../../public/assets/sparkle.png';
 import PrototypeGif from '../../public/assets/prototypegif.gif';
+import DCProj from '../../public/assets/projboardproto.png';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
@@ -181,7 +182,7 @@ export default function Home() {
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Projects</h1>
 
             <div id="projects-0.5" className="grid grid-rows-1 justify-center items-center grid-flow-col">
-              <Image src={PrototypeGif} alt="Design & Code Project Management" loading="lazy" width={500} height={500} className="rounded-2xl"/>
+              <Image src={DCProj} alt="Design & Code Project Management" loading="lazy" width={400} height={400} className="rounded-2xl drop-drop-shadow-md"/>
             <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
                 <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
                   UCF Design & Code Project Management
