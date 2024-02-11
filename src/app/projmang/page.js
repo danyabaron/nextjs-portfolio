@@ -170,8 +170,9 @@ export default function ProjMang() {
                 <div id="solution" className="items-center">
                     <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-center mb-5 text-hover-resume'>Solution</h2>
                     <ul className="list-disc font-helvetica text-lg text-main-brown text-center flex-1 text-wrap max-w-[300px]">
-                        <li className="mb-3"> Create end to end high fidelity design for task management page in Design and Code Website for React developers </li>
-                        <li className="mb-3"> Administrative limitations, need to accomodate Design and Code Club Officers to be able to create projects and add members</li>
+                        <li className="mb-3"> Create end to end high fidelity design for React task management software webpage in UCF Design and Code Website </li>
+                        <li className="mb-3"> Develop functionality for: task completion status, separate login credentials for officers and members, project completion status, create new
+                        project, create new team,  </li>
                        
 
                        
