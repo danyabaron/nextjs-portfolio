@@ -153,7 +153,7 @@ export default function ProjMang() {
             
             </div>
 
-            <div id="subgoal" className="grid flex justify-center grid-cols-2  mt-6 gap-12">
+            <div id="subgoal" className="grid flex justify-center grid-cols-2  mt-6 gap-16">
                 <div id="problem" className="items-center">
                     <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-center mb-5 text-hover-resume'>Problem</h2>
                     <ul className="list-disc font-helvetica text-lg text-main-brown text-center flex-1 text-wrap max-w-[300px]">
