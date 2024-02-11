@@ -51,6 +51,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}", // Add a comma here
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    "./projmang/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   safelist: [
     '!duration-[0ms]',
@@ -72,7 +73,8 @@ module.exports = {
       'gradient-bottom': "#F3E7E9",
       'main-brown': "#655D5D",
       'text-pink': "#F2E8EB",
-      'hover-resume': '#2F2B2B'
+      'hover-resume': '#2F2B2B',
+      'white': '#faf5f5'
     },
     content: {
       relative: true,

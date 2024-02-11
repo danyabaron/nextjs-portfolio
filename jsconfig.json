@@ -2,6 +2,7 @@
   "compilerOptions": {
     "paths": {
       "@/*": ["./src/*"]
+      // "include": ["video.d.ts", "next-env.d.ts", /* ... */ ]
     }
   }
 }

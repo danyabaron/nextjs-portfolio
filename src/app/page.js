@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import { IoSparklesSharp } from "react-icons/io5";
 import Image from 'next/image';
 import HeroPic from '../../public/assets/profilepic.png';
@@ -14,11 +15,19 @@ import DigBalance from '../../public/assets/digbalance.png';
 import Solar from '../../public/assets/solarsystem.png';
 import Factor from '../../public/assets/7factorTile.png';
 import sparkle from '../../public/assets/sparkle.png';
+import PrototypeGif from '../../public/assets/prototypegif.gif';
+import DCProj from '../../public/assets/DCtile.png';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
+<<<<<<< HEAD
 // import { FaDribble } from "react-icons/fa";
 import { FaDribbble } from "react-icons/fa";
+=======
+import { FaDribbble } from "react-icons/fa";
+
+// import ProjMang from './projmang/page.js'; 
+>>>>>>> editing
 
 
 
@@ -27,13 +36,7 @@ import { FaDribbble } from "react-icons/fa";
 import React from 'react';
 
 
-// const openResume = () => {
-//   // Replace 'https://example.com' with the actual URL you want to open
-//   const url = 'https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing';
 
-//   // Open the link in a new tab
-//   window.open(url, '_blank');
-// };
 
 
 
@@ -80,23 +83,23 @@ export default function Home() {
               </li> */}
               <li>
                 <a href="#about" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
-                transition-all duration-500">About</a>
+                transition-all duration-500" scroll={false}>About</a>
               </li>
 
               <li>
               <a href="#skills" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
-                transition-all duration-500">Skills</a>
+                transition-all duration-500" scroll={false}>Skills</a>
               </li>
 
               <li>
               <a href="#projects" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
-                transition-all duration-500">Projects</a>
+                transition-all duration-500" scroll={false}>Projects</a>
               </li>
 
               
               <li>
               <a href="#contact" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
-                transition-all duration-500">Contact</a>
+                transition-all duration-500" scroll={false}>Contact</a>
               </li>
             </ul>
           </nav>
@@ -137,6 +140,7 @@ export default function Home() {
 
 
           </div>
+          
           <div id="skills" className="flex items-center flex-col justify-center w-screen py-10 mb-12">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Skills</h1>
               <div id="skills-section1" className="grid grid-rows-1 justify-center grid-flow-col bg-main-brown rounded-3xl px-5 py-2">
@@ -182,70 +186,31 @@ export default function Home() {
           </div>
           <div id="projects" className="flex items-center flex-col justify-center w-screen py-8 mb-9 gap-x-1">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Projects</h1>
-            
-            <div id="projects-1" className="grid grid-rows-1 justify-center items-center grid-flow-col">
-              <Image src={Pented} alt="Pented" width={400} height={400}/>
+
+            <div id="projects-0.5" className="grid grid-rows-1 justify-center items-center grid-flow-col ">
+              <Image src={DCProj} alt="Design & Code Project Management" width={475} height={337} loading="lazy" className="rounded-2xl drop-shadow-md"/>
             <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
                 <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
-                  Case Study: Education App Design 
+                  UCF Design & Code Project Management
                 </h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
-                Pented is a mobile education app that caters to underprivileged middle school students in Gujarat, India. Used Figma for entire project. The goal of the project was to redesign an enhanced experience for their users and a solution to showcase their offerings better, keeping current design standards and gamification in mind.
+                  A task management web application that helps UCF Design and Code members and club officers efficiently organize and track projects using a Kanban-inspired interface.
+                  The goal of the project was to implement a web app facilitating project and team management for club members and officers. Created with Figma.
                 </p>
 
-                <a href="https://www.behance.net/gallery/161733587/Education-App-Design" target="_blank">
+                <Link href="/projmang">
+                
                 <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
-                View Case Study
+                View Design
                 {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
               </button>
-              </a>
-            </div>
-          </div>
-
-
-            <div id="projects-2" className="grid grid-rows-1 justify-center items-center  grid-flow-col">
-              <Image src={DigBalance} alt="DigBalance" width={400} height={400}/>
-            <div id="culture-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
-                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
-                  Culture Jam Website
-                </h2>
-                <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
-                Website for a final project in my masters program at UCF that I designed and developed myself using Figma, HTML, and CSS. Goal of the project was to convince the audience towards a satirical mission. Designed this for the target user audience. Designed this using common design protocols and user research methods.
-                </p>
-
-                <a href="https://danyabaron.github.io/dig6647finalproj/" target="_blank">
-                  <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
-                  View Site
-                  {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
-                  </button>
-
-                </a>
-                
-            </div>
-          </div>
-
-          <div id="projects-3" className="grid grid-rows-1 justify-center items-center grid-flow-col">
-              <Image src={Solar} alt="Solar" width={400} height={400}/>
-            <div id="solar-info" className="bg-gradient-top flex flex-col drop-shadow-lg items-center m-8 p-4 gap-7 rounded-3xl">
-                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
-                  Solar System Simulation
-                </h2>
-                <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
-                A solar system simulation I made in Javascript using p5.js for a final project in my Masters program at UCF. Planets move as they normally do in our solar system, and have a calculated speed. Used objected oriented programming concepts to determine orbit radius as well as speed, color, size, and label of planet. Utilized Visual Studio Code, Git, and JavaScript heavily.
-                </p>
-                
-
-                <a href="https://danyabaron.github.io/dig5508projects/finalprojv2/" target="_blank">
-                  <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
-                  View Simulation
-                  
-                  </button>
-              </a>
+              </Link>
+              {/* </a> */}
             </div>
           </div>
 
           <div id="projects-4" className="grid grid-rows-1 justify-center items-center grid-flow-col">
-              <Image src={Factor} alt="7Factor" width={400} height={400}/>
+              <Image src={Factor} alt="7Factor" loading="lazy" className="rounded-2xl drop-shadow-md" />
             <div id="factor-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
                 <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
                   7Factor Corporate Website
@@ -280,6 +245,71 @@ export default function Home() {
                 
             </div>
           </div>
+
+
+            
+            <div id="projects-1" className="grid grid-rows-1 justify-center items-center grid-flow-col">
+              <Image src={Pented} alt="Pented" loading="lazy" className="rounded-2xl drop-shadow-md" />
+            <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
+                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
+                  Case Study: Education App Design 
+                </h2>
+                <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
+                Pented is a mobile education app that caters to underprivileged middle school students in Gujarat, India. The goal of the project was to redesign an enhanced experience for their users and a solution to showcase their offerings better, keeping current design standards and gamification in mind. Created with Figma.
+                </p>
+
+                <a href="https://www.behance.net/gallery/161733587/Education-App-Design" target="_blank">
+                <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
+                View Case Study
+                {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
+              </button>
+              </a>
+            </div>
+          </div>
+
+
+          {/* <div id="projects-2" className="grid grid-rows-1 justify-center items-center  grid-flow-col">
+              <Image src={DigBalance} alt="DigBalance" />
+            <div id="culture-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
+                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
+                  Culture Jam Website
+                </h2>
+                <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
+                Website for a final project in my masters program at UCF that I designed and developed myself using Figma, HTML, and CSS. Goal of the project was to convince the audience towards a satirical mission. Designed this for the target user audience. Designed this using common design protocols and user research methods.
+                </p>
+
+                <a href="https://danyabaron.github.io/dig6647finalproj/" target="_blank">
+                  <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
+                  View Site
+                  {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
+                  {/* </button>
+
+                </a>
+                
+            </div>
+          </div>  */}
+
+          {/* <div id="projects-3" className="grid grid-rows-1 justify-center items-center grid-flow-col">
+              <Image src={Solar} alt="Solar"/>
+            <div id="solar-info" className="bg-gradient-top flex flex-col drop-shadow-lg items-center m-8 p-4 gap-7 rounded-3xl">
+                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
+                  Solar System Simulation
+                </h2>
+                <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
+                A solar system simulation I made in Javascript using p5.js for a final project in my Masters program at UCF. Planets move as they normally do in our solar system, and have a calculated speed. Used objected oriented programming concepts to determine orbit radius as well as speed, color, size, and label of planet. Utilized Visual Studio Code, Git, and JavaScript heavily.
+                </p>
+                
+
+                <a href="https://danyabaron.github.io/dig5508projects/finalprojv2/" target="_blank">
+                  <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
+                  View Simulation
+                  
+                  </button>
+              </a>
+            </div>
+          </div> */}
+
+          
         </div>
         
         <div id="contact" className="flex items-center flex-col justify-center w-screen mb-9 py-8 gap-x-1">
@@ -305,7 +335,17 @@ export default function Home() {
           <div className="flex flex-row gap-4">
               <a href="https://www.linkedin.com/in/danyabaron/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110" />
+<<<<<<< HEAD
               </a>  
+=======
+              </a>
+              <a href="https://dribbble.com/danyabaronui" target="_blank" rel="noopener noreferrer">
+                <FaDribbble className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110" />
+              </a>
+              <a href="https://github.com/danyabaron" target="_blank" rel="noopener noreferrer">
+                <FaGithub className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110" />
+              </a>
+>>>>>>> editing
               <a href="https://www.behance.net/danyabaron16" target="_blank" rel="noopener noreferrer">
                 <FaBehance className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110" />
               </a>
