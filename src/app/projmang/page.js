@@ -156,7 +156,7 @@ export default function ProjMang() {
             <div id="subgoal" className="grid flex justify-center grid-cols-2 mt-6 gap-24">
                 <div id="problem" className="justify-center items-center bg-white">
                     <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-center mb-5 text-hover-resume'>Problem</h2>
-                    <ul className="list-disc list-inside font-helvetica text-lg text-main-brown text-center flex-1 text-wrap max-w-[300px]">
+                    <ul className="list-disc list-inside font-helvetica text-lg text-main-brown justify-center text-center flex-1 text-wrap max-w-[300px]">
                         <li className="mb-5"> Task management softwares are high cost for the size of the UCF Design and Code Club (300+ members)</li>
                         <li className="mb-5"> Administrative limitations, need to accomodate Design and Code Club Officers to be able to create projects and add members,
                         as well as have UCF Single Sign On</li>
