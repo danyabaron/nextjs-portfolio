@@ -303,6 +303,9 @@ export default function ProjMang() {
                             <li className="mb-3"> Login Screen</li>
                             <li className="mb-3"> Main projects screen to see ongoing and past projects</li>
                             <li className="mb-3"> User Dashboard</li>
+                            <li className="mb-3"> Admin create/edit project</li>
+                            <li className="mb-3"> Admin create/edit team</li>
+                            <li className="mb-3"> Admin add/edit user</li>
                         
 
                         
