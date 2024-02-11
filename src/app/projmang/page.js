@@ -158,7 +158,7 @@ export default function ProjMang() {
                     <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-center mb-5 text-hover-resume'>Problem</h2>
                     <ul className="list-disc font-helvetica text-lg text-main-brown text-center flex-1 text-wrap max-w-[300px]">
                         <li className="mb-3"> Task management softwares are high cost for the size of the UCF Design and Code Club (300+ members)</li>
-                        <li className="mb-3"> Administrative limitations, need to accomadate Design and Code Club Officers</li>
+                        <li className="mb-3"> Administrative limitations, need to accomodate Design and Code Club Officers to be able to create projects and add members</li>
 
                        
                     </ul>
