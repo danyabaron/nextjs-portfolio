@@ -153,21 +153,29 @@ export default function ProjMang() {
             
             </div>
 
-            <div id="subgoal" className="grid justify-center grid-cols-2 grid-flow-col px-9 mt-6 gap-9">
+            <div id="subgoal" className="grid justify-center grid-cols-2 grid-flow-col py-7 mt-6 gap-9">
                 <div id="problem" className="items-center">
                     <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-center mb-5 text-hover-resume'>Problem</h2>
                     <ul className="list-disc font-helvetica text-lg text-main-brown text-center flex-1 text-wrap max-w-[300px]">
                         <li className="mb-3"> Task management softwares are high cost for the size of the UCF Design and Code Club (300+ members)</li>
                         <li className="mb-3"> Administrative limitations, need to accomodate Design and Code Club Officers to be able to create projects and add members</li>
-                        <li className="mb-3">Task management page within Design and Code Club website with club design syles for easier navigation</li>
+                       
 
                        
                     </ul>
 
                 </div>
 
-                <div id="solution">
-                    <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-hover-resume text-center'>Solution</h2>
+                <div id="solution" className="items-center">
+                    <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-center mb-5 text-hover-resume'>Solution</h2>
+                    <ul className="list-disc font-helvetica text-lg text-main-brown text-center flex-1 text-wrap max-w-[300px]">
+                        <li className="mb-3"> Task management softwares are high cost for the size of the UCF Design and Code Club (300+ members)</li>
+                        <li className="mb-3"> Administrative limitations, need to accomodate Design and Code Club Officers to be able to create projects and add members</li>
+                       
+
+                       
+                    </ul>
+
                 </div>
                 
 
