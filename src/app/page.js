@@ -182,7 +182,7 @@ export default function Home() {
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Projects</h1>
 
             <div id="projects-0.5" className="grid grid-rows-1 justify-center items-center grid-flow-col">
-              <Image src={DCProj} alt="Design & Code Project Management" loading="lazy" width={400} height={400} className="rounded-2xl drop-drop-shadow-md"/>
+              <Image src={DCProj} alt="Design & Code Project Management" loading="lazy" className="rounded-2xl drop-drop-shadow-md"/>
             <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
                 <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
                   UCF Design & Code Project Management
@@ -205,7 +205,7 @@ export default function Home() {
 
             
             <div id="projects-1" className="grid grid-rows-1 justify-center items-center grid-flow-col">
-              <Image src={Pented} alt="Pented" width={400} height={400}/>
+              <Image src={Pented} alt="Pented" />
             <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
                 <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
                   Case Study: Education App Design 
@@ -225,7 +225,7 @@ export default function Home() {
 
 
             <div id="projects-2" className="grid grid-rows-1 justify-center items-center  grid-flow-col">
-              <Image src={DigBalance} alt="DigBalance" width={400} height={400}/>
+              <Image src={DigBalance} alt="DigBalance" />
             <div id="culture-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
                 <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
                   Culture Jam Website
@@ -246,7 +246,7 @@ export default function Home() {
           </div>
 
           <div id="projects-3" className="grid grid-rows-1 justify-center items-center grid-flow-col">
-              <Image src={Solar} alt="Solar" width={400} height={400}/>
+              <Image src={Solar} alt="Solar"/>
             <div id="solar-info" className="bg-gradient-top flex flex-col drop-shadow-lg items-center m-8 p-4 gap-7 rounded-3xl">
                 <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
                   Solar System Simulation
@@ -266,7 +266,7 @@ export default function Home() {
           </div>
 
           <div id="projects-4" className="grid grid-rows-1 justify-center items-center grid-flow-col">
-              <Image src={Factor} alt="7Factor" width={400} height={400}/>
+              <Image src={Factor} alt="7Factor" />
             <div id="factor-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
                 <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
                   7Factor Corporate Website
