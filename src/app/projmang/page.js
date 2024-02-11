@@ -32,6 +32,7 @@ import AdminEditUser from '../../../public/assets/adminedituser.png';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
+import { useRouter } from 'next/router';
 
 
 
@@ -58,6 +59,9 @@ export default function ProjMang() {
                 
                 <IoSparklesSharp className="cursor-pointer text-main-brown text-2xl mr-10 transform hover:scale-110"/>
               </li> */}
+              <li>
+
+              </li>
               
               <li>
                 <a href="#goal" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
