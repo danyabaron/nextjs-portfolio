@@ -282,7 +282,7 @@ export default function ProjMang() {
         <div id="prototype" className="flex flex-col items-center justify-center gap-4 w-screen py-10 mb-9">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Prototype</h1>
 
-            <div id="proto-content" className="flex flex-row items-center justify-center w-screen"> 
+            <div id="proto-content" className="flex flex-row gap-4 items-center justify-center"> 
            
                 <div id="prototype-text" className="flex-1">
                     <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[700px]">
@@ -298,7 +298,7 @@ export default function ProjMang() {
                     <Image src={DesignCodeLogo} alt="design and code logo" className="drop-shadow-md" />
                 </div> */}
                 <div id="inspiration" className="flex flex-col items-center py-6 bg-white rounded-3xl drop-shadow-lg w-96">
-                        <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-center mb-5 text-hover-resume'>Inspiration</h2>
+                        <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-center mb-5 text-hover-resume'>Features</h2>
                         <ul className="list-disc list-inside font-helvetica text-lg text-main-brown bg-white text-wrap max-w-[300px]">
                             <li className="mb-5"> Figma Community </li>
                             <li className="mb-5"> Trello and Kanban Board </li>
