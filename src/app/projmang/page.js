@@ -98,7 +98,6 @@ export default function ProjMang() {
                 </p>
                 <h3 className="text-xl font-helvetica-medium drop-shadow-sm text-hover-resume">
                     Design Role
-
                 </h3>
 
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
