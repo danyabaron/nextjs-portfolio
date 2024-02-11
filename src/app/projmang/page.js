@@ -244,7 +244,7 @@ export default function ProjMang() {
 
         </div>
 
-        <div id="research-grid" className="grid justify-center grid-rows-2 grid-flow-col px-9 gap-6">
+        {/* <div id="research-grid" className="grid justify-center grid-rows-2 grid-flow-col px-9 gap-6">
                 <div> 
                     <Image src={KanbanOne} alt="kanban1" className="drop-shadow-md" />
                 </div>
@@ -260,7 +260,7 @@ export default function ProjMang() {
                 <div>
                     <Image src={Login1}  alt="trello1" className="drop-shadow-md" />
                 </div>
-            </div>
+            </div> */}
 
 
         <div id="wireframe" className="flex flex-col items-center justify-center gap-4 w-screen py-10 mb-9">
