@@ -194,12 +194,9 @@ export default function ProjMang() {
             
                 <div id="research-text" className='py-6'>
                     <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[700px]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris nunc, ornare ut velit eu, sagittis laoreet ante. Sed porttitor 
-                    felis non ligula aliquam lacinia. Duis ut ex nec est laoreet aliquet in nec felis. Mauris a accumsan mi. Phasellus id mauris accumsan, 
-                    imperdiet magna in, elementum velit. Pellentesque bibendum purus metus, at fermentum massa consequat laoreet. Ut sit amet diam ut metus 
-                    gravida iaculis eu venenatis turpis. 
-                    Aliquam egestas massa dapibus metus placerat, vitae vulputate nisi eleifend. Pellentesque tincidunt risus mauris,
-                    nec dapibus risus tristique et.
+                    We conducted a comparative analysis of common task management platforms such as Trello, Jira, Evernote, Asana, and Microsoft Planner.
+                    Through this process, we determined that the Kanban Board style offers the simplest and 
+                    most effective design solution for fulfilling the needs of the UCF Design and Code club, based on both usability and functionality assessments.
                     </p>
                 </div>
                 <div id="inspiration" className="flex flex-col items-center py-6 bg-white rounded-3xl drop-shadow-lg w-96">
