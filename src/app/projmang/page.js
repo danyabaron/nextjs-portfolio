@@ -336,14 +336,14 @@ export default function ProjMang() {
                 <div className="justify-center items-center"> 
                     <Image src={Dashboard} alt="projboard" loading="lazy" className="drop-shadow-md" />
                     <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
-                    Project Kanban Board
+                    Dashboard
                     </p>
                 </div>
                
                 <div className="justify-center items-center"> 
                     <Image src={ProjBoardProto} alt="new proj" loading="lazy" className="drop-shadow-md" />
                     <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
-                        Add New Project
+                        Project Kanban Board
                     </p>
                 </div>
                 <div>
@@ -352,7 +352,7 @@ export default function ProjMang() {
                     </div>
                     
                     <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
-                        See Team Data Admin View
+                        Edit Kanban Card
                     </p>
                 </div>
                 <div>
@@ -360,19 +360,19 @@ export default function ProjMang() {
                         <Image src={CreateCard} height={450} alt="new proj" loading="lazy" className="drop-shadow-md" />
                 </div>
                     <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
-                       See User Data Admin View
+                       Create New Kanban Card
                     </p>
                 </div>
                 <div>
                     <Image src={ProjectsHome} alt="new proj" loading="lazy" className="drop-shadow-md" />
                     <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
-                       See User Data Admin View
+                       Projects Home
                     </p>
                 </div>
                 <div>
                     <Image src={AdminHome} alt="new proj" loading="lazy" className="drop-shadow-md" />
                     <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
-                       See User Data Admin View
+                       Admin Home
                     </p>
                 </div>
                 <div>
