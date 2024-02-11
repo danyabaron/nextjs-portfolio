@@ -287,7 +287,7 @@ export default function ProjMang() {
                 <div id="prototype-text" className="flex-1">
                     <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[700px]">
                         Our high-fidelity prototype builds upon the foundational elements established in our wireframes, incorporating additional features and refining the 
-                        user interface to create a more polished and immersive experience. Emphasizing the project Kanban board and administrative 
+                        user interface to create a more polished experience. Emphasizing the project Kanban board and administrative 
                         functions for Design and Code club officers, the prototype brings our design concepts to life with enhanced interactivity and visual fidelity.
                     </p>
                 </div>
