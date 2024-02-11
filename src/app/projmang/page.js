@@ -6,7 +6,7 @@ import Image from 'next/image';
 import ProjTile from '../../../public/assets/projmangTile.png';
 import ProjTileDiag from '../../../public/assets/projmangTileDiagnol.png';
 import DesignCodeLogo from '../../../public/assets/designcodelogo.png';
-import PrototypeGif from '../../../public/assets/prototypegif.gif'
+import PrototypeGif from '../../../public/assets/prototypegif.gif';
 import KanbanOne from '../../../public/assets/kanban1.png';
 import TrelloOne from '../../../public/assets/trello1.png';
 import KanbanTwo from '../../../public/assets/kanban2.png';
