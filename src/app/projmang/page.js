@@ -199,7 +199,7 @@ export default function ProjMang() {
             <div id="research-content" className="flex flex-row items-center gap-4 justify-center w-screen"> 
             
                 <div id="research-text" className='py-6'>
-                    <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[700px]">
+                    <p className="font-helvetica text-lg text-main-brown px-5 text-center drop-shadow-sm flex-1 text-wrap max-w-[700px]">
                     We conducted a comparative analysis of common task management platforms such as Trello, Jira, Evernote, Asana, and Microsoft Planner.
                     Through this process, we determined that the Kanban Board style offers the simplest and 
                     most effective design solution for fulfilling the needs of the UCF Design and Code club, based on both usability and functionality assessments.
@@ -282,7 +282,7 @@ export default function ProjMang() {
         <div id="prototype" className="flex flex-col items-center justify-center gap-4 w-screen py-10 mb-9">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-hover-resume'>Prototype</h1>
 
-            <div id="proto-content" className="flex flex-row gap-4 items-center justify-center"> 
+            {/* <div id="proto-content" className="flex flex-row gap-4 items-center justify-center">  */}
            
                 <div id="prototype-text" className="flex-1">
                     <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[700px]">
@@ -295,9 +295,9 @@ export default function ProjMang() {
                 {/* <div id="intro-pic">
                     <Image src={DesignCodeLogo} alt="design and code logo" className="drop-shadow-md" />
                 </div> */}
-                <div id="features" className="flex flex-col items-center py-6 bg-white rounded-3xl px-12 drop-shadow-lg">
+                {/* <div id="features" className="flex flex-col items-center py-6 bg-white rounded-3xl px-12 drop-shadow-lg">
                         <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-center mb-5 text-hover-resume'>Features</h2>
-                        <ul className="list-disc list-inside columns-2 font-helvetica text-lg text-main-brown bg-white text-wrap max-w-[700px]">
+                        <ul className="list-disc list-inside columns-2 -ml-4 font-helvetica text-lg text-main-brown bg-white text-wrap max-w-[700px]">
                             <li className="mb-3"> Project Kanban Board</li>
                             <li className="mb-3"> Edit task Kanban card </li>
                             <li className="mb-3"> Create task Kanban card </li>
@@ -315,8 +315,8 @@ export default function ProjMang() {
                         
                        
 
-                    </div>
-            </div>
+                    </div> */}
+            {/* </div> */}
         </div>
         <div id="proto-gif" className="flex justify-center gap-5 mb-11">
                 {/* <Image src={ProjTile} alt="proj mang 1" width={1200} height={674} className="drop-shadow-md" />
