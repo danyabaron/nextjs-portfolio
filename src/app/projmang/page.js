@@ -20,6 +20,8 @@ import Homewire2 from '../../../public/assets/homewire2.png';
 import ProjBoardWire from '../../../public/assets/projectboardwire.png';
 import AddCardWire from '../../../public/assets/addcardwire.png';
 
+//comment to add here for deployment
+
 import LoginProtoImg from '../../../public/assets/loginproto.png';
 import Dashboard from '../../../public/assets/dashboard.png';
 import ProjBoardProto from '../../../public/assets/projboardproto.png';
