@@ -36,6 +36,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
 
 import { useRouter } from 'next/navigation';
+import { IoMdArrowBack } from "react-icons/io";
 
 
 
@@ -56,14 +57,14 @@ export default function ProjMang() {
 
         <nav className="py-10 mb-12 flex justify-between w-full">
             <button type="button" onClick={() => router.back()}>
-                Click here to go back
-            </button>
-            <div className="flex items-center ml-10">
-    {/* IoSparklesSharp on the left */}
-            <IoSparklesSharp className=" text-main-brown text-2xl transform hover:text-hover-resume transition-all duration-500 hover:scale-110" />   
-    {/* Other content on the left (if any) */}
-    {/* Add your additional content here */}
-         </div>
+                <div className="flex items-center ml-10">
+    
+                <IoMdArrowBack className=" text-main-brown text-2xl transform hover:text-hover-resume transition-all duration-500 hover:scale-110" />   
+        
+                </div>
+                    
+                </button>
+                
             
             
             <ul className="flex items-center animate-fade-right animate-ease-in">
