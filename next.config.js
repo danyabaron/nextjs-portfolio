@@ -4,4 +4,6 @@ const nextConfig = {}
 // const withVideos = require('next-videos')
 // module.exports = withVideos()
 
+scrollRestoration: true
+
 module.exports = nextConfig
