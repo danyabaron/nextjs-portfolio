@@ -250,7 +250,14 @@ export default function ProjMang() {
             </div> */}
 
         </div>
-        <div id="proto-grid" className="grid justify-center items-center px-9 mb-24 grid-cols-2 gap-6">
+        <div id="proto-gif" className="flex justify-center gap-5 mb-11">
+                {/* <Image src={ProjTile} alt="proj mang 1" width={1200} height={674} className="drop-shadow-md" />
+                <Image src={ProjTileDiag} alt="proj mang 2" width={1200} height={674} className="drop-shadow-md" /> */}
+                <Image src={PrototypeGif} width={900} height={900} className="drop-shadow-md rounded-2xl"/>
+            </div>
+
+
+        <div id="proto-grid" className="grid justify-center items-center px-12 mb-24 grid-cols-2 gap-8">
                 <div className="justify-center items-center"> 
                     <Image src={LoginProtoImg} alt="login screen" loading="lazy" className="drop-shadow-md" />  
                     <p className="font-helvetica-medium text-md text-main-brown py-5 text-center text-wrap">
