@@ -20,6 +20,7 @@ import DCProj from '../../public/assets/DCtile.png';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
+import { FaDribbble } from "react-icons/fa";
 
 // import ProjMang from './projmang/page.js'; 
 
@@ -329,6 +330,9 @@ export default function Home() {
           <div className="flex flex-row gap-4">
               <a href="https://www.linkedin.com/in/danyabaron/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110" />
+              </a>
+              <a href="https://dribbble.com/danyabaronui" target="_blank" rel="noopener noreferrer">
+                <FaDribbble className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110" />
               </a>
               <a href="https://github.com/danyabaron" target="_blank" rel="noopener noreferrer">
                 <FaGithub className="text-text-pink text-2xl transform hover:text-text-pink transition-all duration-500 hover:scale-110" />
