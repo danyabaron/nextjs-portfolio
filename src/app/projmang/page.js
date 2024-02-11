@@ -103,6 +103,13 @@ export default function ProjMang() {
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
                     Product, UI/UX, Research
                 </p>
+                <h3 className="text-xl font-helvetica-medium drop-shadow-sm text-hover-resume">
+                    Team
+                </h3>
+
+                <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
+                    Product, UI/UX, Research
+                </p>
 
             </div>
             {/* width={300} height={300} */}
