@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import { IoSparklesSharp } from "react-icons/io5";
@@ -34,8 +34,8 @@ import AdminEditUser from '../../../public/assets/adminedituser.png';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
-import { useEffect } from 'react';
-import { useRouter } from 'next/router';
+
+import { useRouter } from 'next/navigation';
 
 
 
@@ -44,7 +44,19 @@ import { useRouter } from 'next/router';
 
 export default function ProjMang() {
 
+    const router = useRouter();
 
+    useEffect(() => {
+        const handleRouteChange = () => {
+            window.scrollTo(0, 0);
+        };
+
+        router.events.on('routeChangeComplete', handleRouteChange);
+
+        return () => {
+            router.events.off('routeChangeComplete', handleRouteChange);
+        };
+    }, [router.events]);
 
 
     
