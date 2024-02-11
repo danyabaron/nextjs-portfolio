@@ -72,23 +72,23 @@ export default function ProjMang() {
               
               <li>
                 <Link href="/projmang#goal" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
-                transition-all duration-500" scroll={false}>Goal</Link>
+                transition-all duration-500">Goal</Link>
               </li>
 
               <li>
               <Link href="/projmang#research" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
-                transition-all duration-500" scroll={false}>Research</Link>
+                transition-all duration-500">Research</Link>
               </li>
 
               <li>
               <Link href="/projmang#wireframe" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
-                transition-all duration-500" scroll={false}>Wireframe</Link>
+                transition-all duration-500">Wireframe</Link>
               </li>
 
               
               <li>
               <Link href="/projmang#prototype" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
-                transition-all duration-500" scroll={false}>Prototype</Link>
+                transition-all duration-500">Prototype</Link>
               </li>
             </ul>
           
