@@ -297,7 +297,7 @@ export default function ProjMang() {
                 </div> */}
                 <div id="features" className="flex flex-col items-center py-6 bg-white rounded-3xl px-12 drop-shadow-lg">
                         <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-center mb-5 text-hover-resume'>Features</h2>
-                        <ul className="list-disc list-inside columns-2  font-helvetica text-lg text-main-brown bg-white text-wrap max-w-[700px]">
+                        <ul className="list-disc list-inside columns-2 font-helvetica text-lg text-main-brown bg-white text-wrap max-w-[700px]">
                             <li className="mb-3"> Project Kanban Board</li>
                             <li className="mb-3"> Edit task Kanban card </li>
                             <li className="mb-3"> Create task Kanban card </li>
