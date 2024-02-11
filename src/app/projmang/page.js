@@ -32,6 +32,7 @@ import AdminEditUser from '../../../public/assets/adminedituser.png';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
+import { useRouter } from 'next/navigation';
 
 
 
@@ -39,7 +40,21 @@ import { FaBehance } from "react-icons/fa";
 
 export default function ProjMang() {
 
+    const router = useRouter();
 
+  useEffect(() => {
+    const handleBackButtonClick = () => {
+      router.push('/');
+    };
+
+    // Add event listener for popstate event (browser's back button)
+    window.addEventListener('popstate', handleBackButtonClick);
+
+    // Clean up the event listener
+    return () => {
+      window.removeEventListener('popstate', handleBackButtonClick);
+    };
+  }, []);
 
 
 
