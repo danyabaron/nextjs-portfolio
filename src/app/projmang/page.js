@@ -286,8 +286,9 @@ export default function ProjMang() {
            
                 <div id="prototype-text" className="flex-1">
                     <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[700px]">
-                    High fideltiy prototype contains the basic functionality from wireframes, with more features added. Primary focus was: project kanban board, creating a kanban task card, editing
-                    task card, 
+                        Our high-fidelity prototype builds upon the foundational elements established in our wireframes, incorporating additional features and refining the 
+                        user interface to create a more polished and immersive experience. Emphasizing the project Kanban board and administrative 
+                        functions for Design and Code club officers, the prototype brings our design concepts to life with enhanced interactivity and visual fidelity.
                     </p>
                 </div>
                 {/* <div id="intro-pic">
@@ -296,9 +297,9 @@ export default function ProjMang() {
                 <div id="features" className="flex flex-col items-center py-6 bg-white rounded-3xl drop-shadow-lg w-96">
                         <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-center mb-5 text-hover-resume'>Features</h2>
                         <ul className="list-disc list-inside font-helvetica text-lg text-main-brown bg-white text-wrap max-w-[300px]">
-                            <li className="mb-3"> Create task Kanban card</li>
+                            <li className="mb-3"> Project Kanban Board</li>
                             <li className="mb-3"> Edit task Kanban card </li>
-                            <li className="mb-3"> Timeline format </li>
+                            <li className="mb-3"> Create task Kanban card </li>
                             <li className="mb-3"> Club officer admin view </li>
                             <li className="mb-3"> Login Screen</li>
                             <li className="mb-3"> Main projects screen to see ongoing and past projects</li>
