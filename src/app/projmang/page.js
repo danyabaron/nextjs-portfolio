@@ -205,9 +205,10 @@ export default function ProjMang() {
                 <div id="inspiration" className="flex flex-col items-center py-6 bg-white rounded-3xl drop-shadow-lg w-96">
                     <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-center mb-5 text-hover-resume'>Inspiration</h2>
                     <ul className="list-disc list-inside font-helvetica text-lg text-main-brown text-center bg-white text-wrap max-w-[300px]">
-                        <li className="mb-5"> Create end to end high fidelity design for React task management software webpage in UCF Design and Code Website </li>
-                        <li className="mb-5"> Develop functionality for: task completion status, separate login credentials for officers and members, project completion status, create new
-                        project, create new team, edit/add user, project kanban board </li>
+                        <li className="mb-5"> Figma Community </li>
+                        <li className="mb-5"> Trello </li>
+                        <li className="mb-5"> Instagram Admin </li>
+                        <li className="mb-5"> Jira </li>
                        
 
                        
