@@ -116,7 +116,7 @@ export default function ProjMang() {
 
                 </h3>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
-                    November-December (4 weeks)
+                    November 2023 - January 2024 (10 weeks)
                 </p>
                 <h3 className="text-xl font-helvetica-medium drop-shadow-sm text-hover-resume">
                     Design Role
