@@ -189,7 +189,7 @@ export default function Home() {
                   UCF Design & Code Project Management Web Application
                 </h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
-                  A task management web application that helps UCF Design and Code members and club officers efficiently organize and track projects using a Kanban-inspired interface.
+                  A task management web application that helps UCF Design & Code club members and club officers efficiently organize and track projects using a Kanban-inspired interface.
                   The goal of the project was to implement a web app facilitating project and team management for club members and officers. Created with Figma.
                 </p>
 

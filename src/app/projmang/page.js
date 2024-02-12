@@ -107,7 +107,7 @@ export default function ProjMang() {
 
         <div id="projheader" class="w-screen items-center flex flex-row gap-9 mb-24 py-10 rounded-3xl">
             <div id="proj-text" className="columns-4 flex flex-col ml-12 justify-center py-7 items-center w-screen bg-white rounded-3xl drop-shadow-lg gap-5">
-                <h2 className="text-3xl font-helvetica-medium drop-shadow-md text-center text-hover-resume">Design & Code Project Management Application</h2>
+                <h2 className="text-3xl font-helvetica-medium drop-shadow-md text-center text-wrap max-w-[500px] text-hover-resume">Design & Code Club Project Management Application</h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
                     A task management web application that helps UCF Design and Code members and club officers efficiently organize and track projects using a Kanban-inspired interface.
                 </p>
@@ -168,7 +168,7 @@ export default function ProjMang() {
             <div id="intro-text">
                     <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[700px]">
                         
-                        The UCF Design and Code Club aims to implement a dedicated page on their website, facilitating seamless project and team management for club members and officers. 
+                        The UCF Design & Code Club aims to implement a dedicated page on their website, facilitating seamless project and team management for club members and officers. 
                         Through personalized Kanban-style boards, members can efficiently track tasks, set priorities, and collaborate on projects. 
                         Design and Code Club Officers have administrative control to create and manage project boards, assign members to teams and projects, 
                         monitor progress, and give members certain access rights. This web application resembles a Trello/Jira-style software tailored to the needs of the UCF Design and Code Club. 
