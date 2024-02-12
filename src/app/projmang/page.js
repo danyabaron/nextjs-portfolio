@@ -185,8 +185,8 @@ export default function ProjMang() {
                 <div id="problem" className="flex flex-col justify-center py-6 items-center rounded-3xl drop-shadow-lg bg-white ">
                     <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-center mb-5 text-hover-resume'>Problem</h2>
                     <ul className="list-disc list-inside font-helvetica text-lg text-main-brown justify-center  flex-1 text-wrap max-w-[300px]">
-                        <li className="mb-5"> Task management softwares are high cost for the size of the UCF Design and Code Club (300+ members)</li>
-                        <li className="mb-5"> Administrative limitations, need to accomodate Design and Code Club Officers to be able to create projects and add members,
+                        <li className="mb-5"> Task management softwares are high cost for the size of the UCF Design & Code Club (300+ members)</li>
+                        <li className="mb-5"> Administrative limitations, need to accomodate Design & Code Club Officers to be able to create projects and add members,
                         as well as have UCF Single Sign On</li>
                        
 
@@ -198,7 +198,7 @@ export default function ProjMang() {
                 <div id="solution" className="flex flex-col items-center py-6 bg-white rounded-3xl drop-shadow-lg w-96 ">
                     <h2 className='text-2xl font-helvetica-italic drop-shadow-md text-center mb-5 text-hover-resume'>Solution</h2>
                     <ul className="list-disc list-inside font-helvetica text-lg text-main-brown bg-white text-wrap max-w-[300px]">
-                        <li className="mb-5"> Create end to end high fidelity design for React task management software webpage in UCF Design and Code Website </li>
+                        <li className="mb-5"> Create end to end high fidelity design for React task management software webpage in UCF Design & Code Website </li>
                         <li className="mb-5"> Develop functionality for: task completion status, separate login credentials for officers and members, project completion status, create new
                         project, create new team, edit/add user, project kanban board </li>
                        
@@ -224,7 +224,7 @@ export default function ProjMang() {
                     <p className="font-helvetica text-lg text-main-brown px-5 text-center flex-1 text-wrap max-w-[700px]">
                     We conducted a comparative analysis of common task management platforms such as Trello, Jira, Evernote, Asana, and Microsoft Planner.
                     Through this process, we determined that the Kanban Board style offers the simplest and 
-                    most effective design solution for fulfilling the needs of the UCF Design and Code club, based on both usability and functionality assessments.
+                    most effective design solution for fulfilling the needs of the UCF Design & Code club, based on both usability and functionality assessments.
                     </p>
                 </div>
                 <div id="inspiration" className="flex flex-col items-center py-6 bg-white rounded-3xl drop-shadow-lg w-96 ">
@@ -311,7 +311,7 @@ export default function ProjMang() {
                         Our high-fidelity prototype builds upon the foundational elements established in our wireframes, incorporating additional features and refining the 
                         user interface to create a more polished experience. Emphasizing the project Kanban board and administrative 
                         functions for Design and Code club officers, the prototype brings our design concepts to life with enhanced interactivity and visual fidelity. Our prototype streamlines 
-                        project management and collaboration for the UCF Design and Code club.
+                        project management and collaboration for the UCF Design & Code club.
                     </p>
                 </div>
                 {/* <div id="intro-pic">
