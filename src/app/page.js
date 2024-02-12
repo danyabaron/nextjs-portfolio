@@ -185,7 +185,7 @@ export default function Home() {
             <div id="projects-0.5" className="grid grid-rows-1 justify-center items-center grid-flow-col ">
               <Image src={DCProj} alt="Design & Code Project Management" width={475} height={337} loading="lazy" className="rounded-2xl drop-shadow-md"/>
             <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
-                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown text-wrap max-w-[360px]">
+                <h2 className="font-helvetica-italic text-xl mt-5 text-center text-main-brown text-wrap max-w-[360px]">
                   UCF Design & Code Project Management Web Application
                 </h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
@@ -207,7 +207,7 @@ export default function Home() {
           <div id="projects-4" className="grid grid-rows-1 justify-center items-center grid-flow-col">
               <Image src={Factor} alt="7Factor" loading="lazy" className="rounded-2xl drop-shadow-md" />
             <div id="factor-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
-                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
+                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown text-center text-wrap max-w-[360px]">
                   7Factor Corporate Website
                 </h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
@@ -246,7 +246,7 @@ export default function Home() {
             <div id="projects-1" className="grid grid-rows-1 justify-center items-center grid-flow-col">
               <Image src={Pented} alt="Pented" loading="lazy" className="rounded-2xl drop-shadow-md" />
             <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
-                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
+                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown text-center text-wrap max-w-[360px]">
                   Case Study: Education App Design 
                 </h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
