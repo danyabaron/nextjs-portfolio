@@ -2,9 +2,9 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { IoSparklesSharp } from "react-icons/io5";
 import Image from 'next/image';
-import HeroPic from '../../public/assets/profilepic.png';
-import Figma from '../../public/assets/figma.png';
-import HTML from '../../public/assets/html.png';
+import HeroPic from '../../public/assets/profilepic.webp';
+import Figma from '../../public/assets/figma.webp';
+import HTML from '../../public/assets/html.webp';
 import CSS from '../../public/assets/css.png';
 import JS from '../../public/assets/javascript.png';
 import VSCODE from '../../public/assets/vscode.png';
@@ -62,7 +62,7 @@ export default function Home() {
         
 
 
-          <nav className="py-10 mb-12 flex justify-between w-full">
+          <nav className="py-10 mb-12 flex justify-end w-full">
             {/* <div className="flex items-center ml-10">
 
             <IoSparklesSharp className=" text-main-brown text-2xl transform hover:text-hover-resume transition-all duration-500 hover:scale-110" />   
