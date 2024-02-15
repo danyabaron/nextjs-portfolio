@@ -62,7 +62,7 @@ export default function Home() {
         
 
 
-          <nav className="py-10 mb-12 flex justify-between w-full">
+          <nav className="py-10 mb-12 flex justify-end w-full">
             {/* <div className="flex items-center ml-10">
     {/* IoSparklesSharp on the left */}
             {/* <IoSparklesSharp className=" text-main-brown text-2xl transform hover:text-hover-resume transition-all duration-500 hover:scale-110" />   
