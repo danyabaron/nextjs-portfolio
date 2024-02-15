@@ -101,7 +101,7 @@ export default function Home() {
 
           <div id="hero" className="flex items-center justify-center w-screen gap-y-3 py-10 mb-12">
             <div id="hero-img" className='mr-6'>
-              <Image src={HeroPic} alt="Profile Picture" width={400} height={400} />
+              <Image src={HeroPic} alt="Profile Picture" unoptimized />
             </div>
             <div id="hero-txt" className='flex flex-col m-10 items-center gap-x-0.5'>
               <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown animate-flip-up animate-once'> Hey there, I'm Danya Baron</h1>
