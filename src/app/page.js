@@ -63,12 +63,12 @@ export default function Home() {
 
 
           <nav className="py-10 mb-12 flex justify-between w-full">
-            <div className="flex items-center ml-10">
+            {/* <div className="flex items-center ml-10">
     {/* IoSparklesSharp on the left */}
-            <IoSparklesSharp className=" text-main-brown text-2xl transform hover:text-hover-resume transition-all duration-500 hover:scale-110" />   
+            {/* <IoSparklesSharp className=" text-main-brown text-2xl transform hover:text-hover-resume transition-all duration-500 hover:scale-110" />   
     {/* Other content on the left (if any) */}
     {/* Add your additional content here */}
-         </div>
+         {/* </div>  */}
             
             
             <ul className="flex items-center animate-fade-right animate-ease-in">
@@ -114,7 +114,7 @@ export default function Home() {
              <h3 className='text-md font-helvetica-light mb-8 text-main-brown'> Currently pursuing Masters in <a href="https://www.ucf.edu/degree/digital-media-ma/" target="_blank" className=" hover:underline text-hover-resume font-helvetica-italic transform hover:scale-105 transition-all duration-500">Digital Media</a></h3>
              </div>
 
-              <a href="https://docs.google.com/document/d/17fAhfi4JxTchaYrUGXZMkkZfx1WoXXdo/edit?usp=sharing&ouid=107069630706091394140&rtpof=true&sd=true" target="_blank">
+              <a href="https://docs.google.com/document/d/1hgVZx5ltXoAMEoHxHn1Z-7DeaopJPSsn/edit?usp=sharing&ouid=107069630706091394140&rtpof=true&sd=true" target="_blank">
                 <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-bold py-2 px-4 w-40 h-12 rounded-full">
                   View Resume
                   {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
