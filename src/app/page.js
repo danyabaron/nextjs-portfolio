@@ -130,7 +130,7 @@ export default function Home() {
           <div id="about" className="flex items-center flex-col justify-center w-screen py-10 mb-9 gap-x-1">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>About</h1>
             <p className='text-xl font-helvetica-light text-main-brown text-center text-wrap max-w-[800px]'>
-            Hello, I’m Danya (dawn-yuh), a highly motivated UI/UX Designer and Front-End Web Developer currently pursuing a Master’s degree in Digital Media at the University of Central Florida. I am passionate about creating applications that are not only visually appealing but also deeply impactful to users. My goal is to seamlessly blend aesthetics with functionality, crafting digital experiences that leave a lasting impression. 
+            Hello, I’m Danya (dawn-yuh), a highly motivated UI/UX Designer and Front-End Web Developer currently pursuing a Master’s degree in Human Computer Interaction with Digital Media at the University of Central Florida. I am passionate about creating applications that are not only visually appealing but also deeply impactful to users. My goal is to seamlessly blend aesthetics with functionality, crafting digital experiences that leave a lasting impression. 
             </p>
 
 
@@ -185,7 +185,7 @@ export default function Home() {
             <div id="projects-0.5" className="grid grid-rows-1 justify-center items-center grid-flow-col ">
               <Image src={DCProj} alt="Design & Code Project Management" width={475} height={337} loading="lazy" className="rounded-2xl drop-shadow-md"/>
             <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
-                <h2 className="font-helvetica-italic text-xl mt-5 text-center text-main-brown text-wrap max-w-[360px]">
+                <h2 className="font-helvetica-medium text-xl mt-5 text-center text-main-brown text-wrap max-w-[360px]">
                   UCF Design & Code Project Management Web Application
                 </h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
@@ -207,7 +207,7 @@ export default function Home() {
           <div id="projects-4" className="grid grid-rows-1 justify-center items-center grid-flow-col">
               <Image src={Factor} alt="7Factor" loading="lazy" className="rounded-2xl drop-shadow-md" />
             <div id="factor-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
-                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown text-center text-wrap max-w-[360px]">
+                <h2 className="font-helvetica-medium text-xl mt-5 text-main-brown text-center text-wrap max-w-[360px]">
                   7Factor Corporate Website
                 </h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
@@ -246,8 +246,8 @@ export default function Home() {
             <div id="projects-1" className="grid grid-rows-1 justify-center items-center grid-flow-col">
               <Image src={Pented} alt="Pented" loading="lazy" className="rounded-2xl drop-shadow-md" />
             <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
-                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown text-center text-wrap max-w-[360px]">
-                  Case Study: Education App Design 
+                <h2 className="font-helvetica-medium text-xl mt-5 text-main-brown text-center text-wrap max-w-[360px]">
+                  Pented Mobile App
                 </h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
                 Pented is a mobile education app that caters to underprivileged middle school students in Gujarat, India. The goal of the project was to redesign an enhanced experience for their users and a solution to showcase their offerings better, keeping current design standards and gamification in mind. Created with Figma.
