@@ -110,8 +110,8 @@ export default function Home() {
 
 
             <div id="edu-text" className='flex flex-col items-center'>
-             <h3 className='text-md font-helvetica-medium mb-2 text-main-brown'> B.S. in Computer Science</h3>
-             <h3 className='text-md font-helvetica-light mb-8 text-center text-main-brown'> Currently pursuing <div id="hci" className="text-center max-w-[500px] font-helvetica-medium"> Masters in Human Computer Interaction</div></h3>
+             <h3 className='text-md font-helvetica mb-2 text-main-brown'> B.S. in Computer Science</h3>
+             <h3 className='text-md font-helvetica mb-8 text-center text-main-brown'> Currently pursuing Masters in <div id="hci" className="text-center max-w-[500px] font-helvetica text-hover-resume"> Human Computer Interaction</div></h3>
              </div>
 
               <a href="https://drive.google.com/file/d/1BLGFYnR3tKpEgkELntWggtDy0rktL-gN/view?usp=sharing" target="_blank">
