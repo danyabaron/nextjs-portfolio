@@ -111,7 +111,7 @@ export default function Home() {
 
             <div id="edu-text" className='flex flex-col items-center'>
              <h3 className='text-md font-helvetica-light mb-2 text-main-brown'> B.S. in Computer Science</h3>
-             <h3 className='text-md font-helvetica-light mb-8 text-main-brown'> Currently pursuing Masters in <a href="https://www.ucf.edu/degree/digital-media-ma/" target="_blank" className=" hover:underline text-hover-resume font-helvetica-italic transform hover:scale-105 transition-all duration-500">Digital Media</a></h3>
+             <h3 className='text-md font-helvetica-light mb-8 text-main-brown'> Currently pursuing <div id="hci" className="font-helvetica-bold"> Masters in Human Computer Interaction</div></h3>
              </div>
 
               <a href="https://drive.google.com/file/d/1BLGFYnR3tKpEgkELntWggtDy0rktL-gN/view?usp=sharing" target="_blank">
