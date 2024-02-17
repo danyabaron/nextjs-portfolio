@@ -62,13 +62,13 @@ export default function Home() {
         
 
 
-          <nav className="py-10 mb-12 flex justify-end w-full">
-            {/* <div className="flex items-center ml-10">
+          <nav className="py-10 mb-12 flex w-full">
+            <div className="flex items-center ml-10">
     {/* IoSparklesSharp on the left */}
-            {/* <IoSparklesSharp className=" text-main-brown text-2xl transform hover:text-hover-resume transition-all duration-500 hover:scale-110" />   
-    {/* Other content on the left (if any) */}
-    {/* Add your additional content here */}
-         {/* </div>  */}
+    {/* transform hover:text-hover-resume transition-all duration-500 hover:scale-110" */}
+            <IoSparklesSharp className=" text-main-brown text-2xl " />   
+    
+         </div> 
             
             
             <ul className="flex items-center animate-fade-right animate-ease-in">
@@ -111,7 +111,7 @@ export default function Home() {
 
             <div id="edu-text" className='flex flex-col items-center'>
              <h3 className='text-md font-helvetica-medium mb-2 text-main-brown'> B.S. in Computer Science</h3>
-             <h3 className='text-md font-helvetica-light mb-8 text-center text-main-brown'> Currently pursuing Masters in <div id="hci" className="text-center max-w-[500px] font-helvetica-italic text-hover-resume"> Human Computer Interaction</div></h3>
+             <h3 className='text-md font-helvetica-light mb-8 text-center text-main-brown'> Currently pursuing Masters in <div id="hci" className="text-center max-w-[500px] font-helvetica-medium underline text-hover-resume"> Human Computer Interaction</div></h3>
              </div>
 
               <a href="https://drive.google.com/file/d/1BLGFYnR3tKpEgkELntWggtDy0rktL-gN/view?usp=sharing" target="_blank">
