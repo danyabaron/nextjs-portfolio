@@ -111,7 +111,7 @@ export default function Home() {
 
             <div id="edu-text" className='flex flex-col items-center'>
              <h3 className='text-md font-helvetica-medium mb-2 text-main-brown'> B.S. in Computer Science</h3>
-             <h3 className='text-md font-helvetica-light mb-8 text-center text-main-brown'> Currently pursuing Masters in <div id="hci" className="text-center max-w-[500px] font-helvetica-medium underline text-hover-resume"> Human Computer Interaction</div></h3>
+             <h3 className='text-md font-helvetica-light mb-8 text-center text-main-brown'> Currently pursuing Masters in <div id="hci" className="text-center max-w-[500px] font-helvetica-medium underline text-hover-resume"> Digital Media</div></h3>
              </div>
 
               <a href="https://drive.google.com/file/d/1BLGFYnR3tKpEgkELntWggtDy0rktL-gN/view?usp=sharing" target="_blank">
@@ -130,7 +130,7 @@ export default function Home() {
           <div id="about" className="flex items-center flex-col justify-center w-screen py-10 mb-9 gap-x-1">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>About</h1>
             <p className='text-xl font-helvetica-light text-main-brown text-center text-wrap max-w-[800px]'>
-            Hello, I’m Danya (dawn-yuh), a highly motivated UI/UX Designer and Front-End Web Developer currently pursuing a Master’s degree in Human Computer Interaction with Digital Media at the University of Central Florida. I am passionate about creating applications that are not only visually appealing but also deeply impactful to users. My goal is to seamlessly blend aesthetics with functionality, crafting digital experiences that leave a lasting impression. 
+            Hello, I’m Danya (dawn-yuh), a highly motivated UI/UX Designer and Front-End Web Developer currently pursuing a Master’s degree in Digital Media with a focus in Human Computer Interaction at the University of Central Florida. I am passionate about creating applications that are not only visually appealing but also deeply impactful to users. My goal is to seamlessly blend aesthetics with functionality, crafting digital experiences that leave a lasting impression. 
             </p>
 
 
