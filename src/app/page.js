@@ -2,9 +2,9 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { IoSparklesSharp } from "react-icons/io5";
 import Image from 'next/image';
-import HeroPic from '../../public/assets/profilepic.png';
-import Figma from '../../public/assets/figma.png';
-import HTML from '../../public/assets/html.png';
+import HeroPic from '../../public/assets/profilepic.webp';
+import Figma from '../../public/assets/figma.webp';
+import HTML from '../../public/assets/html.webp';
 import CSS from '../../public/assets/css.png';
 import JS from '../../public/assets/javascript.png';
 import VSCODE from '../../public/assets/vscode.png';
@@ -62,7 +62,7 @@ export default function Home() {
         
 
 
-          <nav className="py-10 mb-12 flex justify-between w-full">
+        <nav className="py-10 mb-12 flex justify-between w-full">
             <div className="flex items-center ml-10">
     {/* IoSparklesSharp on the left */}
     {/* transform hover:text-hover-resume transition-all duration-500 hover:scale-110" */}
@@ -76,10 +76,14 @@ export default function Home() {
                 
                 <IoSparklesSharp className="cursor-pointer text-main-brown text-2xl mr-10 transform hover:scale-110"/>
               </li> */}
-              <li>
-                <a href="#projects" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
+
+
+            <li>
+              <a href="#projects" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
                 transition-all duration-500" scroll={false}>Projects</a>
               </li>
+
+
 
               <li>
                 <a href="#about" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
@@ -90,27 +94,30 @@ export default function Home() {
               <a href="#skills" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
                 transition-all duration-500" scroll={false}>Skills</a>
               </li>
+
+             
+
               
-              <li>
+              {/* <li>
               <a href="#contact" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
                 transition-all duration-500" scroll={false}>Contact</a>
-              </li>
+              </li> */}
             </ul>
           </nav>
 
 
           <div id="hero" className="flex items-center justify-center w-screen gap-y-3 py-10 mb-12">
             <div id="hero-img" className='mr-6'>
-              <Image src={HeroPic} alt="Profile Picture" width={300} height={300} />
+              <Image src={HeroPic} alt="Profile Picture" unoptimized />
             </div>
             <div id="hero-txt" className='flex flex-col m-10 items-center gap-x-0.5'>
               <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown animate-flip-up animate-once'> Hey there, I'm Danya Baron</h1>
-              <h2 className='text-2xl font-helvetica-light mb-9 text-main-brown'> UI/UX Designer and Front End Developer</h2>
+              <h2 className='text-2xl font-helvetica-light mb-9 text-main-brown'>UX Designer | Interaction Design Specialist</h2>
 
 
-            <div id="edu-text" className='flex flex-col items-center'>
-             <h3 className='text-md font-helvetica-medium mb-2 text-main-brown'> B.S. in Computer Science</h3>
-             <h3 className='text-md font-helvetica-light mb-8 text-main-brown'> Currently pursuing Masters in <a href="https://www.ucf.edu/degree/digital-media-ma/" target="_blank" className=" hover:underline text-hover-resume font-helvetica-italic transform hover:scale-105 transition-all duration-500"> Digital Media </a> focused in Human Computer Interaction</h3>
+            <div id="edu-text" className='flex flex-col items-center text-center'>
+            <h3 className='text-md font-helvetica-medium mb-2 text-main-brown'> B.S. in Computer Science</h3>
+             <h3 className='text-md font-helvetica-light mb-8 text-main-brown text-center text-wrap max-w-[500px]'> Currently pursuing Masters in <a href="https://www.ucf.edu/degree/digital-media-ma/" target="_blank" className=" hover:underline text-hover-resume font-helvetica-italic transform hover:scale-105 transition-all duration-500">Digital Media</a> with a focus in Human Computer Interaction</h3>
              </div>
 
               <a href="https://drive.google.com/file/d/1BLGFYnR3tKpEgkELntWggtDy0rktL-gN/view?usp=sharing" target="_blank">
@@ -122,18 +129,21 @@ export default function Home() {
               </a>
               
             </div>
+      </div>
 
-            <div id="projects" className="flex items-center flex-col justify-center w-screen py-8 mb-9 gap-x-1">
+                  {/* Projects here */}
+
+                  <div id="projects" className="flex items-center flex-col justify-center w-screen py-8 mb-9 gap-x-1">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Projects</h1>
 
             <div id="projects-0.5" className="grid grid-rows-1 justify-center items-center grid-flow-col ">
               <Image src={DCProj} alt="Design & Code Project Management" width={475} height={337} loading="lazy" className="rounded-2xl drop-shadow-md"/>
             <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
-                <h2 className="font-helvetica-medium text-xl mt-5 text-center text-main-brown text-wrap max-w-[360px]">
-                  UCF Design & Code Project Management Web Application
+                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
+                  UCF Design & Code Project Management
                 </h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
-                  A task management web application that helps UCF Design & Code club members and club officers efficiently organize and track projects using a Kanban-inspired interface.
+                  A task management web application that helps UCF Design and Code members and club officers efficiently organize and track projects using a Kanban-inspired interface.
                   The goal of the project was to implement a web app facilitating project and team management for club members and officers. Created with Figma.
                 </p>
 
@@ -151,7 +161,7 @@ export default function Home() {
           <div id="projects-4" className="grid grid-rows-1 justify-center items-center grid-flow-col">
               <Image src={Factor} alt="7Factor" loading="lazy" className="rounded-2xl drop-shadow-md" />
             <div id="factor-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
-                <h2 className="font-helvetica-medium text-xl mt-5 text-main-brown text-center text-wrap max-w-[360px]">
+                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
                   7Factor Corporate Website
                 </h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
@@ -190,8 +200,8 @@ export default function Home() {
             <div id="projects-1" className="grid grid-rows-1 justify-center items-center grid-flow-col">
               <Image src={Pented} alt="Pented" loading="lazy" className="rounded-2xl drop-shadow-md" />
             <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
-                <h2 className="font-helvetica-medium text-xl mt-5 text-main-brown text-center text-wrap max-w-[360px]">
-                  Pented Mobile App
+                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
+                  Case Study: Education App Design 
                 </h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
                 Pented is a mobile education app that caters to underprivileged middle school students in Gujarat, India. The goal of the project was to redesign an enhanced experience for their users and a solution to showcase their offerings better, keeping current design standards and gamification in mind. Created with Figma.
@@ -209,16 +219,36 @@ export default function Home() {
 
           
         </div>
-          
-          
 
-          </div>
-          <div id="about" className="flex items-center flex-col justify-center w-screen py-10 mb-9 gap-x-1">
+
+
+
+
+
+
+
+
+
+
+          <div id="about" className="flex items-center flex-col justify-center w-screen py-10 mb-9 gap-x-1 gap-5">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>About</h1>
-            <p className='text-xl font-helvetica-light text-main-brown text-center text-wrap max-w-[800px]'>
-            Hello, I’m Danya (dawn-yuh), a highly motivated UI/UX Designer and Front-End Web Developer currently pursuing a Master’s degree in Digital Media with a focus in Human Computer Interaction at the University of Central Florida. I am passionate about creating applications that are not only visually appealing but also deeply impactful to users. My goal is to seamlessly blend aesthetics with functionality, crafting digital experiences that leave a lasting impression. 
+            <p className='text-xl font-helvetica-light text-hover-resume text-center text-wrap max-w-[800px]'>
+            Hello, I’m Danya <span className='font-helvetica-italic text-hover-resume'>(pronounced like dawn-yuh)</span>, and I'm a versatile designer fluent in the topics and language of human-computer interaction. 
+            I love all things product, and designing impactful & functional experiences for real people. When designing, 
+            I draw from my formal education in Computer Science and hands-on experience with project management, software engineering, 
+            cross-collaboration, and my own user experiences. 
             </p>
-
+            <p className='text-xl font-helvetica-light text-hover-resume text-center text-wrap max-w-[800px]'>
+            As an engineer turned designer, I became interested in product design back when I took a Human Computer Interaction course 
+            in my undergraduate studies. When working as an engineer, I noticed I was more attentive to a prototype’s aesthetics and how it flowed 
+            to the user. I ended up taking ZeroToMastery's <a href="https://zerotomastery.io/courses/learn-web-design/" target="_blank" className=" hover:underline text-hover-resume font-helvetica-italic transform hover:scale-105 transition-all duration-500">Complete Mobile & Web Design course</a>, where I learned Figma & UI/UX practices, and immediately fell in love. 
+            I am now pursuing a Master’s degree in Digital Media, where I’m learning all about interaction design, artificial intelligence, and critical media practices in computational media. 
+            </p>
+            <p className='text-xl font-helvetica-light text-hover-resume text-center text-wrap max-w-[800px]'>
+            When I’m not creating components in Figma, I love to work-out (currently weight-lifting + dance are my jam), 
+            read books, binge anime, and travel! I’m a team player, and always open to collaborating with like-minded individuals. 
+            Let’s chat! Feel free to message me at <a href="mailto:danyabaronui@gmail.com" target="_blank" className=" hover:underline text-hover-resume font-helvetica-italic transform hover:scale-105 transition-all duration-500">danyabaronui@gmail.com</a>. 
+            </p>
 
           </div>
           
@@ -265,9 +295,23 @@ export default function Home() {
 
 
           </div>
-          
+
+
+
+
+
+
+         
         
-        <div id="contact" className="flex items-center flex-col justify-center w-screen mb-9 py-8 gap-x-1">
+
+
+
+
+
+
+
+
+        {/* <div id="contact" className="flex items-center flex-col justify-center w-screen mb-9 py-8 gap-x-1">
         <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Contact</h1>
           <div id="contact-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center mx-auto p-8 gap-5 rounded-3xl">
             <p className="font-helvetica text-xl text-main-brown px-5 text-center m-4 text-wrap max-w-[500px]">
@@ -279,11 +323,11 @@ export default function Home() {
               <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
                     Email Me
                     {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
-                  </button>
+                  {/* </button>
             </a>
           </div>
 
-        </div>
+        </div>  */}
 
       <footer className="bg-main-brown text-text-pink">
       <div id="footer" className="flex flex-col items-center justify-center w-screen gap-5 py-10">
@@ -304,7 +348,7 @@ export default function Home() {
              
 
           </div>
-          <p className="font-helvetica-light text-text-pink">&copy; 2024 Danya Baron. All rights reserved.</p>
+          <p className="font-helvetica-light text-xl text-text-pink">&copy; Designed and Coded by Danya Baron. 2024.</p>
         </div>
 
       </footer>
