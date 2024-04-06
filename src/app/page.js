@@ -62,12 +62,13 @@ export default function Home() {
         
 
 
-          <nav className="py-10 mb-12 flex justify-end w-full">
-            {/* <div className="flex items-center ml-10">
-
-            <IoSparklesSharp className=" text-main-brown text-2xl transform hover:text-hover-resume transition-all duration-500 hover:scale-110" />   
+        <nav className="py-10 mb-12 flex justify-between w-full">
+            <div className="flex items-center ml-10">
+    {/* IoSparklesSharp on the left */}
+    {/* transform hover:text-hover-resume transition-all duration-500 hover:scale-110" */}
+            <IoSparklesSharp className=" text-main-brown text-2xl " />   
     
-         </div> */}
+         </div> 
             
             
             <ul className="flex items-center animate-fade-right animate-ease-in">
@@ -75,6 +76,15 @@ export default function Home() {
                 
                 <IoSparklesSharp className="cursor-pointer text-main-brown text-2xl mr-10 transform hover:scale-110"/>
               </li> */}
+
+
+            <li>
+              <a href="#projects" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
+                transition-all duration-500" scroll={false}>Projects</a>
+              </li>
+
+
+
               <li>
                 <a href="#about" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
                 transition-all duration-500" scroll={false}>About</a>
@@ -85,16 +95,13 @@ export default function Home() {
                 transition-all duration-500" scroll={false}>Skills</a>
               </li>
 
-              <li>
-              <a href="#projects" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
-                transition-all duration-500" scroll={false}>Projects</a>
-              </li>
+             
 
               
-              <li>
+              {/* <li>
               <a href="#contact" className="text-xl font-helvetica drop-shadow-md text-main-brown m-10 hover:bg-hover-resume hover:text-text-pink rounded-full px-4 py-2 transform hover:scale-105
                 transition-all duration-500" scroll={false}>Contact</a>
-              </li>
+              </li> */}
             </ul>
           </nav>
 
@@ -105,12 +112,12 @@ export default function Home() {
             </div>
             <div id="hero-txt" className='flex flex-col m-10 items-center gap-x-0.5'>
               <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown animate-flip-up animate-once'> Hey there, I'm Danya Baron</h1>
-              <h2 className='text-2xl font-helvetica-light mb-9 text-main-brown'> UI/UX Designer and Front End Developer</h2>
+              <h2 className='text-2xl font-helvetica-light mb-9 text-main-brown'>UX Designer | Interaction Design Specialist</h2>
 
 
-            <div id="edu-text" className='flex flex-col items-center'>
-             <h3 className='text-md font-helvetica-light mb-2 text-main-brown'> B.S. in Computer Science</h3>
-             <h3 className='text-md font-helvetica-light mb-8 text-main-brown'> Currently pursuing Masters in <a href="https://www.ucf.edu/degree/digital-media-ma/" target="_blank" className=" hover:underline text-hover-resume font-helvetica-italic transform hover:scale-105 transition-all duration-500">Digital Media</a></h3>
+            <div id="edu-text" className='flex flex-col items-center text-center'>
+            <h3 className='text-md font-helvetica-medium mb-2 text-main-brown'> B.S. in Computer Science</h3>
+             <h3 className='text-md font-helvetica-light mb-8 text-main-brown text-center text-wrap max-w-[500px]'> Currently pursuing Masters in <a href="https://www.ucf.edu/degree/digital-media-ma/" target="_blank" className=" hover:underline text-hover-resume font-helvetica-italic transform hover:scale-105 transition-all duration-500">Digital Media</a> with a focus in Human Computer Interaction</h3>
              </div>
 
               <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" target="_blank">
@@ -122,63 +129,11 @@ export default function Home() {
               </a>
               
             </div>
-          
-          
+      </div>
 
-          </div>
-          <div id="about" className="flex items-center flex-col justify-center w-screen py-10 mb-9 gap-x-1">
-            <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>About</h1>
-            <p className='text-xl font-helvetica-light text-main-brown text-center text-wrap max-w-[800px]'>
-            Hello, I’m Danya (dawn-yuh), a highly motivated UI/UX Designer and Front-End Web Developer currently pursuing a Master’s degree in Digital Media at the University of Central Florida. I am passionate about creating applications that are not only visually appealing but also deeply impactful to users. My goal is to seamlessly blend aesthetics with functionality, crafting digital experiences that leave a lasting impression. 
-            </p>
+                  {/* Projects here */}
 
-
-          </div>
-          
-          <div id="skills" className="flex items-center flex-col justify-center w-screen py-10 mb-12">
-            <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Skills</h1>
-              <div id="skills-section1" className="grid grid-rows-1 justify-center grid-flow-col bg-main-brown rounded-3xl px-5 py-2">
-                <div className="flex flex-col items-center m-5">
-                  <Image src={Figma} alt="Figma"/>
-                  <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">Figma</h3>
-                </div>
-                <div className="flex flex-col items-center m-5">
-                  <Image src={HTML} alt="HTML"/>
-                  <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">HTML</h3>
-                </div>
-                <div className="flex flex-col items-center m-5">
-                  <Image src={CSS} alt="CSS"/>
-                  <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">CSS</h3>
-                </div>
-                <div className="flex flex-col items-center m-5">
-                  <Image src={JS} alt="JS"/>
-                  <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">JavaScript</h3>
-                </div>
-
-              </div>
-
-              <div id="skills-section2" className="grid grid-rows-1 justify-center grid-flow-col bg-main-brown mt-9 rounded-3xl px-5 py-2">
-                <div className="flex flex-col items-center m-5">
-                  <Image src={VSCODE} alt="VSCode"/>
-                  <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">VSCode</h3>
-                </div>
-                <div className="flex flex-col items-center m-5">
-                  <Image src={Git} alt="Git"/>
-                  <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">Git</h3>
-                </div>
-                <div className="flex flex-col items-center m-5">
-                  <Image src={Jira} alt="Jira"/>
-                  <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">Jira</h3>
-                </div>
-
-
-              </div>
-
-
-
-
-          </div>
-          <div id="projects" className="flex items-center flex-col justify-center w-screen py-8 mb-9 gap-x-1">
+                  <div id="projects" className="flex items-center flex-col justify-center w-screen py-8 mb-9 gap-x-1">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Projects</h1>
 
             <div id="projects-0.5" className="grid grid-rows-1 justify-center items-center grid-flow-col ">
@@ -262,51 +217,101 @@ export default function Home() {
           </div>
 
 
-          {/* <div id="projects-2" className="grid grid-rows-1 justify-center items-center  grid-flow-col">
-              <Image src={DigBalance} alt="DigBalance" />
-            <div id="culture-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
-                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
-                  Culture Jam Website
-                </h2>
-                <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
-                Website for a final project in my masters program at UCF that I designed and developed myself using Figma, HTML, and CSS. Goal of the project was to convince the audience towards a satirical mission. Designed this for the target user audience. Designed this using common design protocols and user research methods.
-                </p>
-
-                <a href="https://danyabaron.github.io/dig6647finalproj/" target="_blank">
-                  <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
-                  View Site
-                  {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
-                  {/* </button>
-
-                </a>
-                
-            </div>
-          </div>  */}
-
-          {/* <div id="projects-3" className="grid grid-rows-1 justify-center items-center grid-flow-col">
-              <Image src={Solar} alt="Solar"/>
-            <div id="solar-info" className="bg-gradient-top flex flex-col drop-shadow-lg items-center m-8 p-4 gap-7 rounded-3xl">
-                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
-                  Solar System Simulation
-                </h2>
-                <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
-                A solar system simulation I made in Javascript using p5.js for a final project in my Masters program at UCF. Planets move as they normally do in our solar system, and have a calculated speed. Used objected oriented programming concepts to determine orbit radius as well as speed, color, size, and label of planet. Utilized Visual Studio Code, Git, and JavaScript heavily.
-                </p>
-                
-
-                <a href="https://danyabaron.github.io/dig5508projects/finalprojv2/" target="_blank">
-                  <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
-                  View Simulation
-                  
-                  </button>
-              </a>
-            </div>
-          </div> */}
-
           
         </div>
+
+
+
+
+
+
+
+
+
+
+
+          <div id="about" className="flex items-center flex-col justify-center w-screen py-10 mb-9 gap-x-1 gap-5">
+            <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>About</h1>
+            <p className='text-xl font-helvetica-light text-hover-resume text-center text-wrap max-w-[800px]'>
+            Hello, I’m Danya <span className='font-helvetica-italic text-hover-resume'>(pronounced like dawn-yuh)</span>, and I'm a versatile designer fluent in the topics and language of human-computer interaction. 
+            I love all things product, and designing impactful & functional experiences for real people. When designing, 
+            I draw from my formal education in Computer Science and hands-on experience with project management, software engineering, 
+            cross-collaboration, and my own user experiences. 
+            </p>
+            <p className='text-xl font-helvetica-light text-hover-resume text-center text-wrap max-w-[800px]'>
+            As an engineer turned designer, I became interested in product design back when I took a Human Computer Interaction course 
+            in my undergraduate studies. When working as an engineer, I noticed I was more attentive to a prototype’s aesthetics and how it flowed 
+            to the user. I ended up taking ZeroToMastery's <a href="https://zerotomastery.io/courses/learn-web-design/" target="_blank" className=" hover:underline text-hover-resume font-helvetica-italic transform hover:scale-105 transition-all duration-500">Complete Mobile & Web Design course</a>, where I learned Figma & UI/UX practices, and immediately fell in love. 
+            I am now pursuing a Master’s degree in Digital Media, where I’m learning all about interaction design, artificial intelligence, and critical media practices in computational media. 
+            </p>
+            <p className='text-xl font-helvetica-light text-hover-resume text-center text-wrap max-w-[800px]'>
+            When I’m not creating components in Figma, I love to work-out (currently weight-lifting + dance are my jam), 
+            read books, binge anime, and travel! I’m a team player, and always open to collaborating with like-minded individuals. 
+            Let’s chat! Feel free to message me at <a href="mailto:danyabaronui@gmail.com" target="_blank" className=" hover:underline text-hover-resume font-helvetica-italic transform hover:scale-105 transition-all duration-500">danyabaronui@gmail.com</a>. 
+            </p>
+
+          </div>
+          
+          <div id="skills" className="flex items-center flex-col justify-center w-screen py-10 mb-12">
+            <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Skills</h1>
+              <div id="skills-section1" className="grid grid-rows-1 justify-center grid-flow-col bg-main-brown rounded-3xl px-5 py-2">
+                <div className="flex flex-col items-center m-5">
+                  <Image src={Figma} alt="Figma"/>
+                  <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">Figma</h3>
+                </div>
+                <div className="flex flex-col items-center m-5">
+                  <Image src={HTML} alt="HTML"/>
+                  <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">HTML</h3>
+                </div>
+                <div className="flex flex-col items-center m-5">
+                  <Image src={CSS} alt="CSS"/>
+                  <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">CSS</h3>
+                </div>
+                <div className="flex flex-col items-center m-5">
+                  <Image src={JS} alt="JS"/>
+                  <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">JavaScript</h3>
+                </div>
+
+              </div>
+
+              <div id="skills-section2" className="grid grid-rows-1 justify-center grid-flow-col bg-main-brown mt-9 rounded-3xl px-5 py-2">
+                <div className="flex flex-col items-center m-5">
+                  <Image src={VSCODE} alt="VSCode"/>
+                  <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">VSCode</h3>
+                </div>
+                <div className="flex flex-col items-center m-5">
+                  <Image src={Git} alt="Git"/>
+                  <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">Git</h3>
+                </div>
+                <div className="flex flex-col items-center m-5">
+                  <Image src={Jira} alt="Jira"/>
+                  <h3 className="mt-3 font-helvetica-light text-xl text-text-pink">Jira</h3>
+                </div>
+
+
+              </div>
+
+
+
+
+          </div>
+
+
+
+
+
+
+         
         
-        <div id="contact" className="flex items-center flex-col justify-center w-screen mb-9 py-8 gap-x-1">
+
+
+
+
+
+
+
+
+        {/* <div id="contact" className="flex items-center flex-col justify-center w-screen mb-9 py-8 gap-x-1">
         <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Contact</h1>
           <div id="contact-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center mx-auto p-8 gap-5 rounded-3xl">
             <p className="font-helvetica text-xl text-main-brown px-5 text-center m-4 text-wrap max-w-[500px]">
@@ -318,11 +323,11 @@ export default function Home() {
               <button className="bg-main-brown drop-shadow-md hover:bg-hover-resume transform hover:scale-105 transition-all duration-500 text-text-pink font-helvetica-medium py-2 px-4 w-30 h-12 mb-5 text-med rounded-full">
                     Email Me
                     {/* <a href="https://drive.google.com/file/d/1WIukyHATChIq1QAiRcVO4FhO-4OQ60uG/view?usp=sharing" targer="_blank"></a> */}
-                  </button>
+                  {/* </button>
             </a>
           </div>
 
-        </div>
+        </div>  */}
 
       <footer className="bg-main-brown text-text-pink">
       <div id="footer" className="flex flex-col items-center justify-center w-screen gap-5 py-10">
@@ -342,7 +347,7 @@ export default function Home() {
              
 
           </div>
-          <p className="font-helvetica-light text-text-pink">&copy; 2024 Danya Baron. All rights reserved.</p>
+          <p className="font-helvetica-light text-xl text-text-pink">&copy; Designed and Coded by Danya Baron. 2024.</p>
         </div>
 
       </footer>
