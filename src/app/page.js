@@ -17,6 +17,7 @@ import Factor from '../../public/assets/7factorTile.png';
 import sparkle from '../../public/assets/sparkle.png';
 import PrototypeGif from '../../public/assets/prototypegif.gif';
 import DCProj from '../../public/assets/DCtile.png';
+import DCProj2 from '../../public/assets/projmangTile 3.png'
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
@@ -133,13 +134,13 @@ export default function Home() {
 
                   {/* Projects here */}
 
-                  <div id="projects" className="flex items-center flex-col justify-center w-screen py-8 mb-9 gap-x-1">
+          <div id="projects" className="flex items-center flex-col justify-center w-full py-8 mb-9 gap-x-1">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Projects</h1>
 
-            <div id="projects-0.5" className="grid grid-rows-1 justify-center items-center grid-flow-col ">
-              <Image src={DCProj} alt="Design & Code Project Management" width={475} height={337} loading="lazy" className="rounded-2xl drop-shadow-md"/>
+            <div id="projects-0.5" className="grid grid-rows-1 justify-center w-full items-center grid-flow-col ">
+              <Image src={DCProj2} alt="Design & Code Project Management" width={520} height={500} className="rounded-2xl ml-5 drop-shadow-md"/>
             <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
-                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
+                <h2 className="font-helvetica-italic text-xl mt-5 text-center text-main-brown">
                   UCF Design & Code Project Management
                 </h2>
                 <p className="font-helvetica text-md text-main-brown px-5 text-center text-wrap max-w-[500px]">
@@ -159,7 +160,7 @@ export default function Home() {
           </div>
 
           <div id="projects-4" className="grid grid-rows-1 justify-center items-center grid-flow-col">
-              <Image src={Factor} alt="7Factor" loading="lazy" className="rounded-2xl drop-shadow-md" />
+              <Image src={Factor} alt="7Factor" loading="lazy" className="rounded-2xl ml-5 drop-shadow-md" />
             <div id="factor-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
                 <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
                   7Factor Corporate Website
@@ -198,7 +199,7 @@ export default function Home() {
 
             
             <div id="projects-1" className="grid grid-rows-1 justify-center items-center grid-flow-col">
-              <Image src={Pented} alt="Pented" loading="lazy" className="rounded-2xl drop-shadow-md" />
+              <Image src={Pented} alt="Pented" loading="lazy" width={520} height={500} className="rounded-2xl  ml-5 drop-shadow-md" />
             <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
                 <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
                   Case Study: Education App Design 
@@ -230,21 +231,21 @@ export default function Home() {
 
 
 
-          <div id="about" className="flex items-center flex-col justify-center w-screen py-10 mb-9 gap-x-1 gap-5">
+          <div id="about" className="flex items-center flex-col justify-center w-screen py-10 mb-9 gap-5">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>About</h1>
-            <p className='text-xl font-helvetica-light text-hover-resume text-center text-wrap max-w-[800px]'>
+            <p className='text-xl font-helvetica-light text-hover-resume text-center mr-5 ml-5 text-wrap max-w-[800px]'>
             Hello, I’m Danya <span className='font-helvetica-italic text-hover-resume'>(pronounced like dawn-yuh)</span>, and I'm a versatile designer fluent in the topics and language of human-computer interaction. 
             I love all things product, and designing impactful & functional experiences for real people. When designing, 
             I draw from my formal education in Computer Science and hands-on experience with project management, software engineering, 
             cross-collaboration, and my own user experiences. 
             </p>
-            <p className='text-xl font-helvetica-light text-hover-resume text-center text-wrap max-w-[800px]'>
+            <p className='text-xl font-helvetica-light text-hover-resume text-center mr-5 ml-5  text-wrap max-w-[800px]'>
             As an engineer turned designer, I became interested in product design back when I took a Human Computer Interaction course 
             in my undergraduate studies. When working as an engineer, I noticed I was more attentive to a prototype’s aesthetics and how it flowed 
             to the user. I ended up taking ZeroToMastery's <a href="https://zerotomastery.io/courses/learn-web-design/" target="_blank" className=" hover:underline text-hover-resume font-helvetica-italic transform hover:scale-105 transition-all duration-500">Complete Mobile & Web Design course</a>, where I learned Figma & UI/UX practices, and immediately fell in love. 
             I am now pursuing a Master’s degree in Digital Media, where I’m learning all about interaction design, artificial intelligence, and critical media practices in computational media. 
             </p>
-            <p className='text-xl font-helvetica-light text-hover-resume text-center text-wrap max-w-[800px]'>
+            <p className='text-xl font-helvetica-light text-hover-resume text-center mr-5 ml-5 text-wrap max-w-[800px]'>
             When I’m not creating components in Figma, I love to work-out (currently weight-lifting + dance are my jam), 
             read books, binge anime, and travel! I’m a team player, and always open to collaborating with like-minded individuals. 
             Let’s chat! Feel free to message me at <a href="mailto:danyabaronui@gmail.com" target="_blank" className=" hover:underline text-hover-resume font-helvetica-italic transform hover:scale-105 transition-all duration-500">danyabaronui@gmail.com</a>. 
