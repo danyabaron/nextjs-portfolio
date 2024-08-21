@@ -2,7 +2,10 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { IoSparklesSharp } from "react-icons/io5";
 import Image from 'next/image';
-import HeroPic from '../../public/assets/profilepic.webp';
+// import HeroPic from '../../public/assets/profilepic.webp';
+import HeroPic from '../../public/assets/DanyaBaronProfilePic.jpg';
+
+
 import Figma from '../../public/assets/figma.webp';
 import HTML from '../../public/assets/html.webp';
 import CSS from '../../public/assets/css.png';
@@ -106,18 +109,18 @@ export default function Home() {
           </nav>
 
 
-          <div id="hero" className="flex items-center justify-center w-screen gap-y-3 py-10 mb-12">
-            <div id="hero-img" className='mr-6'>
-              <Image src={HeroPic} alt="Profile Picture" unoptimized />
+          <div id="hero" className="flex items-center justify-center w-screen gap-y-3 p-6 mb-12">
+            <div id="hero-img" className='mr-6 rounded-lg'>
+              <Image src={HeroPic} className="rounded-lg" width="400" height="500" alt="Profile Picture" unoptimized />
             </div>
-            <div id="hero-txt" className='flex flex-col m-10 items-center gap-x-0.5'>
-              <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown animate-flip-up animate-once'> Hey there, I'm Danya Baron</h1>
-              <h2 className='text-2xl font-helvetica-light mb-9 text-main-brown'>UX Designer | Interaction Design Specialist</h2>
+            <div id="hero-txt" className='flex flex-col items-center p-5 gap-5'>
+              <h1 className='text-3xl font-helvetica-medium drop-shadow-md text-main-brown animate-flip-up animate-once'> Hey there, I'm Danya Baron</h1>
+              <h2 className='text-2xl font-helvetica-light  text-main-brown'>UX/UI Designer | Interaction Design Specialist</h2>
 
 
             <div id="edu-text" className='flex flex-col items-center text-center'>
-            <h3 className='text-md font-helvetica-medium mb-2 text-main-brown'> B.S. in Computer Science</h3>
-             {/* <h3 className='text-md font-helvetica-light mb-8 text-main-brown text-center text-wrap max-w-[500px]'> Currently pursuing Masters in <a href="https://www.ucf.edu/degree/digital-media-ma/" target="_blank" className=" hover:underline text-hover-resume font-helvetica-italic transform hover:scale-105 transition-all duration-500">Digital Media</a> with a focus in Human Computer Interaction</h3> */}
+            <h3 className='text-md font-helvetica-medium mb-3  text-main-brown'> B.S. in Computer Science</h3>
+             <h3 className='text-md font-helvetica-light  text-main-brown text-center text-wrap max-w-[500px]'> Currently pursuing Masters in <a href="https://www.ucf.edu/degree/digital-media-ma/" target="_blank" className=" hover:underline text-hover-resume font-helvetica-italic transform hover:scale-105 transition-all duration-500">Digital Media</a> with a focus in Human Computer Interaction</h3>
              </div>
 
               {/* <a href="https://drive.google.com/file/d/1BLGFYnR3tKpEgkELntWggtDy0rktL-gN/view?usp=sharing" target="_blank">
@@ -135,6 +138,23 @@ export default function Home() {
 
                   <div id="projects" className="flex items-center flex-col justify-center w-screen py-8 mb-9 gap-x-1">
             <h1 className='text-3xl font-helvetica-medium drop-shadow-md mb-9 text-main-brown'>Projects</h1>
+
+
+
+            <div id="nasa" className="grid grid-rows-1 justify-center items-center grid-flow-col ">
+              {/* <Image src={} alt="Design & Code Project Management" width={475} height={337} loading="lazy" className="rounded-2xl drop-shadow-md"/> */}
+            <div id="pented-info" className="bg-gradient-top flex flex-col drop-shadow-lg justify-center items-center m-12 p-4 gap-7 rounded-3xl">
+                <h2 className="font-helvetica-italic text-xl mt-5 text-main-brown">
+                  NASA UX/UI Design Intern Project
+                </h2>
+                <p className="font-helvetica text-md text-main-brown w-full px-5 text-center text-wrap ">
+                  Coming soon.
+                </p>
+
+               
+              {/* </a> */}
+            </div>
+          </div>
 
             <div id="projects-0.5" className="grid grid-rows-1 justify-center items-center grid-flow-col ">
               <Image src={DCProj} alt="Design & Code Project Management" width={475} height={337} loading="lazy" className="rounded-2xl drop-shadow-md"/>
